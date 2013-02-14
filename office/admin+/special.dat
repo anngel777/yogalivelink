@@ -1,0 +1,8 @@
+Site Controller|../page.php|C
+Site Configuration|../config/siteconfig.php|C
+Links|../lists/links.dat|C
+FAQ|../lists/faq.dat|C
+Admin links|adminlinks.dat|C
+Special Files|special.dat|C
+Admin Custom Links|custom_links.dat|C
+Yoga Helper|/lib/yoga_helper.php|C

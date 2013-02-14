@@ -1,0 +1,159 @@
+<?php
+class Website_SignupCustomer extends BaseClass
+{
+    /*
+    public $TESTING                             = true;     // TRUE = turns on testing variables
+    public $TESTING_Add_Credits_To_Customer     = 15;       // TRUE = (if testing) put credits in person's account
+    public $TESTING_Show_Credit_Breakdown       = true;
+    public $TESTING_Show_Time_Expire_Button     = true;
+    */
+
+    public $Page_Link_Query                     = '';
+    public $URL_Login                           = '';
+    public $URL_Homepage                        = '/index';
+    public $script_location                     = "/signup";
+    public $Admin_Module_Role                   = 36;       // yoga_customer
+    public $Admin_Class_Role                    = 0;
+    public $Table_Credits                       = 'credits';
+    
+    // ---------- NON-MODIFIABLE VARIABLES ----------
+    public $Current_Step                        = 0;
+    public $Current_Step_Array                  = null;
+    public $Current_Step_Output                 = '';
+    public $OBJ_STEP                            = null;
+    public $WH_ID                               = 0;
+    
+    public $Step_Array = array(
+        1 => 'Your Details',
+        2 => 'Confirmation',
+    );
+
+    public $Step_Array_With_Error = array(
+        1 => 'Your Details',
+        2 => 'ERROR',
+        3 => 'Confirmation',
+    );
+    
+    public $Step_Array_Error_Only = array(
+        1 => 'ERROR',
+    );
+
+
+
+    public function  __construct()
+    {
+        parent::__construct();
+        
+        $this->ClassInfo = array(
+            'Created By'  => 'Richard Witherspoon',
+            'Created'     => '2011-01-01',
+            'Updated By'  => 'RAW',
+            'Updated'     => '2012-03-08',
+            'Version'     => '1.0',
+            'Description' => 'Signup a customer - website page',
+        );
+        
+        /*
+        2012-03-08 - Added CSS styling for output
+        */
+        
+        $this->OBJ_STEP = new General_Steps();
+        
+        global $URL_SITE_LOGIN;
+        $this->URL_Login = $URL_SITE_LOGIN;
+        
+        $this->Page_Link_Query = preg_replace('/;step=[a-zA-Z0-9_\-]*;/', ';', Server('REQUEST_URI'));  // removes step
+
+    } // -------------- END __construct --------------
+
+    public function HandleStep($step)
+    {
+        switch ($step) {
+
+            case 'start':
+            case 'create_account':
+                $this->Current_Step = 1;
+                $this->Current_Step_Array = $this->Step_Array;
+            
+                $this->Current_Step_Output = "[T~USER_REGISTRATION_INSTRUCTIONS]<br /><br />";
+            
+                $OBJ_ACCOUNT = new Profile_CreateAccountCustomerAdministrator();
+                $OBJ_ACCOUNT->num_free_credits          = 0;
+                $OBJ_ACCOUNT->num_paid_credits          = 0;
+                $OBJ_ACCOUNT->URL_Success_Redirect      = "{$this->script_location};step=complete_success";
+                $OBJ_ACCOUNT->Allow_Email_Not_Unique    = false; // allow duplicate emails
+                $OBJ_ACCOUNT->Admin_Module_Role         = $this->Admin_Module_Role;
+                $OBJ_ACCOUNT->Admin_Class_Role          = $this->Admin_Class_Role;
+                
+                $this->Current_Step_Output .= $OBJ_ACCOUNT->ExecuteUserSignup();
+                
+                $btn_cancel     = MakeButton('negative', 'CANCEL SIGNUP', "{$this->script_location};step=cancel");
+                $btn_next       = '';
+                
+                $this->Current_Step_Output .= "
+                    
+                    <br /><br />
+                    <div>
+                        <div style='border-top:1px solid #9E9D41; padding-bottom:10px;'></div>
+                        <div class='col' style='float:left;'>$btn_cancel</div>
+                        <div class='col' style='float:right;'>$btn_next</div>
+                        <div class='clear'></div>
+                    </div>
+                ";
+            break;
+            
+            case 'cancel':
+                $this->Current_Step = 2;
+                $this->Current_Step_Array = $this->Step_Array_With_Error;
+                $this->Current_Step_Output = "
+                    <h2 style='color:#990000;'>Your Signup Has Been Cancelled</h2>
+                    [<a class='link_arrow' href='{$this->URL_Homepage}'>Click To Return To Homepage</a>]
+                ";
+            break;
+
+            case 'complete_success':
+                $this->Current_Step = 2;
+                $this->Current_Step_Array = $this->Step_Array;
+                $this->Current_Step_Output = "
+                    [T~USER_REGISTRATION_SUCCESS]<br /><br />
+                    [<a class='link_arrow' href='{$this->URL_Login}'>LOGIN</a>]
+                ";
+            break;
+
+            default:
+                $this->Current_Step = 1;
+                $this->Current_Step_Array = $this->Step_Array_Error_Only;
+                $this->Current_Step_Output = 'NO STEP PASSED IN';
+            break;
+
+        }
+
+        $step_output = '';
+        $step_output .= "<table align='center'><tr><td>";
+        $step_output .= "<div style='float:center; text-align:left; font-size:14px;'>";
+        $step_output .= $this->OBJ_STEP->GetSteps($this->Current_Step_Array, $this->Current_Step, $this->Current_Step_Output, 700);
+        $step_output .= "</div>";
+        $step_output .= "</td></tr></table>";
+        
+        AddStyle("
+            .stepwrapper {
+                background-color:#9E9D41;
+            }
+            .steps {
+                background-color:#EAE6CD;
+            }
+            .stepwrap {
+                font-size:16px;
+                font-weight: bold;
+            }
+            .forminfo a {
+                font-size:12px;
+            }
+        ");
+        
+        return $step_output;
+    }
+
+
+
+}  // -------------- END CLASS --------------

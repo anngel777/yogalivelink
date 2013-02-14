@@ -1,0 +1,10 @@
+body.mceContentBody {
+  background-color : #FFF;
+  background-image : none;
+  font-size : 1em;
+  text-align : left;
+}
+#framecontent,#framePage {
+  background-color : #fff;
+  text-align : left;
+}

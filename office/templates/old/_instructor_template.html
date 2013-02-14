@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- ================Template :: instructor_template================ -->   
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>@@TITLE@@</title>
+
+<style type="text/css" media="screen">
+  @import url(/wo/wo_style.css);
+  @import url(/office/css/office_site.css);
+  @import url(/office/css/office_site_class_styles.css);
+  @import url(/GROUP/jslib/themes/base/ui.core.css;jslib/themes/base/ui.theme.css;jslib/themes/base/ui.datepicker.css);
+</style>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/site.css" />
+
+<!-- @@STYLE@@ -->
+<script type="text/javascript" src="/GROUP/jslib/jquery-1.4.2.min.js;jslib/ui/ui.core.js;jslib/ui/ui.draggable.js;jslib/ui/ui.datepicker.js;jslib/jquery.autocomplete.js;jslib/jquery.ajaxQueue.js;jslib/countdown/jquery.countdown.pack.js"></script>
+<script type="text/javascript" src="/wo/wo_all.js??20100924-4"></script>
+<script type="text/javascript" src="/wo/wo_custom.js"></script>
+<script type="text/javascript" src="/office/js/site.js"></script>
+<script type="text/javascript" src="/jslib/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/jslib/jquery-ui-1.8.9.custom.min.js"></script>
+
+<!-- @@SCRIPTINCLUDE@@ -->
+<script type="text/javascript">
+   var dialogNumber = '@@DIALOGNUMBER@@';
+   var isFolder = '@@IS_FOLDER@@';
+</script>
+<!-- @@SCRIPT@@ -->
+
+</head>
+<body id="di___***___alog_body" title="@@BODY@@" style="background-color:#ccc;">
+
+@@PHPERROR@@
+@@MESSAGE@@
+@@ERROR@@
+@@FLASH@@ 
+<br />
+
+
+<div id="apps"></div>
+
+
+
+
+<center>
+<div id="container">
+
+    
+    
+<div id="container_wrapper">
+    <!-- ================================ HEADER & MENU ===================================== -->
+    <div>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td align="left" valign="top">
+                <div id="header_graphics">
+                    <a href="/index">
+                    <img src="/office/images/yogalivelinks_header.jpg" alt="" height="50px" width="200px" border="0" />
+                    </a>
+                </div>
+            </td>
+            <td align="right" valign="top">
+                <div id="menu_holder">
+                    <div class="menu">
+                        @@MENU@@
+                    </div>    
+                </div>
+            </td>
+            <td align="right" valign="top">
+                <div id="menu_holder_vertical">
+                    <div class="menu_vertical">
+                        @@MENU_LOGGED@@
+                    </div>
+                </div>
+            </td>
+        </tr>
+        </table>
+    </div>
+</div>
+    
+    <div class="page_section_wrapper">
+    <div class="page_section_header">
+        @@PAGE_HEADER_TITLE@@
+    </div>
+    </div>
+
+<div id="container_wrapper_lower">    
+    <!-- ================================ CONTENT ===================================== -->
+    <div id="content_area">
+    
+    
+        <div class="col" id="content_left">
+            @@CONTENT_LEFT@@
+        </div>
+        
+        <div class="col" id="content_right">
+            @@CONTENT_RIGHT@@
+            @@CONTENT@@
+            <br /><br />
+            
+        </div>
+    
+        <div class="clear"></div>
+    
+    
+
+    
+       
+        
+    </div><!-- === end content_area === -->
+    
+    
+    <div>
+        @@DBMESSAGES@@
+        @@CLASSINFO@@
+    </div>
+    
+    
+    
+</div><!-- === end container_wrapper === -->
+</div><!-- === end container === -->
+
+
+        <!-- ================================ START :: FOOTER ===================================== -->
+        <br />
+        <div>
+            <div id="footertext">
+                <center>
+                
+                <div class="footer_menu">
+                    <table>
+                    <tr>
+                        <td valign="top" align="left">@@FOOTER_OTHER@@</td>
+                        <td valign="bottom" align="right">@@FOOTER_LINKS@@</td>
+                        
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">@@FOOTER_COPYRIGHT@@</td>
+                    </tr>
+                    </table>
+                </div>
+                
+                </center>
+            </div>
+        </div>
+        <br />
+        <!-- ================================ END :: FOOTER ===================================== -->
+
+
+</center>
+
+
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+<name>Contact Us</name>
+<summary>Contact Us page for @@COMPANYNAME@@</summary>
+<title>@@COMPANYNAME@@ - Contact Us</title>
+<description>@@COMPANYNAME@@ - Contact Us</description>
+<keywords></keywords>
+<style></style>
+<script></script>
+<scriptinclude></scriptinclude>
+<template>template_inner.html</template>

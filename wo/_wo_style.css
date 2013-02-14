@@ -1,0 +1,1032 @@
+/* ======================= LAYOUT ======================= */
+body {
+  color : #333;
+  background-color : #9AB5E4;
+  background-image : url(/wo/images/bluegradient.png);
+  margin : 0;
+  padding : 0;
+  font-family : Verdana, Arial, Helvetica, sans-serif;
+  font-size : 10px;
+}
+
+#dialog_body {
+  background-color : #f2f2f2;
+  background-image : none;
+}
+
+/* ======================= GENERAL ======================= */
+h1, h2 {
+  font-family :  Verdana, Arial, Helvetica, sans-serif;
+  padding : 10px;
+}
+
+h1 {
+  font-size : 2em;
+}
+
+h2 {
+  font-size : 1.8em;
+}
+
+h3 {
+  font-size : 1.6em;
+  margin : 1em 0 0;
+}
+
+h4 {
+  font-size : 1.4em;
+}
+
+h5 {
+  font-size : 1.2em;
+}
+
+p {
+  margin : 10px 0;
+}
+
+li {
+  margin-left : 10px;
+}
+
+img {
+  border : none;
+}
+
+hr {
+  color : #000000;
+  background-color : #000000;
+  height : 1px;
+}
+
+.pagehead {
+  margin : -10px -10px 15px -10px;
+  padding : 3px 10px;
+  border-bottom : 1px solid #888;
+  background-color : #eff;
+}
+
+/* ======================= BUTTONS ======================= */
+
+a.stdbutton , a.stdbuttoni {
+  font-size : 0.9em;
+  text-align : center;
+  text-decoration : none;
+  padding : 1px 0.4em;
+  background-color : #595;
+  color : #fff;
+  border : 1px solid #888;
+  margin-top : 2px;
+  width : 10em;
+  white-space : nowrap;
+}
+
+a.stdbutton  {
+  display : block;
+}
+
+a.stdbuttoni {
+  display : inline;
+}
+
+a.stdbutton:hover, a.stdbuttoni:hover {
+  background-color : #888;
+  color : #fff;
+  cursor : pointer;
+}
+
+
+/* ======================= DIALOG BOXES ======================= */
+
+#dialogcontainer {
+  background : #fff;
+  border : 5px solid #555;
+  margin : 0px;
+  padding : 0px;
+  table-layout : auto;
+}
+
+#dialogcontent {
+  background : #fff;
+  padding : 1em;
+  margin : 0px;
+}
+
+#dialogcontent textarea {
+  width : 100%;
+}
+
+/* ======================= APPLICTION FORMS (DIALOGS) ======================= */
+.appformcontent {
+  background : #fff;
+  border : 5px solid #050;
+  margin : 0px;
+  padding : 5px;
+}
+
+.appform {
+  position : absolute;
+  background-color : #f2f2f2;
+  border : 1px solid #f00;
+  border-color : #ddd #666 #555 #ccc;
+  -moz-border-radius : 10px;
+  -webkit-border-radius : 10px;
+  padding : 5px;
+  z-index : 100;
+  -moz-box-shadow: #888 4px 4px 4px;
+  -webkit-box-shadow: #888 5px 4px 4px;
+}
+
+.appform h3 {
+  color : #fff;
+}
+
+.appiframe {
+  margin : 0px;
+  border : none;
+  border-width: 0px;
+
+}
+
+.appform_titlebar {
+  background-color : #005;
+  color : #fff;
+  cursor : move;
+  -moz-border-radius-topright : 5px;
+  -moz-border-radius-topleft : 5px;
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+}
+
+.appform_titlebar h1 {
+  margin : 0px;
+  font-size : 10px;
+  padding : 5px;
+  border-bottom : 1px solid #fff;
+}
+
+.appform_controls {
+  float : right;
+  color : #fff;
+  padding : 3px 0px;
+  margin : 0px;
+}
+
+.appform_controls a {
+  color : #fff;
+  font-weight : bold;
+  text-decoration : none;
+  border-left : 1px solid #ccc;
+  background-color : #005;
+  padding : 3px 5px 5px 3px;
+  font-size : 1.1em;
+  -moz-border-radius : 5px;
+  -webkit-border-radius: 5px;
+}
+
+.appform_controls a:hover {
+  background-color : #900;
+}
+
+
+#appform_taskbar {
+  position : fixed;
+  bottom : 0;
+  left : 0;
+  background-color : #005;
+  color : #fff;
+  width : 100%;
+  padding : 4px;
+  clear : both;
+  border-top:1px solid #fff;
+  z-index : 10000;
+}
+
+#appform_show_icons {
+  display : block;
+  width : 18px;
+  height : 16px;
+  float : left;
+  background-image : url(/wo/images/incons.gif);
+}
+
+#appform_taskbar span {
+  background-color : #005;
+  padding : 3px 5px;
+  color : #fff;
+  position : relative;
+  top : 2px;
+}
+
+#appform_taskbar a.taskbar_minimized,
+#appform_taskbar a.taskbar_visible {
+  display : inline;
+  border : 1px solid #fff;
+  border-color : #ddd #666 #555 #ccc;
+  text-decoration : none;
+  padding : 1px 3px;
+  margin : 2px;
+  -moz-border-radius : 3px;
+  -webkit-border-radius: 3px;
+  position : relative;
+  top : 2px;
+}
+
+#appform_taskbar a.taskbar_minimized  {
+  background-color : #050;
+  color : #fff;
+}
+
+#appform_taskbar a.taskbar_visible  {
+  background-color : #888;
+  color : #fff;
+}
+
+#appform_taskbar a:hover {
+  background-color : #888;
+}
+
+#apps {
+  position : absolute;
+  left : 120px;
+}
+
+#dialog_body #apps {
+  left : 0px;
+}
+
+#DB_QUERY_BUTTON {
+   display : block;
+   float : right;
+   margin-right : 10px;
+   background-color : #444;
+   padding : 1px 3px;
+   text-decoration : none;
+   color : #fff;
+  -moz-border-radius : 5px;
+  -webkit-border-radius: 5px;
+}
+
+/* ======================== MENU ICONS =========================== */
+
+#menu_icons {
+  position : absolute;
+  left : 0px;
+  margin:5px;
+}
+
+.menu_icon img, .menu_icon_folder img {
+  width : 50px;
+  padding-top : 2px;
+  border-width : 0px;
+}
+
+.menu_icon:hover, .menu_icon_folder:hover {
+  border : 1px solid #ccc;
+  background-color : #fff;
+  -moz-box-shadow: #888 3px 3px 3px;
+  -webkit-box-shadow: #888 3px 3px 3px;
+}
+
+.menu_icon, .menu_icon_folder {
+  display : block;
+  text-decoration : none;
+  color : #333;
+  width : 100px;
+  height : 90px;
+  text-align : center;
+  border : 1px solid transparent;
+  -moz-border-radius : 5px;
+  -webkit-border-radius: 5px;
+  float : left;
+}
+
+.menu_icon_folder {
+  background-image : url(/wo/images/menu_icons/folder-group.gif);
+  background-repeat : no-repeat;
+}
+
+.menu_icons_on_top {
+  z-index: 9999999999;
+  background-image: url(/wo/images/overlay.png);
+}
+
+.menu_icons_on_top .menu_icon,
+.menu_icons_on_top .menu_icon_folder  {
+ color: #fff;
+}
+
+.menu_icons_on_top .menu_icon:hover,
+.menu_icons_on_top .menu_icon_folder:hover  {
+ color: #000;
+}
+
+/* ======================================================== */
+#sitetitle{
+    font-weight : bold;
+    font-size : 1.2em;
+    color : #006;
+}
+
+#user {
+  float : left;
+  border : 1px solid #006;
+  padding : 5px;
+  background-color : #fff;
+  text-align : center;
+  margin : 10px;
+  -moz-border-radius : 5px;
+  -webkit-border-radius: 5px;
+}
+
+#user div {
+  padding : 0px 3px;
+}
+
+#user a {
+  text-decoration : none;
+  color : #333;
+  padding : 0px 3px;
+}
+
+#user a:hover {
+  background-color : #595;
+  color : #fff;
+}
+
+/* ======================================================== */
+#error {
+  background-color : #f66;
+  padding : 1em;
+  border : 2px solid #f00;
+  text-align : center;
+  margin : 1em;
+  font-weight : bold;
+}
+
+#message {
+  background-color : #fff;
+  padding : 1em;
+  border : 2px solid #036;
+  text-align : center;
+  margin : 1em;
+  font-weight : bold;
+  color : #036;
+}
+
+#flash {
+  position : absolute;
+  top : 100px;
+  left : 50%;
+  margin-left : -250px;
+  width : 500px;
+  background-color : #ff7;
+  border : 2px solid #888;
+  color : #000;
+  padding : 10px;
+  text-align : center;
+  z-index : 10000;
+}
+
+
+/* =================FORM ELEMENTS================= */
+.formitem {
+  background-color : #eee;
+  border : 1px solid #000;
+}
+
+.formitem:focus {
+  background-color : #fff;
+}
+
+.formitemerror {
+  background-color : #ff7;
+  border : 1px solid #000;
+}
+
+span.formrequired {
+  color : #f00;
+  font-weight : bold;
+  padding-right : 2px;
+}
+
+
+br.formtitlebreak {
+  display : block;
+  height : 1px;
+  line-height:1px;
+  clear: both;
+}
+
+div.formtitle {
+  float : left;
+  text-align : right;
+  font-weight : bold;
+  width : 110px;
+  padding : 4px 0px;
+  font-size : 1em;
+}
+
+div.forminfo {
+  margin-left : 120px;
+  padding : 4px 0px;
+}
+
+div.forminfo2 {
+  margin-left : 120px;
+  padding : 4px 0px;
+}
+
+input.formsubmit {
+  color : #000;
+  cursor : pointer;
+  font-size : 1em;
+}
+
+div.error {
+  margin : 10px auto;
+  border : 2px solid #f00;
+  background-color : #f88;
+  padding : 0.5em;
+  width : 300px;
+  text-align : center;
+  display : block;
+}
+
+
+/* ===================================== VIEW RECORD TABLE ======================================= */
+.VIEW_RECORD_TABLE {
+  width : 400px;
+  background-color : #eee;
+}
+
+.VIEW_UPDATES_TABLE {
+
+}
+
+.VIEW_UPDATES_TABLE tr.odd:hover td {
+  background-color : #DEEBF2;
+}
+
+.VIEW_UPDATES_TABLE tr.even:hover td {
+  background-color : #fff;
+}
+
+span.VIEW_UPDATES_DIFF {
+    background-color : #050;
+    color : #fff;
+}
+
+
+.VIEW_RECORD_TABLE  th {
+  width : 100px;
+  background-color : #DEEBF2;
+  padding : 2px 3px;
+  vertical-align : top;
+  white-space : nowrap;
+}
+.VIEW_RECORD_TABLE  td {
+  background-color : #fff;
+  padding : 2px 3px;
+  vertical-align : top;
+}
+
+/* ================= TABLE DISPLAY ================= */
+
+.TABLE_DISPLAY {
+  font-size : 1em;
+  color : #333;
+  margin : 5px 0px;
+  background-color : #ccc;
+}
+
+.TABLE_DISPLAY th {
+  color : #fff;
+  background-color : #595;
+  padding : 3px;
+}
+
+.TABLE_DISPLAY td {
+  background-color : #fff;
+  padding : 1px 3px;
+}
+
+.TABLE_DISPLAY tr {
+  vertical-align : top;
+}
+
+.TABLE_DISPLAY tr.odd td {
+  background-color : #DEEBF2;
+}
+
+.TABLE_DISPLAY tr.odd:hover td {
+  background-color : #ff5;
+}
+
+.TABLE_DISPLAY tr.even:hover td {
+  background-color : #ff5;
+}
+
+.TABLE_DISPLAY a.row_report,
+.TABLE_DISPLAY a.row_edit,
+.TABLE_DISPLAY a.row_copy,
+.TABLE_DISPLAY a.row_delete,
+.TABLE_DISPLAY a.row_mail,
+.TABLE_DISPLAY a.row_view {
+  background-image : url(/wo/images/b_edit.gif);
+  background-repeat : no-repeat;
+  display : block;
+  width : 17px;
+  height : 15px;
+  text-decoration : none;
+}
+
+.TABLE_DISPLAY a.add_connection {
+  background-image : url(/wo/images/world.gif);
+  background-repeat : no-repeat;
+  background-position:4px 1px;
+  display : block;
+  height: 15px;
+  text-align : left;
+  padding : 2px 2px 2px 20px;
+  color : #fff;
+  text-decoration : none;
+}
+
+
+.TABLE_DISPLAY a.add_followup {
+  background-image : url(/wo/images/checked.gif);
+  background-repeat : no-repeat;
+  background-position:4px 2px;
+  display : block;
+  height: 15px;
+  text-align : left;
+  padding : 2px 2px 2px 20px;
+  color : #fff;
+  text-decoration : none;
+}
+
+
+.TABLE_DISPLAY a.row_mail {
+  background-image : url(/wo/images/b_mail.gif);  
+  background-position:4px 2px;  
+}
+
+
+.TABLE_DISPLAY a.row_copy {
+  background-image : url(/wo/images/b_copy.gif);
+}
+
+.TABLE_DISPLAY a.row_report {
+  background-image : url(/wo/images/checked.gif);
+  background-position : 1px 1px;
+}
+.TABLE_DISPLAY a.row_view {
+  background-image : url(/wo/images/b_view.gif);
+}
+
+.TABLE_DISPLAY a.row_edit {
+  background-image : url(/wo/images/b_edit.gif);
+}
+
+.TABLE_DISPLAY a.row_delete {
+  background-image : url(/wo/images/b_delete.gif);
+}
+
+.TABLE_DISPLAY a.add_record {
+  background-image : url(/wo/images/b_add.gif);
+  background-repeat : no-repeat;
+  display : inline;
+  height: 17px;
+  text-align : left;
+  padding : 2px 2px 2px 20px;
+  color : #fff;
+  text-decoration : none;
+}
+
+.TABLE_DISPLAY a.add_record:hover {
+  background-color : #fff;
+  color : #888;
+}
+
+div.TABLE_DISPLAY {
+  padding : 5px;
+}
+
+
+.HEADER_SORT_CELL a {
+  display : block;
+  text-decoration : none;
+  color : #fff;
+}
+
+.HEADER_SORT_CELL a:hover {
+  color : #ff7;
+}
+
+
+.TABLE_SEARCH_TAB_WRAPPER td {
+  padding : 5px 0px;
+  vertical-align : top;
+}
+
+.TABLE_SEARCH_TAB {
+  background-color : #ccc;
+}
+
+.TABLE_SEARCH_TAB td {
+  padding : 1px 3px;
+  background-color : #DEEBF2;
+}
+
+.TABLE_SEARCH_TAB tr:hover td {
+  background-color : #ff2;
+}
+
+.TABLE_SEARCH_TAB th {
+  padding : 4px 3px;
+  background-color : #888;
+  color : #fff;
+}
+
+.TABLE_TITLE td {
+  font-size : 1.5em;
+  background-color : #888;
+  color : #fff;
+  padding : 3px 5px;
+}
+
+.TABLE_SEARCH_SELECTION_SHOW a, .UPDATE_BUTTON a {
+  font-size : 1.5em;
+  display : block;
+  background-color : #595;
+  text-decoration : none;
+  text-align : center;
+  color : #fff;
+  padding : 3px 5px;
+}
+
+.SEARCH_FILTER_VALUE {
+   background-color: #888;
+   color : #666;
+   border : 1px solid #888;
+}
+
+.SEARCH_FILTER_VALUE_SELECTED {
+   background-color: #fff;
+   color : #000;
+   border : 1px solid #888;
+}
+
+.SEARCH_SELECT_ROW td {
+  vertical-align : middle;
+}
+
+.SEARCH_SELECT_ROW_SELECTED td {
+  background-color : #ff7;
+  vertical-align : middle;
+}
+
+.SEARCH_NAME_BOX {
+  padding : 10px 0px 5px 0px;
+  text-align : center;
+  color : #333;
+  white-space : nowrap;
+}
+
+.SEARCH_NAME_BOX .SEARCH_BUTTON {
+  margin-top : 3px;
+}
+
+
+
+.EXPORT_SELECTION {
+  background-color : #595;
+  text-align : center;
+  float : right;
+  color : #fff;
+  margin-left:5px;
+}
+
+.EXPORT_BUTTON {
+  font-size : 0.7em;
+  text-decoration : none;
+  text-align : center;
+  color : #036;
+  padding : 2px 5px;
+  display : block;
+  float : left;
+}
+
+
+.EXPORT_BUTTON:hover {
+  background-color : #ccc;
+  color : #000;
+}
+
+.UPDATE_BUTTON td  {
+  padding : 0px;
+  background-color : #595;
+}
+
+.TABLE_SEARCH_SELECTION_SHOW a:hover, .UPDATE_BUTTON a:hover  {
+  background-color : #888;
+  color : #fff;
+}
+
+.rowselect {
+  white-space : nowrap;
+}
+
+.SEARCH_BUTTON {
+  font-size: 0.8em;
+  background-color : #ccc;
+  color : #000;
+  border-width : 1px;
+}
+
+.SEARCH_BUTTON:hover {
+  background-color : #888;
+  color : #fff;
+}
+
+
+.TABLE_SEARCH_CUSTOM {
+  width : 90px;
+  background-color : #ccc;
+  margin-right : 5px;
+}
+
+.TABLE_SEARCH_CUSTOM th {
+  background-color : #888;
+  color : #fff;
+  padding : 4px;
+}
+
+
+.TABLE_SEARCH_CUSTOM td {
+  background-color : #DEEBF2;
+  color : #fff;
+  padding : 4px 3px;
+}
+
+
+.TABLE_SEARCH_CUSTOM a {
+  display : block;
+  background-color : #ccc;
+  color : #000;
+  border : 1px solid #888;
+  text-decoration : none;
+  margin : 3px;
+  padding : 1px 3px;
+  text-align : center;
+}
+
+.CUSTOM_SEARCHES {
+  padding : 5px 0px;
+}
+
+.CUSTOM_SEARCHES a {
+  background-color : #595;
+  color : #fff;
+}
+
+.TABLE_SEARCH_CUSTOM a:hover {
+  background-color : #888;
+  color : #fff;
+}
+
+
+#TABLE_FILTER_DIV {
+  font-size : 0.8em;
+  padding:5px 0px;
+}
+
+#TABLE_FILTER {
+  font-size : 1em;
+  background-color : #fff;
+  border : none;
+}
+
+
+
+
+/* =========================TABS================================ */
+
+a.tablink,a.tabselect{
+  border-left:1px solid #888;
+  border-right:1px solid #888;
+  border-top:1px solid #888;
+  color:#000;
+
+  float:left;
+  padding:2px 1em;
+  text-decoration:none;
+  font-size:1em;
+  margin:0px;
+  -moz-border-radius-topleft : 4px;
+  -moz-border-radius-topright : 4px;
+  -webkit-border-top-right-radius: 4px;
+  -webkit-border-top-left-radius: 4px;
+}
+
+a.tabselect:hover, a.tablink:hover{
+  background-color:#888;
+  color:#fff;
+  border-bottom:1px solid #888;
+}
+
+div.tabspacer{
+  background-color:#fff;
+  padding:2px 1em;
+  text-decoration:none;
+  font-size:1em;
+  margin:0px;
+  border-top:1px solid #fff;
+  border-bottom:1px solid #888;
+}
+
+a.tabselect {
+  border-bottom:1px solid #fff;
+  background-color: #fff;
+}
+
+a.tablink{
+  background-color:#E5D8DF;
+  border-bottom:1px solid #888;
+}
+
+div.tabfolder{
+  border-left:1px solid #888;
+  border-right:1px solid #888;
+  border-bottom:1px solid #888;
+  padding:10px;
+}
+
+/* ================= MISC DISPLAY ================= */
+
+.center {
+  text-align : center;
+}
+
+/* =================IMAGES================= */
+img.left {
+  float : left;
+  margin-right : 1em;
+  vertical-align : text-top;
+}
+
+img.right {
+  float : right;
+  margin-left : 1em;
+  vertical-align : text-top;
+}
+
+a.imagelink {
+  padding : 3px;
+  display : block;
+}
+
+a.imagelink:hover {
+  color : #ccc
+}
+
+
+/* =================LOGIN================= */
+#loginheading {
+  color : #036;
+  font-weight : bold;
+  font-size : 1.5em;
+}
+
+#login table {
+  background-color : #cdf
+}
+
+#login th {
+  background-color : #cdf;
+  text-align : right;
+  font-size : 1em;
+  font-weight : bold;
+}
+
+#login input {
+  font-size : 1.4em;
+  margin : 2px;
+}
+
+#login td {
+  background-color : #cdf;
+  padding : 1px 3px;
+}
+
+#login {
+  margin : 2em auto;
+  padding : 1em;
+  background-color : #cdf;
+  border : 2px solid #888;
+  border-color : #ddd #666 #333 #ccc;
+  width : 30em;
+  text-align : center;
+  font-size : 1.6em;
+}
+
+/* ============================== AUTOCOMPLETE ================================ */
+
+.ac_input {
+  border : 1px solid #050;
+  background : url(/wo/images/tiny_arrow.gif) right center no-repeat #D5EFD1;
+}
+
+.ac_results {
+  padding : 0px;
+  border : 1px solid #050;
+  background-color : #F0FFEF;
+  overflow : hidden;
+}
+
+.ac_results ul {
+  width: 100%;
+  list-style-position : outside;
+  list-style : none;
+  padding : 0;
+  margin : 0;
+}
+
+.ac_results li {
+  margin : 0px;
+  padding : 2px 5px;
+  cursor : default;
+  display : block;
+  width: 100%;
+  font : menu;
+  font-size : 12px;
+  overflow : hidden;
+  border-bottom : 1px dotted #888;
+}
+
+.ac_loading {
+  background : url(/wo/images/indicator.gif) right center no-repeat;
+}
+
+.ac_over {
+  background-color : Highlight;
+  color : HighlightText;
+}
+
+.popup {
+  position : absolute;
+  left : 0px;
+  top : 0px;
+  width: 132px;
+  border-style : solid;
+  border-width: 4px;
+  border-color : blue;
+  background-color : yellow;
+  padding : 5px;
+  color : red;
+  font-family : Arial;
+  font-weight : bold;
+  font-size : 10pt;
+  z-index : 2;
+  visibility : hidden;
+}
+
+
+
+/* ===================================== ROLE UPDATE TABLE ======================================= */
+
+.ROLE_SELECT_OPTION_NONE {
+   background-color : #800;
+   color : #fff;
+}
+.ROLE_SELECT_OPTION_READ {
+   background-color : #ff7;
+   color : #000;
+}
+.ROLE_SELECT_OPTION_FULL {
+   background-color : #050;
+   color : #fff;
+}
+
+.ROLE_TABLE {
+  background-color : #DEEBF2;
+}
+
+
+.ROLE_TABLE td {
+  background-color : #fff;
+  padding : 1px 3px;
+}
+
+.ROLE_TABLE td:first-child {
+ text-align : right;
+}
+
+.select_image select,  .select_image  option{
+
+  background-position: 0px 15px;
+  height:80px;
+  background-repeat: no-repeat;
+  border : 1px solid #888;
+}

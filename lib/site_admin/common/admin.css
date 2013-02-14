@@ -1,0 +1,1737 @@
+/* ========= ADMIN CSS ========= */
+
+/* ======================= LAYOUT ======================= */
+body {
+  color : #333;
+  background-color : #66c;
+  margin : 0;
+  padding : 0;
+  font-family : Arial, Helvetica, sans-serif;
+  font-size : 0.8em;
+}
+
+#dialog_body {
+  background-color : #888;
+  background-image : none;
+}
+
+/* ========= ADMIN_MENU ========= */
+#sitetitle {
+  background-color : #ccc;
+  font-weight : bold;
+  font-size : 1.2em;
+  color : #fff;
+  padding : 3px;
+  height : 30px;
+  text-align : center;
+  border-bottom :#888 solid 1px;
+  position : relative;
+  background: -moz-linear-gradient(top, #888, #000);
+  background: -webkit-gradient(linear,left top, left bottom, from(#888), to(#000));
+  filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#888888', EndColorStr='#000000', GradientType=0);
+}
+
+#sitetitletext {
+  width : 300px;
+  position : absolute;
+  left : 50%;
+  margin-left : -150px;
+}
+
+#sitetitle span{
+    font-size : 0.8em;
+}
+
+#admin_menu {
+  padding : 0px;
+  position : absolute;
+  top : 36px;
+  background-image: url(/lib/site_admin/images/overlay.png);
+  -moz-box-shadow : #555 2px 2px 2px;
+  -webkit-box-shadow : #555 2px 2px 2px;
+}
+
+
+.admin_menu_group {
+  float : left;
+  border : 1px solid #ccc;
+  padding : 5px;
+  margin : 3px;
+  background-color : #555;
+}
+
+.admin_menu_group h1 {
+  font-size : 1em;
+  text-align : center;
+  color : #fff;
+}
+
+.admin_menu_group.selections a {
+  display : block;
+  text-decoration : none;
+  color : #333;
+  background-color : #eee;
+  border : 1px solid #888;
+  margin-bottom : 3px;
+  padding : 3px 10px 3px 25px;
+  -moz-border-radius : 5px;
+  -webkit-border-radius: 5px;
+  text-align : left;
+}
+
+.admin_menu_group.selections a:hover {
+  background-color : #6c6;
+  color : #fff;
+}
+
+.menuitem_image {
+  background : no-repeat 3px 3px;
+}
+
+#filelist {
+  height : 400px;
+  overflow : auto;
+  float : left;
+  width : 300px;
+}
+
+#filelist a {
+  text-align : left;
+  margin : 0px;
+  border-right:3px solid transparent;
+  overflow : hidden;
+}
+
+/* ========= PAGE EDITING ========= */
+
+.image_option {
+  height : 40px;
+  padding-left : 44px;
+  border-bottom : 1px dotted #888;
+}
+
+#content_edit_head {
+  position : fixed;
+  background-image: url(/lib/site_admin/images/overlay.png);
+  width : 900px;
+  padding-bottom : 5px;
+}
+
+#menu_container {
+  padding-left : 5px;
+  background-color : #ccc;
+}
+
+#contentedit {
+  margin-top : 5.5em;
+  width : 896px;
+}
+
+span.revnotice {
+  font-weight : bold;
+  color : #f00;
+  padding : 0px 1em;
+}
+
+
+.input_table {
+  background-color : #eee;
+  border : 1px solid #fff;
+}
+
+.input_table td {
+  background-color : #eee;
+  font-size : 1.2em;
+  padding : 10px;
+  white-space : nowrap;
+}
+
+.input_table th {
+  background-color : #eee;
+  font-size : 1.5em;
+  padding : 10px;
+  white-space : nowrap;
+}
+
+/* ========= FILEMANAGER ========= */
+#filemanager {
+  background-color : #ccc;
+}
+
+#filemanager  td {
+  background-color : #fff;
+  padding : 1px 2px;
+  white-space : nowrap;
+}
+
+#filemanager  th {
+  background-color : #555;
+  color : #fff;
+  text-align : center;
+  padding : 5px;
+  font-size : 1.2em;
+}
+
+#filemanager  tr:hover td {
+  background-color : #ff2;
+}
+
+a.fileheader {
+  font-weight : bold;
+  font-size : 1.2em;
+  color : blue;
+  color: #008;
+  text-decoration : none;
+  padding : 4px;
+  display : block;
+}
+
+a.fileheader:hover {
+  background-color : #66c;
+  color : #fff;
+}
+
+
+/* ========= VIEW ALL  ========= */
+
+#viewalltable {
+  background-color : #ccc;
+}
+
+#viewalltable td {
+  background-color : #fff;
+  padding : 10px;
+  white-space : nowrap;
+}
+
+#viewalltable th {
+  color : #fff;
+  padding : 10px;
+  font-size : 1.2em;
+  white-space : nowrap;
+  background-color : #555;
+}
+
+#viewalltable  tr:hover td {
+  background-color : #ff2;
+}
+
+.imagefilelink img {
+  border : 2px dotted #66c;
+  padding : 2px;
+}
+
+.imagefilelink img:hover {
+  border-color : #6c6;
+}
+
+
+/* ======================= GENERAL ======================= */
+h1, h2 {
+  font-family :  Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size : 2em;
+}
+
+h2 {
+  font-size : 1.8em;
+}
+
+h3 {
+  font-size : 1.6em;
+  margin : 1em 0 0;
+}
+
+h4 {
+  font-size : 1.4em;
+}
+
+h5 {
+  font-size : 1.2em;
+}
+
+p {
+  margin : 10px 0;
+}
+
+li {
+  margin-left : 10px;
+}
+
+img {
+  border : none;
+}
+
+hr {
+  color : #000000;
+  background-color : #000000;
+  height : 1px;
+}
+
+.pagehead {
+  margin : -10px -10px 15px -10px;
+  padding : 3px 10px;
+  border-bottom : 1px solid #888;
+  background-color : #eff;
+}
+
+.code {
+  white-space : nowrap;
+  border : 1px dotted #888;
+  padding : 3px;
+  background-color : #eee;
+}
+
+.rightbutton {
+  float : right;
+}
+
+.formdiv {
+  background-color : #fff;
+  padding : 2em;
+  white-space : nowrap;
+}
+
+
+/* ======================= BUTTONS ======================= */
+
+a.stdbutton , a.stdbuttoni {
+  font-size : 0.9em;
+  text-align : center;
+  text-decoration : none;
+  padding : 1px 0.4em;
+  background-color : #ccc;
+  color : #333;
+  border : 1px solid #888;
+  margin-top : 2px;
+  width : 10em;
+  white-space : nowrap;
+  -moz-box-shadow: #555 1px 1px 1px;
+  -webkit-box-shadow: #888 1px 1px 1px;
+  -moz-border-radius : 5px;
+  -webkit-border-radius: 5px;
+   background: -moz-linear-gradient(top, #fff, #ccc);
+   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
+   filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#ffffff', EndColorStr='#cccccc', GradientType=0);
+}
+
+a.stdbutton  {
+  display : block;
+}
+
+a.stdbuttoni {
+  display : inline;
+}
+
+a.stdbutton:hover, a.stdbuttoni:hover {
+   background: -moz-linear-gradient(top, #6c6, #5f5);
+   background: -webkit-gradient(linear, left top, left bottom, from(#cfc), to(#5f5));
+   filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#ccffcc', EndColorStr='#55ff55', GradientType=0);
+}
+
+
+a.mainbutton, a.titlebutton, a.contentbutton {
+  font-family : Arial,Helvetica,sans-serif;
+  font-size : 1em;
+  text-align : center;
+  text-decoration : none;
+  color : #fff;
+  padding : 0.25em 0.4em;
+  white-space : nowrap;
+  -moz-border-radius : 5px;
+  -webkit-border-radius: 5px;
+}
+
+a.editbutton {
+  font-family : Arial,sans-serif;
+  font-size : 0.76em;
+  text-align : center;
+  text-decoration : none;
+  color : #000;
+  padding : 0.25em 0.4em;
+  background-color : #ccc;
+  white-space : nowrap;
+}
+
+a.editbutton:hover {
+  color : #f00;
+  background-color : #eee;
+}
+
+a.mainbutton {
+  margin : 0.25em auto;
+  background-color : #888;
+  color : #fff;
+}
+
+a.mainbutton:hover, a.mainbutton:active {
+  background-color : #99c;
+  color : #fff;
+}
+
+a.titlebutton:active, a.contentbutton:active,a.mainbutton:active {
+
+}
+
+a.titlebutton, a.contentbutton {
+  margin : 1px;
+  background-color : #66C;
+  font-weight : bold;
+}
+
+a.titlebutton:hover, a.titlebutton:active {
+  background-color : #6c6;
+  color : #fff;
+}
+
+a.contentbutton:hover, a.contentbutton:active  {
+  background-color : #6c6;
+  color : #fff;
+}
+
+.titlesubmit, .contentsubmit  {
+  font-family : Arial,Helvetica,sans-serif;
+  font-size : 1em;
+  padding : 0.25em 0.4em;
+  color : #333;
+  border : 1px solid #fff;
+  cursor : pointer;
+  font-weight : bold;
+  text-decoration : none;
+  -moz-box-shadow: #555 1px 1px 1px;
+  -webkit-box-shadow: #555 2px 2px 2px;
+  -moz-border-radius : 5px;
+  -webkit-border-radius: 5px;
+   background: -moz-linear-gradient(top, #cfc, #5f5);
+   background: -webkit-gradient(linear, left top, left bottom, from(#cfc), to(#5f5));
+   filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#ccffcc', EndColorStr='#55ff55', GradientType=0);
+
+}
+
+.titlesubmit {
+  background-color : #ccc;
+}
+
+.contentsubmit  {
+  background-color : #ccc;
+}
+
+.titlesubmit:hover, .contentsubmit:hover {
+  color : #fff;
+  background: -moz-linear-gradient(top, #888, #555);
+  background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#555));
+  filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#888888', EndColorStr='#555555', GradientType=0);
+}
+
+#logoffbutton {
+   display : block;
+   float : right;
+   margin-top : 4px;
+   margin-right : 10px;
+   background-color : #444;
+   padding : 1px 3px 1px 24px;
+   text-decoration : none;
+   font-weight : normal;
+   color : #fff;
+  -moz-border-radius : 5px;
+  -webkit-border-radius: 5px;
+   background : url(/lib/site_admin/images/logout.png) no-repeat #444 3px 2px;
+}
+
+#viewsitebutton {
+   background : url(/lib/site_admin/images/application_home.png) no-repeat #444 3px 2px;
+}
+
+#resetbutton {
+   background : url(/lib/site_admin/images/arrow_refresh.png) no-repeat #444 3px 2px;
+}
+
+.addimagebutton {
+   background : url(/lib/site_admin/images/image_add.png) no-repeat #444 3px 3px;
+   padding : 3px 3px 3px 24px!important;
+}
+
+.addpagebutton, .adddocbutton {
+   background : url(/lib/site_admin/images/b_add.gif) no-repeat #444 3px 3px;
+   padding : 3px 3px 3px 24px!important;
+   position : relative;
+   top : 3px;
+}
+
+
+
+#resetbutton, #viewsitebutton {
+   display : block;
+   float : left;
+   margin-top : 4px;
+   margin-left : 10px;
+   padding : 1px 3px 1px 24px;
+   text-decoration : none;
+   font-weight : normal;
+   color : #fff;
+  -moz-border-radius : 5px;
+  -webkit-border-radius: 5px;
+}
+
+#resetbutton:hover, #viewsitebutton:hover, #logoffbutton:hover  {
+  background-color : #6c6;
+  color : #fff;
+}
+
+
+/* ======================= DIALOG BOXES ======================= */
+
+#dialogcontainer {
+  background-color : #888;
+  border : 5px solid #888;
+  margin : 0px;
+  padding : 0px;
+  table-layout : auto;
+}
+
+#dialogcontent {
+  background-color : #888;
+  padding : 1em;
+  margin : 0px;
+}
+
+#dialogcontent textarea {
+  width : 100%;
+}
+
+/* ---- container when not in dialog ---- */
+#dialogcontainerfull {
+   width : 100%;
+   padding : 10px;
+}
+#dialogcontentfull{
+   width : 100%;
+}
+#dialogcontentfull #CTEXT {width : 100%;}
+#dialogcontentfull #TTEXT {width : 100%;}
+
+/* ======================= APPLICTION FORMS (DIALOGS) ======================= */
+.appformcontent {
+  background-color : #fff;
+  border : 0px solid #555;
+  margin : 0px;
+  padding : 3px;
+}
+
+.appform {
+  position : absolute;
+  background-color : #f2f2f2;
+  border : 1px solid #f00;
+  border-color : #ddd #666 #555 #ccc;
+  -moz-border-radius : 10px;
+  -webkit-border-radius : 10px;
+  padding : 5px;
+  z-index : 100;
+  -moz-box-shadow: #555 3px 3px 3px;
+  -webkit-box-shadow: #555 3px 3px 3px;
+}
+
+.appform h3 {
+  color : #fff;
+}
+
+.appiframe {
+  margin : 0px;
+  border : none;
+  border-width: 0px;
+
+}
+
+.appform_titlebar {
+  color : #fff;
+  cursor : move;
+  -moz-border-radius-topright : 5px;
+  -moz-border-radius-topleft : 5px;
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  background: -moz-linear-gradient(top, #888, #555);
+  background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#555));
+  filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#888888', EndColorStr='#555555', GradientType=0);
+}
+
+.appform_titlebar h1 {
+  margin : 0px;
+  font-size : 10px;
+  padding : 5px;
+  border-bottom : 1px solid #fff;
+}
+
+.appform_controls {
+  float : right;
+  color : #fff;
+  padding : 3px 0px;
+  margin : 0px;
+}
+
+.appform_controls a {
+  color : #fff;
+  font-weight : bold;
+  text-decoration : none;
+  border-left : 1px solid #ccc;
+  background-color : transparent;
+  padding : 3px 5px 5px 3px;
+  font-size : 1.1em;
+  -moz-border-radius : 5px;
+  -webkit-border-radius: 5px;
+  /* filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#888888', EndColorStr='#555555', GradientType=0);*/
+}
+
+.appform_controls a:hover {
+  background-color : #900;
+}
+
+
+#appform_taskbar {
+  position : fixed;
+  bottom : 0;
+  left : 0;
+  background-color : #005;
+  color : #fff;
+  width : 100%;
+  padding : 8px;
+  clear : both;
+  z-index : 10000;
+  background: -moz-linear-gradient(top, #888, #000);
+  background: -webkit-gradient(linear,left top, left bottom, from(#888), to(#000));
+  filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#888888', EndColorStr='#000000', GradientType=0);
+}
+
+#appform_taskbar a.taskbar_minimized,
+#appform_taskbar a.taskbar_visible {
+  display : inline;
+  border : 1px solid #fff;
+  border-color : #ddd #666 #555 #ccc;
+  text-decoration : none;
+  padding : 1px 3px;
+  margin : 2px;
+  -moz-border-radius : 3px;
+  -webkit-border-radius: 3px;
+}
+
+#appform_taskbar a.taskbar_minimized  {
+  background-color : #050;
+  color : #fff;
+}
+
+#appform_taskbar a.taskbar_visible  {
+  background-color : #888;
+  color : #fff;
+}
+
+#appform_taskbar a:hover {
+  background-color : #888;
+}
+
+#apps {
+  position : absolute;
+  left : 5px;
+}
+
+#dialog_body #apps {
+  left : 0px;
+}
+
+#DB_QUERY_BUTTON {
+   position : absolute;
+   right : 20px;
+   bottom : 8px;
+   background-color : #444;
+   padding : 1px 3px;
+   text-decoration : none;
+   color : #fff;
+  -moz-border-radius : 5px;
+  -webkit-border-radius: 5px;
+}
+
+
+#DB_QUERY_BUTTON:hover  {
+  background-color : #6c6!important;
+}
+
+#SESSION_HOLD {
+  color : #ff7;
+  font-size : 0.8em;
+  padding-right : 10px;
+}
+
+/* ========================CONTENT======================== */
+
+#content {
+
+}
+
+/* ======================================================== */
+#error {
+  background-color : #f66;
+  padding : 1em;
+  border : 2px solid #f00;
+  text-align : center;
+  margin : 1em;
+  font-weight : bold;
+}
+
+#message {
+  background-color : #fff;
+  padding : 1em;
+  border : 2px solid #036;
+  text-align : center;
+  margin : 1em;
+  font-weight : bold;
+  color : #036;
+}
+
+#flash {
+  position : absolute;
+  top : 100px;
+  left : 50%;
+  margin-left : -250px;
+  width : 500px;
+  background-color : #ff7;
+  border : 2px solid #888;
+  color : #000;
+  padding : 10px;
+  text-align : center;
+  z-index : 10000;
+}
+
+
+/* =================FORM ELEMENTS================= */
+.formitem {
+  background-color : #eee;
+  border : 1px solid #000;
+}
+
+.formitem:focus {
+  background-color : #fff;
+}
+
+.formitemerror {
+  background-color : #ff7;
+  border : 1px solid #000;
+}
+
+span.formrequired {
+  color : #f00;
+  font-weight : bold;
+  padding-right : 2px;
+}
+
+
+br.formtitlebreak {
+  display : block;
+  height : 1px;
+  line-height:1px;
+  clear: both;
+}
+
+div.formtitle, div.formtitle2  {
+  float : left;
+  text-align : right;
+  font-weight : bold;
+  width : 200px;
+  padding : 4px 0px;
+  font-size : 1em;
+}
+
+div.formtitle2 {
+  width : 100px;
+}
+
+div.forminfo {
+  margin-left : 214px;
+  padding : 4px 0px;
+}
+
+div.forminfo2 {
+  margin-left : 110px;
+  padding : 4px 0px;
+}
+
+input.formsubmit {
+  color : #000;
+  cursor : pointer;
+  font-size : 1em;
+}
+
+div.error {
+  margin : 10px auto;
+  border : 2px solid #f00;
+  background-color : #f88;
+  padding : 0.5em;
+  width : 300px;
+  text-align : center;
+  display : block;
+}
+
+.datepick {
+  background: url(/lib/site_admin/images/calendar.gif) right no-repeat #eee;
+  width : 6.5em;
+}
+
+fieldset {
+  background-color : #eef;
+  margin-bottom : 2em;
+  border : 1px solid #888;
+  -moz-border-radius : 8px;
+  -webkit-border-radius: 8px;
+  padding : 10px;
+}
+
+legend {
+  font-size : 1em;
+  background-color : #fff;
+  padding : 10px;
+  border : 1px solid #888;
+  -moz-border-radius : 4px;
+  -webkit-border-radius: 4px;
+  font-weight : bold;
+}
+
+/* ===================================== VIEW RECORD TABLE ======================================= */
+.VIEW_RECORD_TABLE {
+  width : 400px;
+  background-color : #eee;
+}
+
+.VIEW_UPDATES_TABLE {
+
+}
+
+.VIEW_UPDATES_TABLE tr.odd:hover td {
+  background-color : #DEEBF2;
+}
+
+.VIEW_UPDATES_TABLE tr.even:hover td {
+  background-color : #fff;
+}
+
+span.VIEW_UPDATES_DIFF {
+    background-color : #050;
+    color : #fff;
+}
+
+
+.VIEW_RECORD_TABLE  th {
+  width : 100px;
+  background-color : #DEEBF2;
+  padding : 2px 3px;
+  vertical-align : top;
+  white-space : nowrap;
+}
+.VIEW_RECORD_TABLE  td {
+  background-color : #fff;
+  padding : 2px 3px;
+  vertical-align : top;
+}
+
+/* ================= TABLE DISPLAY ================= */
+
+.TABLE_DISPLAY {
+  font-size : 1em;
+  color : #333;
+  margin : 5px 0px;
+  background-color : #ccc;
+}
+
+.TABLE_DISPLAY th {
+  color : #fff;
+  background-color : #595;
+  padding : 3px;
+}
+
+.TABLE_DISPLAY td {
+  background-color : #fff;
+  padding : 1px 3px;
+}
+
+.TABLE_DISPLAY tr {
+  vertical-align : top;
+}
+
+.TABLE_DISPLAY tr.odd td {
+  background-color : #DEEBF2;
+}
+
+.TABLE_DISPLAY tr.odd:hover td {
+  background-color : #ff5;
+}
+
+.TABLE_DISPLAY tr.even:hover td {
+  background-color : #ff5;
+}
+
+.TABLE_DISPLAY a.row_report,
+.TABLE_DISPLAY a.row_edit,
+.TABLE_DISPLAY a.row_copy,
+.TABLE_DISPLAY a.row_delete,
+.TABLE_DISPLAY a.row_mail,
+.TABLE_DISPLAY a.row_view {
+  background-image : url(/lib/site_admin/images/b_edit.gif);
+  background-repeat : no-repeat;
+  display : block;
+  width : 17px;
+  height : 15px;
+  text-decoration : none;
+}
+
+.TABLE_DISPLAY a.add_connection {
+  background-image : url(/lib/site_admin/images/world.gif);
+  background-repeat : no-repeat;
+  background-position:4px 1px;
+  display : block;
+  height: 15px;
+  text-align : left;
+  padding : 2px 2px 2px 20px;
+  color : #fff;
+  text-decoration : none;
+}
+
+
+.TABLE_DISPLAY a.add_followup {
+  background-image : url(/lib/site_admin/images/checked.gif);
+  background-repeat : no-repeat;
+  background-position:4px 2px;
+  display : block;
+  height: 15px;
+  text-align : left;
+  padding : 2px 2px 2px 20px;
+  color : #fff;
+  text-decoration : none;
+}
+
+
+.TABLE_DISPLAY a.row_mail {
+  background-image : url(/lib/site_admin/images/b_mail.gif);
+  background-position:1px 2px;
+}
+
+
+.TABLE_DISPLAY a.row_copy {
+  background-image : url(/lib/site_admin/images/b_copy.gif);
+}
+
+.TABLE_DISPLAY a.row_report {
+  background-image : url(/lib/site_admin/images/checked.gif);
+  background-position : 1px 1px;
+}
+.TABLE_DISPLAY a.row_view {
+  background-image : url(/lib/site_admin/images/b_view.gif);
+}
+
+.TABLE_DISPLAY a.row_edit {
+  background-image : url(/lib/site_admin/images/b_edit.gif);
+}
+
+.TABLE_DISPLAY a.row_delete {
+  background-image : url(/lib/site_admin/images/b_delete.gif);
+}
+
+.TABLE_DISPLAY a.add_record {
+  background-image : url(/lib/site_admin/images/b_add.gif);
+  background-repeat : no-repeat;
+  display : inline;
+  height: 17px;
+  text-align : left;
+  padding : 2px 2px 2px 20px;
+  color : #fff;
+  text-decoration : none;
+}
+
+.TABLE_DISPLAY a.add_record:hover {
+  background-color : #fff;
+  color : #888;
+}
+
+div.TABLE_DISPLAY {
+  padding : 5px;
+}
+
+
+.HEADER_SORT_CELL a {
+  display : block;
+  text-decoration : none;
+  color : #fff;
+}
+
+.HEADER_SORT_CELL a:hover {
+  color : #ff7;
+}
+
+
+.TABLE_SEARCH_TAB_WRAPPER td {
+  padding : 5px 0px;
+  vertical-align : top;
+}
+
+.TABLE_SEARCH_TAB {
+  background-color : #ccc;
+}
+
+.TABLE_SEARCH_TAB td {
+  padding : 1px 3px;
+  background-color : #DEEBF2;
+}
+
+.TABLE_SEARCH_TAB tr:hover td {
+  background-color : #ff2;
+}
+
+.TABLE_SEARCH_TAB th {
+  padding : 4px 3px;
+  background-color : #888;
+  color : #fff;
+}
+
+.TABLE_TITLE td {
+  font-size : 1.5em;
+  background-color : #666;
+  color : #fff;
+  padding : 3px 5px;
+}
+
+.TABLE_SEARCH_SELECTION_SHOW a, .UPDATE_BUTTON a {
+  font-size : 1.5em;
+  display : block;
+  background-color : #595;
+  text-decoration : none;
+  text-align : center;
+  color : #fff;
+  padding : 3px 5px;
+}
+
+.SEARCH_FILTER_VALUE {
+   background-color: #888;
+   color : #666;
+   border : 1px solid #888;
+}
+
+.SEARCH_FILTER_VALUE_SELECTED {
+   background-color: #fff;
+   color : #000;
+   border : 1px solid #888;
+}
+
+.SEARCH_SELECT_ROW td {
+  vertical-align : middle;
+}
+
+.SEARCH_SELECT_ROW_SELECTED td {
+  background-color : #ff7;
+  vertical-align : middle;
+}
+
+.SEARCH_NAME_BOX {
+  padding : 10px 0px 5px 0px;
+  text-align : center;
+  color : #333;
+  white-space : nowrap;
+}
+
+.SEARCH_NAME_BOX .SEARCH_BUTTON {
+  margin-top : 3px;
+}
+
+
+
+.EXPORT_SELECTION {
+  background-color : #595;
+  text-align : center;
+  float : right;
+  color : #fff;
+  margin-left:5px;
+}
+
+.EXPORT_BUTTON {
+  font-size : 0.7em;
+  text-decoration : none;
+  text-align : center;
+  color : #036;
+  padding : 2px 5px;
+  display : block;
+  float : left;
+}
+
+
+.EXPORT_BUTTON:hover {
+  background-color : #ccc;
+  color : #000;
+}
+
+.UPDATE_BUTTON td  {
+  padding : 0px;
+  background-color : #595;
+}
+
+.TABLE_SEARCH_SELECTION_SHOW a:hover, .UPDATE_BUTTON a:hover  {
+  background-color : #888;
+  color : #fff;
+}
+
+.rowselect {
+  white-space : nowrap;
+}
+
+.SEARCH_BUTTON {
+  font-size: 0.8em;
+  background-color : #ccc;
+  color : #000;
+  border-width : 1px;
+}
+
+.SEARCH_BUTTON:hover {
+  background-color : #888;
+  color : #fff;
+}
+
+
+.TABLE_SEARCH_CUSTOM {
+  width : 90px;
+  background-color : #ccc;
+  margin-right : 5px;
+}
+
+.TABLE_SEARCH_CUSTOM th {
+  background-color : #888;
+  color : #fff;
+  padding : 4px;
+}
+
+
+.TABLE_SEARCH_CUSTOM td {
+  background-color : #DEEBF2;
+  color : #fff;
+  padding : 4px 3px;
+}
+
+
+.TABLE_SEARCH_CUSTOM a {
+  display : block;
+  background-color : #ccc;
+  color : #000;
+  border : 1px solid #888;
+  text-decoration : none;
+  margin : 3px;
+  padding : 1px 3px;
+  text-align : center;
+}
+
+.CUSTOM_SEARCHES {
+  padding : 5px 0px;
+}
+
+.CUSTOM_SEARCHES a {
+  background-color : #595;
+  color : #fff;
+}
+
+.TABLE_SEARCH_CUSTOM a:hover {
+  background-color : #888;
+  color : #fff;
+}
+
+
+#TABLE_FILTER_DIV {
+  font-size : 0.8em;
+  padding:5px 0px;
+}
+
+#TABLE_FILTER {
+  font-size : 1em;
+  background-color : #fff;
+  border : none;
+}
+
+
+
+
+/* =========================TABS================================ */
+
+a.tablink, a.tabselect{
+  border-left:1px solid #888;
+  border-right:1px solid #888;
+  border-top:1px solid #888;
+  color:#000;
+  float:left;
+  padding:2px 1em;
+  text-decoration:none;
+  font-size:1em;
+  margin:0px;
+  -moz-border-radius-topleft : 4px;
+  -moz-border-radius-topright : 4px;
+  -webkit-border-top-right-radius: 4px;
+  -webkit-border-top-left-radius: 4px;
+  background: -moz-linear-gradient(top, #fff, #aaa);
+  background: -webkit-gradient(linear,left top, left bottom, from(#fff), to(#aaa));
+  filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#ffffff', EndColorStr='#aaaaaa', GradientType=0);
+}
+
+a.tabselect:hover, a.tablink:hover{
+  background-color:#888;
+  color:#000;
+  border-bottom:1px solid #888;
+  background: -moz-linear-gradient(top, #fff, #888);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#888));
+  filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#ffffff', EndColorStr='#888888', GradientType=0);
+}
+
+div.tabspacer{
+  background-color:#888;
+  padding:2px 1em;
+  text-decoration:none;
+  font-size:1em;
+  margin:0px;
+  border-top:1px solid #888;
+  border-bottom:1px solid #888;
+}
+
+a.tabselect {
+  border-bottom:1px solid #888;
+  background-color: #cfc;
+  background: -moz-linear-gradient(top, #fff, #cfc);
+  background: -webkit-gradient(linear,left top, left bottom, from(#fff), to(#cfc));
+  filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#ffffff', EndColorStr='#ccffcc', GradientType=0);
+}
+
+a.tablink{
+  background-color:#bbb;
+  border-bottom:1px solid #888;
+}
+
+div.tabfolder {
+  background-color : #ccc;
+  border-left:1px solid #888;
+  border-right:1px solid #888;
+  border-bottom:1px solid #888;
+  padding:10px;
+}
+
+/* ================= MISC DISPLAY ================= */
+
+.center {
+  text-align : center;
+}
+
+/* =================IMAGES================= */
+img.left {
+  float : left;
+  margin-right : 1em;
+  vertical-align : text-top;
+}
+
+img.right {
+  float : right;
+  margin-left : 1em;
+  vertical-align : text-top;
+}
+
+a.imagelink {
+  padding : 3px;
+  display : block;
+}
+
+a.imagelink:hover {
+  color : #ccc
+}
+
+
+/* =================LOGIN================= */
+
+#loginheading {
+  color : #333;
+  font-weight : bold;
+  font-size : 1.5em;
+}
+
+#login table {
+  background-color : #ccf
+}
+
+#login th {
+  background-color : #ccf;
+  text-align : right;
+  font-size : 1em;
+  font-weight : bold;
+}
+
+#login input {
+  font-size : 1.4em;
+  margin : 2px;
+}
+
+#login td {
+  background-color : #ccf;
+  padding : 1px 3px;
+}
+
+#login .stdbuttoni {
+  font-size : 1.5em;
+}
+
+#login {
+  margin : 2em auto;
+  padding : 1em;
+  background-color : #ccf;
+  width : 30em;
+  text-align : center;
+  font-size : 1.6em;
+  -moz-box-shadow: #555 2px 2px 2px;
+  -webkit-box-shadow: #555 2px 2px 2px;
+  -moz-border-radius : 10px;
+  -webkit-border-radius: 10px;
+}
+
+/* ============================== AUTOCOMPLETE ================================ */
+
+.ac_input {
+  border : 1px solid #050;
+  background : url(/lib/site_admin/images/tiny_arrow.gif) right center no-repeat #D5EFD1;
+}
+
+.ac_results {
+  padding : 0px;
+  border : 1px solid #050;
+  background-color : #F0FFEF;
+  overflow : hidden;
+}
+
+.ac_results ul {
+  width: 100%;
+  list-style-position : outside;
+  list-style : none;
+  padding : 0;
+  margin : 0;
+}
+
+.ac_results li {
+  margin : 0px;
+  padding : 2px 5px;
+  cursor : default;
+  display : block;
+  width: 100%;
+  font : menu;
+  font-size : 1em;
+  overflow : hidden;
+  border-bottom : 1px dotted #888;
+}
+
+.ac_loading {
+  background : url(/lib/site_admin/images/indicator.gif) right center no-repeat;
+}
+
+.ac_over {
+  background-color : Highlight;
+  color : HighlightText;
+}
+
+.popup {
+  position : absolute;
+  left : 0px;
+  top : 0px;
+  width: 132px;
+  border-style : solid;
+  border-width: 4px;
+  border-color : blue;
+  background-color : yellow;
+  padding : 5px;
+  color : red;
+  font-family : Arial;
+  font-weight : bold;
+  font-size : 1em;
+  z-index : 2;
+  visibility : hidden;
+}
+
+
+
+/* ======================= FILE LIST======================== */
+
+#filelistfilter {
+  color : #fff;
+  font-weight : bold;
+  text-align : center;
+  margin-bottom : 4px;
+}
+
+#filelist .fileheading {
+  font-weight : bold;
+  font-size : 1.1em;
+  text-align : center;
+  padding : 5px;
+  background-color : #fff;
+  border-bottom : 1px double #888;
+}
+
+#filelist .classfile {
+  background-color : #ddf;
+}
+
+#filelist .special {
+  background-color : #036;
+  color : #fff;
+}
+
+#filelist .commonfile {
+  background-color : #070;
+  color : #fff;
+}
+
+#filelist .cssfile {
+  background-color : #7f7;
+  color : #000;
+}
+
+#filelist .templatefile {
+  background-color : #070;
+  color : #fff;
+}
+
+#filelist .jsfile {
+  background-color : #66a;
+  color : #fff;
+}
+
+#filelist .controllerfile {
+  background-color : #700;
+  color : #fff;
+}
+
+#filelist .helperfile {
+  background-color : #ff7;
+  color : #000;
+}
+
+#filelist .listfile {
+  background-color : #fdf;
+  color : #000;
+}
+
+#filelist .configfile {
+  background-color : #707;
+  color : #fff;
+}
+
+#filelist .special2 {
+  color : red;
+}
+
+#filelist a {
+  display : block;
+  text-decoration : none;
+  white-space : nowrap;
+  background-color : #fff;
+  border-bottom:1px solid #888;
+  color : #008;
+  padding : 2px;
+}
+
+#filelist a:hover {
+  background-color : #6c6;
+  color : #fff;
+}
+
+#filelist a.fileheading:hover {
+  background-color : #888;
+  color : #fff;
+}
+
+/* ------ Horizontal Menu with Drop-Down Submenus ------- */
+ul.menu, ul.menu ul {
+  text-align : center;
+  font-family : arial, helvetica, sans-serif;
+  font-size : 1em;
+  padding-left : 0px;
+  cursor : default;
+  margin : 0px;
+}
+
+ul.menu li {
+  float : left;
+  border : 1px solid #888;
+  padding : 2px 6px;
+  list-style-type : none;
+  margin : 0px;
+  position : relative;
+}
+
+ul.menu li > ul {
+  border-bottom : 1px solid #888;
+  display : none;
+  position : absolute;
+  top : 1.5em;
+  left : 0px;
+}
+
+ul.menu li > ul {
+  z-index : 100;
+}
+
+ul.menu li > ul li {
+  border-bottom-width : 0px;
+  float : none;
+  z-index : 10;
+}
+
+ul.menu li > ul li {
+  text-align : left;
+  width : 8em;
+}
+
+ul.menu li:hover, ul.menu li.CSStoHighlight {
+}
+
+ul.menu ul.CSStoShow {
+  display : block;
+}
+
+ul.menu li:hover > ul {
+  display : block;
+}
+
+ul.menu li a {
+  text-decoration : none;
+  display : block;
+}
+
+li.arrow {
+  background : url(/images/tri-blue.gif);
+  background-repeat : no-repeat;
+  background-position : right;
+}
+
+/* -- menu border color -- */
+ul.menu, ul.menu ul, ul.menu li {
+  border-color : #333;
+}
+
+/* -- menu text color -- */
+
+ul.menu li a {
+  color : #000;
+}
+
+/* -- menu background color -- */
+ul.menu, ul.menu ul, ul.menu li  {
+  background-color : #eee;
+}
+
+ul.menu ul {
+  opacity : 0.90;
+}
+
+/* -- menu text hover color -- */
+ul.menu li a:hover, ul.menu li a.CSStoHighLink, ul.menu li:hover > a  {
+  color : #fff;
+}
+
+/* -- menu background hover color -- */
+ul.menu li:hover, ul.menu li.CSStoHighlight, ul.menu li:hover > a  {
+  background-color : #888;
+}
+
+/* -- find and replace -- */
+#F_AND_R {
+  width : 25em;
+}
+
+#F_AND_R p {
+  padding : 0px 0.5em;
+}
+
+#LINKS_PAGES, #LINKS_IMAGES, #LINKS_DOCS, #F_AND_R {
+  position : absolute;
+  top : 0px;
+  left : 0px;
+  z-index : 105;
+  background-color : #eee;
+  border : 1px solid #888;
+  -moz-box-shadow : #555 2px 2px 2px;
+  -webkit-box-shadow : #555 2px 2px 2px;
+  -moz-border-radius : 10px;
+  -webkit-border-radius: 10px;
+}
+
+#LINKS_IMAGES p {
+  padding : 0px 2em;
+  white-space : nowrap;
+}
+
+#LINKS_PAGES td,  #LINKS_IMAGES td, #LINKS_DOCS td {
+  white-space : nowrap;
+}
+
+.dragbar {
+  border-bottom:1px solid #888;
+  background-color:#bfb;
+  height:20px;
+  cursor: move;
+  -moz-border-radius-topright : 10px;
+  -moz-border-radius-topleft : 10px;
+  -webkit-border-top-right-radius : 10px;
+  -webkit-border-top-left-radius : 10px;
+}
+
+/* ------------ Title/Content Modified flags -------------- */
+span.modified {
+  color : #f00;
+  font-weight : bold;
+}
+
+/* ---------- SEARCH ---------- */
+#seach_helptext {
+  margin-left:110px;
+  background-color:#FFFF7F;
+  border:1px dashed #888;
+  padding:0px 1em;
+}
+
+#seach_header {
+  background-color : #fff;
+  border : 1px solid #888;
+  margin-bottom : 10px;
+  padding : 1em;
+  width : 700px;
+}
+
+#seach_header div.formtitle {
+  clear : both;
+  font-size : 1em;
+  float : left;
+  text-align : right;
+  font-weight : bold;
+  width : 150px;
+  padding : 5px 0px;
+}
+
+#seach_header div.formitem {
+  background-color : #eee;
+  border : 1px solid #000;
+  font-size : 1em;
+}
+
+
+
+#seach_header div.forminfo {
+  margin-left : 160px;
+  padding : 5px 0px;
+  font-size : 0.9em;
+}
+
+#seach_header.formitem2 {
+  background-color : #eee;
+  border : 1px solid #000;
+}
+
+#seach_header div.formtitle2 {
+  margin-left : 50px;
+  clear : both;
+  float : left;
+  text-align : right;
+  font-weight : bold;
+  font-size : 0.9em;
+  width : 250px;
+  padding : 5px 0px;
+}
+
+#seach_header div.forminfo2 {
+  margin-left : 310px;
+  padding : 5px 0px;
+}
+
+.search_num {
+  float: left;
+  color: gray;
+  text-align: right;
+  margin-right: 6pt;
+  padding-right: 6pt;
+  border-right: 1px solid gray;
+}
+.search_filecontent {
+  white-space:nowrap;
+}
+
+.fileview{
+  background-color:#eee;
+  border:1px solid #888;
+  padding:0.5em;
+}
+
+.fileview pre, .php {
+  background-color:#fff;
+  padding:0.25em;
+}
+
+span.found {
+    background-color:#f00;
+    color:#fff;
+}
+
+.search {
+  background-color : #ccf;
+  padding : 1em;
+}
+
+.search li {
+  font-size : 1.2em;
+  padding : 6px 0px;
+}
+
+
+/* ---------- FONT SIZE ---------- */
+
+.s1 {
+  font-size : 1em!important;
+}
+
+.s12 {
+  font-size : 1.2em!important;
+}
+
+.s15 {
+  font-size : 1.5em!important;
+}
+
+.s2 {
+  font-size : 2em!important;
+}
+
+.s08 {
+  font-size : 0.8em!important;
+}
+
+.inline {
+  display : inline!important;
+}
+
+/* ---------- archive ---------- */
+.all_archived  {
+  color : red;
+  list-style-type : none;
+  font-weight : bold;
+}
+
+.header2 {
+  background-color : #eee!important;
+  padding : 5px 10px!important;
+}
+
+.header3 {
+  background-color : #ccc!important;
+  padding : 5px 10px!important;
+  font-weight : bold;
+}
+
+/* ----------DATALIST DRAG ---------- */
+
+td.dragHandle {
+  cursor: move;
+  border : 1px solid #595;
+  -moz-border-radius : 5px;
+  -webkit-border-radius: 5px;
+}

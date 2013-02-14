@@ -1,0 +1,1 @@
+<?xml version="1.0"?><settings>  <!-- This is the rtmp connection to your influxis account -->  <rtmp path="rtmp://yznmbqr9.rtmphost.com/faces"/>  <DEFAULT_CAM_FPS="15">  <DEFAULT_CAM_QUALITY="80">  <DEFAULT_CAM_BANDWIDTH="0">  <DEFAULT_MIC_GAIN="70"></settings>

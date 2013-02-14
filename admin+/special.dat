@@ -1,0 +1,6 @@
+Site Controller|../page.php|C
+Site Configuration|../config/siteconfig.php|C
+Special Files|special.dat|C
+Admin Custom Files|custom_links.dat|C
+Yoga Helper|/lib/yoga_helper.php|C
+

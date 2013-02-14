@@ -1,0 +1,597 @@
+/* ======================= LAYOUT ======================= */
+body {
+}
+
+#dialog_body {
+
+}
+
+/* ======================= GENERAL ======================= */
+h1, h2 {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+p {
+
+}
+
+li {
+
+}
+
+img {
+
+}
+
+hr {
+
+}
+
+.pagehead {
+
+}
+
+/* ======================= BUTTONS ======================= */
+
+a.stdbutton , a.stdbuttoni {
+
+}
+
+a.stdbutton  {
+
+}
+
+a.stdbuttoni {
+
+}
+
+a.stdbutton:hover, a.stdbuttoni:hover {
+
+}
+
+
+/* ======================= DIALOG BOXES ======================= */
+
+#dialogcontainer {
+
+}
+
+#dialogcontent {
+
+}
+
+#dialogcontent textarea {
+
+}
+
+/* ======================= APPLICTION FORMS (DIALOGS) ======================= */
+.appformcontent {
+
+}
+
+.appform {
+
+}
+
+.appform h3 {
+
+}
+
+.appiframe {
+
+}
+
+.appform_titlebar {
+
+}
+
+.appform_titlebar h1 {
+
+}
+
+.appform_controls {
+
+}
+
+.appform_controls a {
+
+}
+
+.appform_controls a:hover {
+
+}
+ 
+
+#appform_taskbar {
+
+}
+
+#appform_show_icons {
+
+}
+
+#appform_taskbar span {
+
+}
+
+#appform_taskbar a.taskbar_minimized,
+#appform_taskbar a.taskbar_visible {
+
+}
+
+#appform_taskbar a.taskbar_minimized  {
+
+}
+
+#appform_taskbar a.taskbar_visible  {
+
+}
+
+#appform_taskbar a:hover {
+
+}
+
+#apps {
+
+}
+
+/* ======================== MENU ICONS =========================== */
+
+#menu_icons {
+
+}
+
+.menu_icon img, .menu_icon_folder img {
+
+}
+
+.menu_icon:hover, .menu_icon_folder:hover {
+
+}
+
+.menu_icon, .menu_icon_folder {
+  
+}
+
+.menu_icon_folder {
+
+}
+
+.menu_icons_on_top {
+
+}
+
+.menu_icons_on_top .menu_icon,
+.menu_icons_on_top .menu_icon_folder  {
+
+}
+
+.menu_icons_on_top .menu_icon:hover,
+.menu_icons_on_top .menu_icon_folder:hover  {
+
+}
+
+/* ======================================================== */
+#sitetitle{
+
+}
+
+#user {
+
+}
+
+#user div {
+
+}
+
+#user a {
+
+}
+
+#user a:hover {
+
+}
+
+/* ======================================================== */ 
+#error {
+
+}
+
+#message {
+
+}
+
+#flash {
+
+}
+ 
+
+/* =================FORM ELEMENTS================= */
+.formitem {
+
+}
+
+.formitemerror {
+
+}
+
+span.formrequired {
+
+}
+
+
+.formtitlebreak{
+
+}
+
+div.formtitle {
+
+}
+
+div.forminfo {
+
+}
+
+div.forminfo2 {
+
+}
+
+input.formsubmit {
+
+}
+
+div.error {
+
+}
+
+/* ================= TABLE DISPLAY ================= */
+.VIEW_RECORD_TABLE {
+
+}
+
+.VIEW_RECORD_TABLE  th {
+
+}
+.VIEW_RECORD_TABLE  td {
+
+}
+
+
+.TABLE_DISPLAY {
+
+}
+
+.TABLE_DISPLAY th {
+
+}
+
+.TABLE_DISPLAY td {
+
+}
+
+.TABLE_DISPLAY tr {
+
+}
+
+.TABLE_DISPLAY tr.odd td {
+
+}
+
+.TABLE_DISPLAY a.row_report,
+.TABLE_DISPLAY a.row_edit, 
+.TABLE_DISPLAY a.row_delete,
+.TABLE_DISPLAY a.row_view {
+
+}
+
+.TABLE_DISPLAY a.row_report {
+
+}
+.TABLE_DISPLAY a.row_view {
+
+}
+
+.TABLE_DISPLAY a.row_edit {
+
+}
+
+.TABLE_DISPLAY a.row_delete {
+
+}
+
+.TABLE_DISPLAY a.add_record {
+}
+.TABLE_DISPLAY a.add_record:hover {
+
+}
+
+div.TABLE_DISPLAY {
+
+}
+
+
+.TABLE_SEARCH_TAB_WRAPPER td {
+
+}
+
+.TABLE_SEARCH_TAB {
+
+}
+
+.TABLE_SEARCH_TAB td {
+
+}
+
+.TABLE_SEARCH_TAB th {
+
+}
+
+.TABLE_TITLE td {
+
+}
+
+.TABLE_SEARCH_SELECTION_SHOW a, .UPDATE_BUTTON a {
+
+}
+
+.SEARCH_FILTER_VALUE {
+
+}
+
+.SEARCH_FILTER_VALUE_SELECTED {
+
+}
+
+.SEARCH_SELECT_ROW td {
+
+}
+
+.SEARCH_SELECT_ROW_SELECTED td {
+
+}
+
+.SEARCH_NAME_BOX {
+
+}
+
+.SEARCH_NAME_BOX .SEARCH_BUTTON {
+
+}
+
+
+.EXPORT_SELECTION {
+
+}
+
+.EXPORT_BUTTON {
+
+}
+
+
+.EXPORT_BUTTON:hover {
+
+}
+
+.UPDATE_BUTTON td  {
+
+}
+
+.TABLE_SEARCH_SELECTION_SHOW a:hover, .UPDATE_BUTTON a:hover  {
+
+}
+
+.rowselect {
+
+}
+
+.SEARCH_BUTTON {
+
+}
+
+.SEARCH_BUTTON:hover {
+
+}
+
+
+.TABLE_SEARCH_CUSTOM {
+
+}
+
+.TABLE_SEARCH_CUSTOM th {
+
+}
+
+
+.TABLE_SEARCH_CUSTOM td {
+
+}
+
+
+.TABLE_SEARCH_CUSTOM a {
+
+}
+
+.CUSTOM_SEARCHES {
+
+}
+
+.CUSTOM_SEARCHES a {
+
+}
+
+.TABLE_SEARCH_CUSTOM a:hover {
+
+}
+
+
+/* --- other buttons --- */
+.TABLE_DISPLAY a.add_connection {
+
+}
+
+
+.TABLE_DISPLAY a.add_followup {
+
+}
+
+
+
+
+.TABLE_DISPLAY a.row_mail {
+
+}
+
+
+
+/* =========================TABS================================ */
+
+a.tablink,a.tabselect{
+
+}
+
+a.tabselect:hover, a.tablink:hover{
+
+}
+
+div.tabspacer{
+
+}
+
+a.tabselect {
+
+}
+
+a.tablink{
+
+}
+
+div.tabfolder{
+
+}
+
+/* ================= MISC DISPLAY ================= */
+
+.center {
+
+}
+ 
+
+/* =================LOGIN================= */
+#loginheading {
+
+}
+
+#login table {
+
+}
+
+#login th {
+
+}
+
+#login input {
+
+}
+
+#login td {
+
+}
+
+#login {
+
+}
+
+/* ============================== AUTOCOMPLETE ================================ */
+
+.ac_input {
+
+}
+
+.ac_results {
+
+}
+
+.ac_results ul {
+
+}
+
+.ac_results li {
+
+}
+
+.ac_loading {
+
+}
+
+.ac_over {
+
+}
+
+.popup {
+
+}
+
+/* ===================================== VIEW RECORD TABLE ======================================= */
+.VIEW_RECORD_TABLE {
+
+}
+.VIEW_RECORD_TABLE th {
+
+}
+
+.VIEW_UPDATES_TABLE {
+
+}
+
+span.VIEW_UPDATES_DIFF {
+
+}
+
+/* ===================================== ROLE UPDATE TABLE ======================================= */
+
+.ROLE_SELECT_OPTION_NONE {
+
+}
+.ROLE_SELECT_OPTION_READ {
+
+}
+.ROLE_SELECT_OPTION_FULL {
+
+}
+
+.ROLE_TABLE {
+
+}
+
+
+.ROLE_TABLE td {
+
+}
+
+.ROLE_TABLE td:first-child {
+
+}
+
+.select_image select,  .select_image  option{
+
+}

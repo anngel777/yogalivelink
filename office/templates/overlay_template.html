@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- ================Template :: overlay_template================ -->   
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>@@TITLE@@</title>
+
+<style type="text/css" media="screen">
+  @import url(/wo/wo_style.css);
+  @import url(/office/css/office_site.css);
+  @import url(/office/css/office_site_class_styles.css);
+  @import url(/GROUP/jslib/themes/base/ui.core.css;jslib/themes/base/ui.theme.css;jslib/themes/base/ui.datepicker.css);
+</style>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/site.css" />
+
+<!-- @@STYLE@@ -->
+<script type="text/javascript" src="/GROUP/jslib/jquery-1.4.2.min.js;jslib/ui/ui.core.js;jslib/ui/ui.draggable.js;jslib/ui/ui.datepicker.js;jslib/jquery.autocomplete.js;jslib/jquery.ajaxQueue.js;jslib/countdown/jquery.countdown.pack.js"></script>
+<script type="text/javascript" src="/wo/wo_all.js??20100924-4"></script>
+<script type="text/javascript" src="/wo/wo_custom.js"></script>
+<script type="text/javascript" src="/office/js/site.js"></script>
+<script type="text/javascript" src="/jslib/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/jslib/jquery-ui-1.8.9.custom.min.js"></script>
+
+
+<!-- @@SCRIPTINCLUDE@@ -->
+<script type="text/javascript">
+   var dialogNumber = '@@DIALOGNUMBER@@';
+   var isFolder = '@@IS_FOLDER@@';
+</script>
+<!-- @@SCRIPT@@ -->
+
+</head>
+<body id="dialog_body" title="@@BODY@@" style="background-color:#fff;">
+<div style="text-align:left;">
+
+
+
+<div id="apps"></div>
+<table id="dialogcontainer" border="0" cellpadding="0" cellspacing="0" class="box" style="border:0px;"><tbody><tr><td>
+@@PHPERROR@@
+@@ERROR@@
+@@MESSAGE@@
+@@FLASH@@
+<!-- ================================ CONTENT ===================================== -->
+<div id="dialogcontent">
+@@CONTENT@@
+</div>
+<!-- ================================ END CONTENT ===================================== -->
+@@DBMESSAGES@@
+@@CLASSINFO@@
+</td></tr></tbody></table>
+
+
+</div>
+</body>
+</html>

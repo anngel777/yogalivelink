@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<settings>
+  <!-- This is the rtmp connection to your influxis account -->
+  <rtmp path="rtmp://yznmbqr9.rtmphost.com/faces"/>
+</settings>

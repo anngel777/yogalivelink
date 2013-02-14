@@ -1,0 +1,14 @@
+<name>Email Preview</name>
+<summary>Email Preview</summary>
+<title>Email Preview</title>
+<description>Email Preview</description>
+<keywords></keywords>
+<style>
+pre#email_content {
+  white-space : pre-wrap;
+  width : 500px;
+}
+</style>
+<scriptinclude></scriptinclude>
+<script></script>
+<body></body>

@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>@@TITLE@@</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- ========== template.html ========== -->
+
+<style type="text/css" media="screen">
+    @import url(/wo/wo_style.css);
+    @import url(/office/css/site.css);
+    @import url(/office/css/site_class_styles.css);
+</style>
+
+<!-- @@STYLE@@ -->
+<script type="text/javascript" src="/GROUP/jslib/jquery-1.4.2.min.js;jslib/ui/ui.core.js;jslib/ui/ui.draggable.js;wo/wo_all.js;js/site.js?20100924-5"></script>
+
+
+<!-- @@SCRIPTINCLUDE@@ -->
+<!-- @@SCRIPT@@ -->
+
+</head>
+<body title="@@BODY@@">
+@@BETA@@
+<div id="header_nav">
+</div> <!-- END: .header_nav -->
+
+<div id="new_holder">
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td valign="top">
+            <div id="user" style="width:200px;">
+                <div id="sitetitle">@@TITLE@@</div>
+                @@USER@@
+            </div>
+            <br /><br />
+            @@PHPERROR@@
+            @@MESSAGE@@
+        </td>
+        <td valign="top">
+            <div id="content_area">
+
+                <div id="apps"></div>
+<div id="menu_icons">
+                @@CONTENT@@
+</div>
+
+            </div>
+        </td>
+    </tr>
+</table>
+</div> <!-- END: .new_holder -->
+
+
+<div id="homepict"></div>
+<div id="appform_taskbar" style="display:none;"><a id="appform_show_icons" title="Show Icons" onclick="appformShowIcons(); return false;" href="#"></a>&nbsp;<span>Taskbar</span>&nbsp;&nbsp;@@QUERY@@&nbsp;&nbsp;@@CLASSINFO_BTN@@</div>
+
+
+</body>
+</html>

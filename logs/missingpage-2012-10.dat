@@ -1,0 +1,667 @@
+2012-10-01:01:38:47|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-01:03:01:10|web/content/content/404.php||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; Foxy/1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2)
+2012-10-01:12:58:55|web/content/content/404.php|http://www.yogalivelink.com/liability_waiver|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+2012-10-01:13:14:47|fancybox/fancy_shadow_n.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:14:47|fancybox/fancy_shadow_ne.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:14:47|fancybox/fancy_shadow_e.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:14:47|fancybox/fancy_shadow_se.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:14:48|fancybox/fancy_shadow_s.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:14:48|fancybox/fancy_shadow_sw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:14:48|fancybox/fancy_shadow_w.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:14:48|fancybox/fancy_shadow_nw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:14:48|web/content/content/404.php||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:15:06|web/content/content/404.php||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:15:09|fancybox/fancy_shadow_n.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:15:09|fancybox/fancy_shadow_ne.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:15:09|fancybox/fancy_shadow_e.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:15:09|fancybox/fancy_shadow_se.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:15:09|fancybox/fancy_shadow_s.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:15:09|fancybox/fancy_shadow_sw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:15:10|fancybox/fancy_shadow_w.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:15:10|fancybox/fancy_shadow_nw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-01:13:37:52|web/content/content/404.php||174.143.11.222|Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 4.0)
+2012-10-01:13:37:54|web/content/content/404.php||174.143.11.222|Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 4.0)
+2012-10-01:19:59:25|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+2012-10-02:05:29:45|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-02:05:30:21|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-02:05:30:24|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-02:05:30:26|web/content/content/404.php|http://www.yogalivelink.com/class_execute?eq=y6uGY5ChTbV1K74c-DJa21HY3qf7EV_mS-LAebFePji32EMrhHZsZ-q18hXNnnJuLDWB0MnaATBHU2tXfg~~;template=launch;pagetitle=Yoga%20Video%20Session|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-02:05:30:26|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-02:05:30:27|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-02:05:30:30|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-02:05:30:53|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-02:05:30:58|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-02:05:36:27|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-02:05:36:35|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-02:05:36:39|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-02:05:36:41|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-02:09:09:56|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-02:16:20:07|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.15) Gecko/20110303 Ubuntu/10.04 (lucid) Firefox/3.6.15
+2012-10-02:16:20:07|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.15) Gecko/20110303 Ubuntu/10.04 (lucid) Firefox/3.6.15
+2012-10-02:17:49:17|web/content/content/404.php|http://www.yogalivelink.com/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+2012-10-02:19:04:54|web/content/content/404.php|http://www.yogalivelink.com/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
+2012-10-02:19:10:03|web/content/content/404.php|https://www.yogalivelink.com/office/class_execute?eq=y6uGY5ChTbV1K74c-DJa21HY3qf7EV_mS-LAebFeOJamUxMPVKMWJ2nV4i1bq3g8l6Fds76d7cITTG3llA~~;template=launch;pagetitle=Yoga%20Video%20Session|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
+2012-10-02:19:39:09|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+2012-10-02:19:39:09|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+2012-10-02:20:16:26|fancybox/fancy_shadow_n.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:16:26|fancybox/fancy_shadow_ne.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:16:26|fancybox/fancy_shadow_e.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:16:26|fancybox/fancy_shadow_se.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:16:26|fancybox/fancy_shadow_s.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:16:27|fancybox/fancy_shadow_sw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:16:27|fancybox/fancy_shadow_w.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:16:27|fancybox/fancy_shadow_nw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:16:27|web/content/content/404.php||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:16:48|web/content/content/404.php||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:17:29|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:17:29|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:17:54|web/content/content/404.php|https://yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0
+2012-10-02:20:17:54|web/content/content/404.php|https://yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0
+2012-10-02:20:19:52|web/content/content/404.php|https://yogalivelink.com/office/command_central/customer_profile;DIALOGID=6|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0
+2012-10-02:20:19:52|web/content/content/404.php|https://yogalivelink.com/office/command_central/customer_profile;DIALOGID=6|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0
+2012-10-02:20:20:51|web/content/content/404.php|https://yogalivelink.com/office/class_execute?eq=y6uGY5ChTdOjaAKLsO0Qt2NArkPuLfibmOFWGZEQVbm4mJHD;pagetitle=Customer:%20bcd,%20abc|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0
+2012-10-02:20:20:51|web/content/content/404.php|https://yogalivelink.com/office/class_execute?eq=y6uGY5ChTdOjaAKLsO0Qt2NArkPuLfibmOFWGZEQVbm4mJHD;pagetitle=Customer:%20bcd,%20abc|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0
+2012-10-02:20:22:59|web/content/content/404.php|https://yogalivelink.com/office/class_execute?eq=y6uGY5ChTdOjaAKLsO0Qt2NArkPuLfibmOFWGZEQVbk4umlE;pagetitle=Customer:%20account,%20test|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0
+2012-10-02:20:23:00|web/content/content/404.php|https://yogalivelink.com/office/class_execute?eq=y6uGY5ChTdOjaAKLsO0Qt2NArkPuLfibmOFWGZEQVbk4umlE;pagetitle=Customer:%20account,%20test|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0
+2012-10-02:20:32:20|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-02:20:32:20|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-02:20:32:24|fancybox/fancy_shadow_n.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:32:24|fancybox/fancy_shadow_ne.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:32:24|fancybox/fancy_shadow_e.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:32:25|fancybox/fancy_shadow_se.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:32:25|fancybox/fancy_shadow_s.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:32:25|fancybox/fancy_shadow_sw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:32:26|fancybox/fancy_shadow_w.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-02:20:32:26|fancybox/fancy_shadow_nw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129259; (R1 1.6); .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/1; BRI/2)
+2012-10-03:00:23:22|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-03:00:23:27|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-03:00:23:34|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-03:00:23:35|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-03:00:23:53|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-03:12:27:13|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-03:13:33:13|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-03:13:33:28|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-03:20:50:39|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
+2012-10-03:20:50:39|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
+2012-10-03:22:26:58|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+2012-10-03:22:27:17|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+2012-10-03:22:33:34|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000200;retpage=instructors|174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+2012-10-04:02:56:19|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-04:14:43:16|fancybox/fancy_shadow_n.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 1.0.3705; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; MS-RTC S; InfoPath.2; MS-RTC LM 8; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)
+2012-10-04:14:43:17|fancybox/fancy_shadow_ne.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 1.0.3705; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; MS-RTC S; InfoPath.2; MS-RTC LM 8; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)
+2012-10-04:14:43:18|fancybox/fancy_shadow_e.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 1.0.3705; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; MS-RTC S; InfoPath.2; MS-RTC LM 8; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)
+2012-10-04:14:43:18|fancybox/fancy_shadow_se.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 1.0.3705; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; MS-RTC S; InfoPath.2; MS-RTC LM 8; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)
+2012-10-04:14:43:19|fancybox/fancy_shadow_s.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 1.0.3705; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; MS-RTC S; InfoPath.2; MS-RTC LM 8; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)
+2012-10-04:14:43:20|fancybox/fancy_shadow_sw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 1.0.3705; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; MS-RTC S; InfoPath.2; MS-RTC LM 8; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)
+2012-10-04:14:43:21|fancybox/fancy_shadow_w.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 1.0.3705; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; MS-RTC S; InfoPath.2; MS-RTC LM 8; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)
+2012-10-04:14:43:25|fancybox/fancy_shadow_nw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 1.0.3705; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; MS-RTC S; InfoPath.2; MS-RTC LM 8; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)
+2012-10-04:14:43:28|web/content/content/404.php||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 1.0.3705; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; MS-RTC S; InfoPath.2; MS-RTC LM 8; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)
+2012-10-04:16:34:49|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-04:16:40:47|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+2012-10-04:17:16:56|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-04:18:24:36|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; MALC)
+2012-10-04:18:24:43|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; MALC)
+2012-10-04:18:24:50|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000131;retpage=instructors|174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; MALC)
+2012-10-04:19:27:24|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-04:19:27:25|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-04:19:48:31|web/content/content/404.php|http://yogalivelink.com/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.52.7 (KHTML, like Gecko) Version/5.1.2 Safari/534.52.7
+2012-10-04:21:26:54|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-04:21:26:54|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-04:22:00:48|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+2012-10-04:22:00:49|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+2012-10-05:05:28:48|fancybox/fancy_shadow_n.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; BOIE9;ENUSSEM)
+2012-10-05:05:28:51|fancybox/fancy_shadow_ne.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; BOIE9;ENUSSEM)
+2012-10-05:05:28:52|fancybox/fancy_shadow_e.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; BOIE9;ENUSSEM)
+2012-10-05:05:28:52|fancybox/fancy_shadow_se.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; BOIE9;ENUSSEM)
+2012-10-05:05:28:52|fancybox/fancy_shadow_s.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; BOIE9;ENUSSEM)
+2012-10-05:05:28:52|fancybox/fancy_shadow_sw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; BOIE9;ENUSSEM)
+2012-10-05:05:28:52|fancybox/fancy_shadow_w.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; BOIE9;ENUSSEM)
+2012-10-05:05:28:52|fancybox/fancy_shadow_nw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; BOIE9;ENUSSEM)
+2012-10-05:05:28:54|web/content/content/404.php||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; BOIE9;ENUSSEM)
+2012-10-05:08:59:21|web/content/content/404.php||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0;  .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.3)
+2012-10-05:15:10:00|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+2012-10-05:18:16:07|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20
+2012-10-05:18:16:41|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20
+2012-10-05:19:02:37|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1
+2012-10-05:19:03:12|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1
+2012-10-05:19:03:13|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1
+2012-10-05:19:03:57|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1
+2012-10-05:19:05:19|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1
+2012-10-05:19:55:40|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
+2012-10-05:19:55:40|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
+2012-10-05:22:06:14|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-05:22:06:14|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-06:07:44:26|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-06:11:56:11|web/content/content/404.php|http://www.yogalivelink.com/article/Yoga_Pose_Glossary/y0mPDP9hvpg0NfQwa4Wfb_VG9nXNcS_8WSegIAnMwzzPR_DdF29bETT51Z83Cpj2wNc~|174.143.11.222|Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; DROID RAZR 4G Build/6.7.2-180_DHD-16_M4-31) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+2012-10-06:17:20:26|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-06:18:17:53|web/content/content/404.php||174.143.11.222|Apache-HttpClient/UNAVAILABLE (java 1.4)
+2012-10-06:18:19:56|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+2012-10-06:18:27:19|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+2012-10-06:18:32:23|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000200;retpage=instructors|174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+2012-10-06:18:33:13|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000130;retpage=instructors|174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+2012-10-06:18:34:03|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+2012-10-06:18:35:14|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+2012-10-07:00:26:05|web/content/content/404.php|http://yogalivelink.com/class_execute?eq=y6uGY5ChTbV1K74c-DJa21HY3qf7EV_mS-LAeTEb59r4wITg4qwS6UBllTXFZre2ScOx-TiUEM4U-j145w~~;template=launch;pagetitle=Yoga%20Video%20Session|174.143.11.222|Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+2012-10-07:05:53:20|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.0; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-07:16:06:46|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+2012-10-07:16:07:30|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+2012-10-07:19:53:36|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-07:19:54:05|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-07:19:54:06|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-07:19:58:12|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-07:19:58:13|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-08:00:29:49|web/content/content/404.php|http://www.yogalivelink.com/liability_waiver|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
+2012-10-08:16:10:05|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-08:17:07:08|web/content/content/404.php||174.143.11.222|YahooCacheSystem
+2012-10-08:20:12:01|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-08:20:12:02|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-09:04:36:46|web/content/content/404.php||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Win64; x64; Trident/4.0; GTB7.4; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET CLR 3.0.30618; Media Center PC 5.0; SLCC1; Tablet PC 2.0; .NET4.0C)
+2012-10-09:15:29:08|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; MALC)
+2012-10-09:15:29:20|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; MALC)
+2012-10-09:15:29:25|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000131;retpage=instructors|174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; MALC)
+2012-10-09:18:02:34|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; MALC)
+2012-10-09:20:55:26|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-09:23:34:10|web/content/content/404.php||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C)
+2012-10-10:03:22:16|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-10:06:40:20|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.56 Safari/537.4
+2012-10-10:06:40:51|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.56 Safari/537.4
+2012-10-10:13:10:30|web/content/content/404.php|http://www.yogalivelink.com/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+2012-10-10:15:30:19|fancybox/fancy_loading.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+2012-10-10:15:30:19|fancybox/fancy_shadow_n.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+2012-10-10:15:30:20|fancybox/fancy_shadow_ne.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+2012-10-10:15:30:20|fancybox/fancy_shadow_e.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+2012-10-10:15:30:20|fancybox/fancy_shadow_se.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+2012-10-10:15:30:20|fancybox/fancy_shadow_s.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+2012-10-10:15:30:20|fancybox/fancy_shadow_sw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+2012-10-10:15:30:21|fancybox/fancy_shadow_w.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+2012-10-10:15:30:21|fancybox/fancy_shadow_nw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+2012-10-10:15:30:21|fancybox/fancy_close.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+2012-10-10:15:30:21|fancybox/fancy_nav_left.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+2012-10-10:15:30:22|fancybox/fancy_nav_right.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+2012-10-10:18:16:47|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-10:18:18:33|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-10:18:18:33|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-10:18:19:07|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-10:18:19:08|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-11:05:12:25|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.92 Safari/537.4
+2012-10-11:15:06:40|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; MALC)
+2012-10-11:15:06:47|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; MALC)
+2012-10-11:17:52:15|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+2012-10-11:17:52:15|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+2012-10-11:17:53:23|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+2012-10-11:17:53:23|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+2012-10-11:19:22:41|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-12:08:56:13|manager/html||174.143.11.222|
+2012-10-12:10:06:37|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-12:14:38:36|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-12:14:38:43|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-12:22:52:54|fancybox/fancy_shadow_n.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:22:52:55|fancybox/fancy_shadow_ne.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:22:52:55|fancybox/fancy_shadow_e.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:22:52:55|fancybox/fancy_shadow_se.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:22:52:55|fancybox/fancy_shadow_s.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:22:52:55|fancybox/fancy_shadow_sw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:22:52:56|fancybox/fancy_shadow_w.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:22:52:56|fancybox/fancy_shadow_nw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:23:19:29|fancybox/fancy_shadow_n.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:23:19:30|fancybox/fancy_shadow_ne.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:23:19:30|fancybox/fancy_shadow_ne.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:23:19:30|fancybox/fancy_shadow_e.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:23:19:30|fancybox/fancy_shadow_e.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:23:19:30|fancybox/fancy_shadow_se.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:23:19:30|fancybox/fancy_shadow_se.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:23:19:30|fancybox/fancy_shadow_s.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:23:19:30|fancybox/fancy_shadow_s.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:23:19:30|fancybox/fancy_shadow_sw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:23:19:30|fancybox/fancy_shadow_sw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:23:19:31|fancybox/fancy_shadow_w.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:23:19:31|fancybox/fancy_shadow_w.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:23:19:31|fancybox/fancy_shadow_nw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-12:23:19:31|fancybox/fancy_shadow_nw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-13:02:05:54|fancybox/fancy_shadow_n.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-13:02:05:54|fancybox/fancy_shadow_ne.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-13:02:05:54|fancybox/fancy_shadow_e.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-13:02:05:54|fancybox/fancy_shadow_se.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-13:02:05:55|fancybox/fancy_shadow_s.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-13:02:05:55|fancybox/fancy_shadow_sw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-13:02:05:55|fancybox/fancy_shadow_w.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-13:02:05:56|fancybox/fancy_shadow_nw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB7.4; .NET CLR 1.1.4322)
+2012-10-13:05:28:42|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-13:23:38:11|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+2012-10-14:00:37:13|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000121;retpage=instructors|174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+2012-10-14:07:48:07|wp-login.php||174.143.11.222|Mozilla/3.0 (compatible; Indy Library)
+2012-10-14:12:56:55|link_arrow|http://www.yogalivelink.com/link_arrow|174.143.11.222|intelium_bot
+2012-10-14:12:56:55|logo_overlay_trigger|http://www.yogalivelink.com/logo_overlay_trigger|174.143.11.222|intelium_bot
+2012-10-15:04:24:32|web/content/content/404.php|http://www.yogalivelink.com/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.25 (KHTML, like Gecko) Version/6.0 Safari/536.25
+2012-10-15:04:27:22|wp-login.php||174.143.11.222|Googlebot/2.1 (+http://www.googlebot.com/bot.html)
+2012-10-15:07:36:10|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+2012-10-15:10:40:17|lgvrijuukwf.html||174.143.11.222|Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+2012-10-15:16:32:59|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-15:16:33:09|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-15:17:18:41|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-15:17:18:54|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-15:17:18:56|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-15:18:00:31|web/content/content/404.php|http://www.yogalivelink.com/|174.143.11.222|Mozilla/5.0 (compatible; SEOkicks-Robot +http://www.seokicks.de/robot.html)
+2012-10-15:18:03:51|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-15:18:08:38|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-15:18:08:43|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-15:18:40:33|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-15:20:28:52|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-15:20:58:21|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-16:00:40:24|web/content/content/404.php||174.143.11.222|
+2012-10-16:00:43:54|web/content/content/404.php||174.143.11.222|
+2012-10-16:02:28:31|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-16:04:12:16|fancybox/fancy_shadow_n.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB7.4; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30618)
+2012-10-16:04:12:17|fancybox/fancy_shadow_ne.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB7.4; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30618)
+2012-10-16:04:12:17|fancybox/fancy_shadow_e.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB7.4; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30618)
+2012-10-16:04:12:17|fancybox/fancy_shadow_se.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB7.4; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30618)
+2012-10-16:04:12:17|fancybox/fancy_shadow_s.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB7.4; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30618)
+2012-10-16:04:12:17|fancybox/fancy_shadow_sw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB7.4; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30618)
+2012-10-16:04:12:18|fancybox/fancy_shadow_w.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB7.4; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30618)
+2012-10-16:04:12:18|fancybox/fancy_shadow_nw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB7.4; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30618)
+2012-10-16:04:12:18|web/content/content/404.php||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB7.4; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30618)
+2012-10-16:06:57:00|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-16:07:54:59|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-16:08:41:07|ipfhdslqdifn.html||174.143.11.222|Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+2012-10-16:15:56:08|web/content/content/404.php|http://www.yogalivelink.com/|174.143.11.222|Mozilla/5.0 (compatible; SEOkicks-Robot +http://www.seokicks.de/robot.html)
+2012-10-16:16:09:22|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-16:17:41:39|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-16:18:48:53|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-16:18:49:17|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-16:18:49:17|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-16:19:52:47|web/content/content/404.php|https://www.yogalivelink.com/office/class_execute?eq=y6uGY5ChTdOjaAKLsO0Qt2NArkPuLfibmOFWGZEQVbm4mBG_;pagetitle=Customer:%20Wa,%20Dieter|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-16:19:52:49|web/content/content/404.php|https://www.yogalivelink.com/office/class_execute?eq=y6uGY5ChTdOjaAKLsO0Qt2NArkPuLfibmOFWGZEQVbm4mBG_;pagetitle=Customer:%20Wa,%20Dieter|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-16:20:02:19|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20100101 Firefox/12.0
+2012-10-16:20:03:28|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20100101 Firefox/12.0
+2012-10-16:20:03:30|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20100101 Firefox/12.0
+2012-10-16:20:03:54|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20100101 Firefox/12.0
+2012-10-16:20:03:55|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20100101 Firefox/12.0
+2012-10-16:20:04:09|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20100101 Firefox/12.0
+2012-10-16:20:04:09|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20100101 Firefox/12.0
+2012-10-16:20:08:22|web/content/content/404.php|https://www.yogalivelink.com/office/class_execute?eq=y6uGY5ChTbV1K74c-DJa21HY3qf7EV_mS-LAeTVNySDJ8Gpgrppx9kLIJB9RgEW7ACNuKLDBJOR30Y_KRQ~~;template=launch;pagetitle=Yoga%20Video%20Session|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20100101 Firefox/12.0
+2012-10-16:20:51:14|web/content/content/404.php|https://www.yogalivelink.com/office/index|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-16:20:51:14|web/content/content/404.php|https://www.yogalivelink.com/office/index|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-16:20:51:25|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-16:20:51:44|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-16:20:52:54|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-16:21:04:03|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0
+2012-10-16:21:04:03|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0
+2012-10-16:21:15:07|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0
+2012-10-16:21:28:25|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:14.0) Gecko/20100101 Firefox/14.0.1
+2012-10-16:21:30:03|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:14.0) Gecko/20100101 Firefox/14.0.1
+2012-10-16:21:30:27|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:14.0) Gecko/20100101 Firefox/14.0.1
+2012-10-16:22:34:02|web/content/content/404.php|http://www.yogalivelink.com/terms_and_conditions|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/536.26.14 (KHTML, like Gecko) Version/6.0.1 Safari/536.26.14
+2012-10-17:03:19:24|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+2012-10-17:05:03:01|web/content/content/404.php|http://yogalivelink.com/|174.143.11.222|Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1
+2012-10-17:05:03:51|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1
+2012-10-17:06:14:29|web/content/content/404.php|http://www.yogalivelink.com/|174.143.11.222|Mozilla/5.0 (compatible; SEOkicks-Robot +http://www.seokicks.de/robot.html)
+2012-10-17:06:41:13|web/content/content/404.php|http://www.yogalivelink.com/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+2012-10-17:06:57:39|web/content/content/404.php|https://www.yogalivelink.com/office/sessions/instructor_calendar|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+2012-10-17:07:27:14|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:14.0) Gecko/20100101 Firefox/14.0.1
+2012-10-17:10:46:38|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-17:12:01:47|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-17:12:10:18|web/content/content/404.php|http://www.yogalivelink.com/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/536.26.14 (KHTML, like Gecko) Version/6.0.1 Safari/536.26.14
+2012-10-17:12:11:35|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/536.26.14 (KHTML, like Gecko) Version/6.0.1 Safari/536.26.14
+2012-10-17:18:24:40|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-17:18:26:29|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-17:18:28:40|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-17:18:28:43|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-17:18:28:59|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-17:18:29:01|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-17:18:30:15|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-17:18:30:18|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-17:18:30:24|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-17:18:30:36|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-17:18:31:38|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-17:18:31:41|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-17:18:31:41|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-17:20:08:47|web/content/content/404.php|http://www.yogalivelink.com/article/Yoga_Pose_Glossary/y0mPDP9hvpg0NfQwa4Wfb_VG9nXNcS_8WSegIAnMwzzPR_DdF29bETT51Z83Cpj2wNc~|174.143.11.222|Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; en-us) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+2012-10-17:20:26:33|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000129;retpage=instructors|174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+2012-10-17:21:01:56|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (BlackBerry; U; BlackBerry 9900; en) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.579 Mobile Safari/534.11+
+2012-10-17:22:54:35|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-17:23:15:49|privacy.html||174.143.11.222|Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+2012-10-17:23:40:14|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+2012-10-18:00:17:43|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-18:00:17:43|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-18:00:17:55|web/content/content/404.php|http://www.yogalivelink.com/class_execute?eq=y6uGY5ChTbV1K74c-DJa21HY3qf7EV_mS-LAeTVNzWU-kTOBxObXvxqwdou3ff22BZyAU__wi3WvlLE6_w~~;template=launch;pagetitle=Yoga%20Video%20Session|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-18:00:32:36|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-18:00:33:08|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-18:00:33:09|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-18:00:33:12|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-18:00:33:13|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-18:02:19:19|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Android; Mobile; rv:16.0.1) Gecko/16.0.1 Firefox/16.0.1
+2012-10-18:04:18:21|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+2012-10-18:04:25:12|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+2012-10-18:19:27:52|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-18:22:05:51|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000131;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-18:22:05:52|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000131;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-18:22:07:48|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000131;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-18:22:07:49|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000131;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-18:23:00:08|fancybox/fancy_shadow_n.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-18:23:00:09|fancybox/fancy_shadow_ne.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-18:23:00:09|fancybox/fancy_shadow_e.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-18:23:00:09|fancybox/fancy_shadow_se.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-18:23:00:10|fancybox/fancy_shadow_s.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-18:23:00:10|fancybox/fancy_shadow_sw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-18:23:00:10|fancybox/fancy_shadow_w.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-18:23:00:10|fancybox/fancy_shadow_nw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-19:02:10:38|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-19:03:02:55|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-19:03:02:55|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-19:03:05:10|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-19:04:22:26|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-19:04:24:39|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000131;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-19:04:24:40|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000131;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-19:04:25:06|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000131;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-19:04:25:07|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000131;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-19:04:37:32|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-19:04:37:32|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-19:04:43:45|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-19:04:43:59|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-19:04:44:04|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000131;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-19:04:44:05|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-19:04:44:08|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-19:04:44:17|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-19:04:44:28|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-19:04:54:29|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-19:04:54:46|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-19:06:02:29|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+2012-10-19:06:02:29|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+2012-10-19:06:02:37|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+2012-10-19:06:02:38|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+2012-10-19:06:02:44|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+2012-10-19:06:02:44|web/content/content/404.php|https://www.yogalivelink.com/office/sessions/instructor_calendar|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+2012-10-19:06:02:45|web/content/content/404.php|https://www.yogalivelink.com/office/sessions/instructor_calendar|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+2012-10-19:06:02:45|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+2012-10-19:06:02:50|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+2012-10-19:06:02:50|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+2012-10-19:06:02:50|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+2012-10-19:11:11:18|a1b2c3d4e5f6g7h8i9/nonexistentfile.php||174.143.11.222|
+2012-10-19:11:11:19|adxmlrpc.php||174.143.11.222|
+2012-10-19:11:11:19|adserver/adxmlrpc.php||174.143.11.222|
+2012-10-19:11:11:19|phpAdsNew/adxmlrpc.php||174.143.11.222|
+2012-10-19:11:11:20|phpadsnew/adxmlrpc.php||174.143.11.222|
+2012-10-19:11:11:20|phpads/adxmlrpc.php||174.143.11.222|
+2012-10-19:11:11:20|Ads/adxmlrpc.php||174.143.11.222|
+2012-10-19:11:11:20|ads/adxmlrpc.php||174.143.11.222|
+2012-10-19:11:11:20|xmlrpc.php||174.143.11.222|
+2012-10-19:11:11:20|xmlrpc/xmlrpc.php||174.143.11.222|
+2012-10-19:11:11:21|xmlsrv/xmlrpc.php||174.143.11.222|
+2012-10-19:11:11:21|drupal/xmlrpc.php||174.143.11.222|
+2012-10-19:11:11:21|community/xmlrpc.php||174.143.11.222|
+2012-10-19:11:11:22|blogs/xmlrpc.php||174.143.11.222|
+2012-10-19:11:11:22|blogs/xmlsrv/xmlrpc.php||174.143.11.222|
+2012-10-19:11:11:22|blogtest/xmlsrv/xmlrpc.php||174.143.11.222|
+2012-10-19:11:11:22|b2/xmlsrv/xmlrpc.php||174.143.11.222|
+2012-10-19:11:11:22|b2evo/xmlsrv/xmlrpc.php||174.143.11.222|
+2012-10-19:11:11:23|wordpress/xmlrpc.php||174.143.11.222|
+2012-10-19:11:11:23|phpgroupware/xmlrpc.php||174.143.11.222|
+2012-10-19:20:08:12|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-19:20:08:13|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-19:21:20:57|manager/html||174.143.11.222|
+2012-10-20:02:36:05|a1b2c3d4e5f6g7h8i9/nonexistentfile.php||174.143.11.222|
+2012-10-20:02:36:05|adxmlrpc.php||174.143.11.222|
+2012-10-20:02:36:06|adserver/adxmlrpc.php||174.143.11.222|
+2012-10-20:02:36:06|phpAdsNew/adxmlrpc.php||174.143.11.222|
+2012-10-20:02:36:06|phpadsnew/adxmlrpc.php||174.143.11.222|
+2012-10-20:02:36:07|phpads/adxmlrpc.php||174.143.11.222|
+2012-10-20:02:36:07|Ads/adxmlrpc.php||174.143.11.222|
+2012-10-20:02:36:07|ads/adxmlrpc.php||174.143.11.222|
+2012-10-20:02:36:08|xmlrpc.php||174.143.11.222|
+2012-10-20:02:36:08|xmlrpc/xmlrpc.php||174.143.11.222|
+2012-10-20:02:36:08|xmlsrv/xmlrpc.php||174.143.11.222|
+2012-10-20:02:36:09|drupal/xmlrpc.php||174.143.11.222|
+2012-10-20:02:36:09|community/xmlrpc.php||174.143.11.222|
+2012-10-20:02:36:09|blogs/xmlrpc.php||174.143.11.222|
+2012-10-20:02:36:09|blogs/xmlsrv/xmlrpc.php||174.143.11.222|
+2012-10-20:02:43:06|a1b2c3d4e5f6g7h8i9/nonexistentfile.php||174.143.11.222|
+2012-10-20:02:43:06|adxmlrpc.php||174.143.11.222|
+2012-10-20:02:43:06|adserver/adxmlrpc.php||174.143.11.222|
+2012-10-20:02:43:07|phpAdsNew/adxmlrpc.php||174.143.11.222|
+2012-10-20:02:43:07|phpadsnew/adxmlrpc.php||174.143.11.222|
+2012-10-20:02:43:07|phpads/adxmlrpc.php||174.143.11.222|
+2012-10-20:02:43:07|Ads/adxmlrpc.php||174.143.11.222|
+2012-10-20:02:43:08|ads/adxmlrpc.php||174.143.11.222|
+2012-10-20:02:43:08|xmlrpc.php||174.143.11.222|
+2012-10-20:02:43:08|xmlrpc/xmlrpc.php||174.143.11.222|
+2012-10-20:02:43:09|xmlsrv/xmlrpc.php||174.143.11.222|
+2012-10-20:02:43:09|drupal/xmlrpc.php||174.143.11.222|
+2012-10-20:02:43:09|community/xmlrpc.php||174.143.11.222|
+2012-10-20:02:43:09|blogs/xmlrpc.php||174.143.11.222|
+2012-10-20:02:43:10|blogs/xmlsrv/xmlrpc.php||174.143.11.222|
+2012-10-20:02:43:11|blogtest/xmlsrv/xmlrpc.php||174.143.11.222|
+2012-10-20:02:43:38|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-20:02:57:16|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000131;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-20:02:57:17|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000131;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-20:02:58:32|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000131;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-20:02:58:32|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000131;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-20:03:00:41|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-20:03:00:41|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-20:03:52:08|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-20:03:52:08|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-20:03:53:44|web/content/content/404.php|https://www.yogalivelink.com/office/class_execute?eq=y6uGY5ChTdOjaAKLsO0Qt2NArkPuLfibmOFWGZEQVbk4OrRb;pagetitle=Customer:%20Johnson,%20Lisa|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-20:03:53:45|web/content/content/404.php|https://www.yogalivelink.com/office/class_execute?eq=y6uGY5ChTdOjaAKLsO0Qt2NArkPuLfibmOFWGZEQVbk4OrRb;pagetitle=Customer:%20Johnson,%20Lisa|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-20:03:54:21|web/content/content/404.php|https://www.yogalivelink.com/office/class_execute?eq=y6uGY5ChTdOjaAKLsO0Qt2NArkPuLfibmOFWGZEQVbk4OrRb;pagetitle=Customer:%20Johnson,%20Lisa|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-20:03:54:22|web/content/content/404.php|https://www.yogalivelink.com/office/class_execute?eq=y6uGY5ChTdOjaAKLsO0Qt2NArkPuLfibmOFWGZEQVbk4OrRb;pagetitle=Customer:%20Johnson,%20Lisa|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-20:04:22:58|web/content/content/404.php|https://www.yogalivelink.com/office/sessions/instructor_calendar|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+2012-10-20:04:22:59|web/content/content/404.php|https://www.yogalivelink.com/office/sessions/instructor_calendar|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+2012-10-20:08:00:20|autodiscover/autodiscover.xml||174.143.11.222|motorola-DROIDRAZRHD/1.0
+2012-10-20:08:00:27|Microsoft-Server-ActiveSync||174.143.11.222|motorola-DROIDRAZRHD/1.0
+2012-10-20:17:55:41|web/content/content/404.php|http://www.yogalivelink.com/|174.143.11.222|Opera/9.80 (Windows NT 5.1; U; en) Presto/2.10.289 Version/12.02
+2012-10-20:17:56:37|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000120;retpage=instructors|174.143.11.222|Opera/9.80 (Windows NT 5.1; U; en) Presto/2.10.289 Version/12.02
+2012-10-20:17:56:39|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000120;retpage=instructors|174.143.11.222|Opera/9.80 (Windows NT 5.1; U; en) Presto/2.10.289 Version/12.02
+2012-10-21:05:02:23|manager/html||174.143.11.222|
+2012-10-21:09:50:29|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-21:10:17:32|sitemap.xml||174.143.11.222|Mozilla/5.0 (compatible; Mail.RU_Bot/2.0)
+2012-10-21:14:20:02|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+2012-10-22:01:38:45|web/content/content/404.php|http://www.yogalivelink.com/article/Yoga_Pose_Glossary/y0mPDP9hvpg0NfQwa4Wfb_VG9nXNcS_8WSegIAnMwzzPR_DdF29bETT51Z83Cpj2wNc~|174.143.11.222|Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_4_11; en) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/4.1.3 Safari/533.19.4
+2012-10-22:03:28:50|web/content/content/404.php|http://www.yogalivelink.com/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
+2012-10-22:03:29:14|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000133;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
+2012-10-22:03:29:55|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000126;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
+2012-10-22:03:30:04|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
+2012-10-22:03:30:09|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000126;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
+2012-10-22:04:02:43|web/content/content/404.php|http://www.yogalivelink.com/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
+2012-10-22:04:25:10|web/content/content/404.php|http://www.yogalivelink.com/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
+2012-10-22:08:02:09|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+2012-10-22:08:03:01|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+2012-10-22:14:45:58|a1b2c3d4e5f6g7h8i9/nonexistentfile.php||174.143.11.222|
+2012-10-22:14:45:59|adxmlrpc.php||174.143.11.222|
+2012-10-22:14:45:59|adserver/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:45:59|phpAdsNew/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:46:00|phpadsnew/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:46:00|phpads/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:46:00|Ads/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:46:00|ads/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:46:01|xmlrpc.php||174.143.11.222|
+2012-10-22:14:46:01|xmlrpc/xmlrpc.php||174.143.11.222|
+2012-10-22:14:46:01|xmlsrv/xmlrpc.php||174.143.11.222|
+2012-10-22:14:46:01|drupal/xmlrpc.php||174.143.11.222|
+2012-10-22:14:46:01|community/xmlrpc.php||174.143.11.222|
+2012-10-22:14:46:02|blogs/xmlrpc.php||174.143.11.222|
+2012-10-22:14:46:02|blogs/xmlsrv/xmlrpc.php||174.143.11.222|
+2012-10-22:14:46:02|blogtest/xmlsrv/xmlrpc.php||174.143.11.222|
+2012-10-22:14:46:02|b2/xmlsrv/xmlrpc.php||174.143.11.222|
+2012-10-22:14:46:02|b2evo/xmlsrv/xmlrpc.php||174.143.11.222|
+2012-10-22:14:46:03|wordpress/xmlrpc.php||174.143.11.222|
+2012-10-22:14:46:03|phpgroupware/xmlrpc.php||174.143.11.222|
+2012-10-22:14:52:58|a1b2c3d4e5f6g7h8i9/nonexistentfile.php||174.143.11.222|
+2012-10-22:14:52:59|adxmlrpc.php||174.143.11.222|
+2012-10-22:14:52:59|adserver/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:52:59|phpAdsNew/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:52:59|phpadsnew/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:53:00|phpads/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:53:00|Ads/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:53:01|ads/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:53:01|xmlrpc.php||174.143.11.222|
+2012-10-22:14:53:02|xmlrpc/xmlrpc.php||174.143.11.222|
+2012-10-22:14:53:02|xmlsrv/xmlrpc.php||174.143.11.222|
+2012-10-22:14:53:04|drupal/xmlrpc.php||174.143.11.222|
+2012-10-22:14:59:53|a1b2c3d4e5f6g7h8i9/nonexistentfile.php||174.143.11.222|
+2012-10-22:14:59:53|adxmlrpc.php||174.143.11.222|
+2012-10-22:14:59:54|adserver/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:59:54|phpAdsNew/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:59:54|phpadsnew/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:59:55|phpads/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:59:55|Ads/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:59:55|ads/adxmlrpc.php||174.143.11.222|
+2012-10-22:14:59:58|xmlrpc.php||174.143.11.222|
+2012-10-22:18:09:49|web/content/content/404.php||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; InfoPath.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2012-10-22:20:24:30|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:13.0) Gecko/20100101 Firefox/13.0
+2012-10-22:21:48:08|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-22:21:48:09|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-23:02:42:54|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-23:02:43:00|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-23:10:01:22|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-23:10:01:23|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-23:12:27:39|manager/html||174.143.11.222|
+2012-10-23:12:38:37|manager/html||174.143.11.222|
+2012-10-23:18:29:34|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-23:18:30:01|web/content/content/404.php|https://yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000129;retpage=instructors|174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-23:18:30:03|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-23:18:30:19|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-23:18:30:43|web/content/content/404.php|https://yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000129;retpage=instructors|174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-23:18:30:44|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-23:20:15:34|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-23:20:22:18|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-23:20:22:27|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-23:21:08:50|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-23:21:09:12|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000121;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-23:21:09:12|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000121;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-23:21:10:31|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-23:21:10:36|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-24:04:29:41|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-24:04:39:14|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000120;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-24:04:39:14|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000120;retpage=instructors|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-24:04:39:34|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-24:04:39:34|web/content/content/404.php|https://www.yogalivelink.com/office/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-24:06:41:10|autodiscover/autodiscover.xml||174.143.11.222|motorola-DROIDRAZRHD/1.0
+2012-10-24:06:43:26|Microsoft-Server-ActiveSync||174.143.11.222|motorola-DROIDRAZRHD/1.0
+2012-10-24:11:55:02|manager/html||174.143.11.222|
+2012-10-24:13:47:46|web/content/content/404.php|http://www.yogalivelink.com/class_execute?eq=y6uGY5ChTbV1K74c-DJa21HY3qf7EV_mS-LAeTVNS7ov50XKgHYdQIbb7AjHVf4mIUTSUJq9lva15DZziA~~;template=launch;pagetitle=Yoga%20Video%20Session|174.143.11.222|Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+2012-10-24:14:18:06|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+2012-10-24:15:08:47|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:6.0) Gecko/20100101 Firefox/6.0
+2012-10-24:15:08:47|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:6.0) Gecko/20100101 Firefox/6.0
+2012-10-24:15:17:33|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000200;retpage=instructors|174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+2012-10-24:16:04:36|web/content/content/404.php|http://www.yogalivelink.com/article/Yoga_Pose_Glossary/y0mPDP9hvpg0NfQwa4Wfb_VG9nXNcS_8WSegIAnMwzzPR_DdF29bETT51Z83Cpj2wNc~|174.143.11.222|Mozilla/5.0 (Linux; U; Android 2.2.1; en-us; NOOK BNRV200 Build/ERD79 1.4.3) Apple WebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+2012-10-24:17:46:26|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-24:17:46:37|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-24:17:46:40|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-24:17:47:32|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-24:17:49:09|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-24:17:52:11|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-24:20:14:35|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-24:20:14:40|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-25:01:45:00|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-25:05:58:24|autodiscover/autodiscover.xml||174.143.11.222|motorola-DROIDRAZRHD/1.0
+2012-10-25:06:22:33|web/content/content/404.php|http://www.yogalivelink.com/instructors|174.143.11.222|Mozilla/5.0 (Linux; U; Android 2.3.4; en-ca; GT-S5830D-parrot Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+2012-10-25:06:32:30|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+2012-10-25:07:33:24|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000148;retpage=instructors|174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+2012-10-25:19:51:05|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-25:19:56:12|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-25:22:41:29|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-25:23:01:25|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-25:23:01:26|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-25:23:01:27|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-25:23:01:27|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-26:06:21:08|crossdomain.xml||174.143.11.222|
+2012-10-26:13:01:40|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-26:13:01:40|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-26:13:02:43|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-26:13:02:43|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-26:13:03:44|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000120;retpage=instructors|174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-26:13:03:45|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000120;retpage=instructors|174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-26:13:03:56|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000142;retpage=instructors|174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-26:13:03:56|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000142;retpage=instructors|174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-26:13:34:55|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.0; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-26:14:51:07|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-26:15:05:14|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-26:15:05:16|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-26:15:06:03|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-26:15:06:04|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-26:15:06:14|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-27:01:58:40|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-27:03:24:02|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-27:10:04:43|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-27:10:48:29|web/content/content/404.php|http://www.yogalivelink.com/article/Yoga_Pose_Glossary/y0mPDP9hvpg0NfQwa4Wfb_VG9nXNcS_8WSegIAnMwzzPR_DdF29bETT51Z83Cpj2wNc~|174.143.11.222|Opera/9.80 (Windows NT 6.1; WOW64; U; pl) Presto/2.10.289 Version/12.02
+2012-10-27:15:09:00|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on;instructor_whid=1000147;retpage=instructors|174.143.11.222|Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A403 Safari/8536.25
+2012-10-27:17:30:09|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-27:18:22:58|sumthin||174.143.11.222|
+2012-10-27:18:33:26|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-27:19:10:31|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-28:17:44:05|fancybox/fancy_shadow_n.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; InfoPath.3; MS-RTC LM 8)
+2012-10-28:17:44:05|fancybox/fancy_shadow_ne.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; InfoPath.3; MS-RTC LM 8)
+2012-10-28:17:44:05|fancybox/fancy_shadow_e.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; InfoPath.3; MS-RTC LM 8)
+2012-10-28:17:44:06|fancybox/fancy_shadow_se.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; InfoPath.3; MS-RTC LM 8)
+2012-10-28:17:44:06|fancybox/fancy_shadow_s.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; InfoPath.3; MS-RTC LM 8)
+2012-10-28:17:44:06|fancybox/fancy_shadow_sw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; InfoPath.3; MS-RTC LM 8)
+2012-10-28:17:44:06|fancybox/fancy_shadow_w.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; InfoPath.3; MS-RTC LM 8)
+2012-10-28:17:44:06|fancybox/fancy_shadow_nw.png||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; InfoPath.3; MS-RTC LM 8)
+2012-10-28:17:44:07|web/content/content/404.php||174.143.11.222|Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.4; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; InfoPath.3; MS-RTC LM 8)
+2012-10-29:03:17:27|web/content/content/404.php|http://www.yogalivelink.com/article/Yoga_Pose_Glossary/y0mPDP9hvpg0NfQwa4Wfb_VG9nXNcS_8WSegIAnMwzzPR_DdF29bETT51Z83Cpj2wNc~|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/536.26.14 (KHTML, like Gecko) Version/6.0.1 Safari/536.26.14
+2012-10-29:04:25:02|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-29:04:25:18|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-29:04:25:26|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-29:04:25:31|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-29:04:25:52|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-29:04:25:56|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-29:04:26:51|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-29:04:26:53|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-29:04:27:17|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-29:05:18:55|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-29:08:49:52|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-29:14:25:04|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+2012-10-29:15:23:37|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-29:15:23:37|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 6.1; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-29:15:23:55|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+2012-10-29:15:49:15|web/content/content/404.php||174.143.11.222|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0.1
+2012-10-29:20:18:45|web/content/content/404.php|http://www.yogalivelink.com/article/Yoga_Pose_Glossary/y0mPDP9hvpg0NfQwa4Wfb_VG9nXNcS_8WSegIAnMwzzPR_DdF29bETT51Z83Cpj2wNc~|174.143.11.222|Mozilla/5.0 (Linux; U; Android 2.3.6; en-us; VS920 4G Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+2012-10-29:20:37:23|web/content/content/404.php|http://yogalivelink.com/|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
+2012-10-29:20:37:28|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|174.143.11.222|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
+2012-10-29:21:47:57|web/content/content/404.php||88.100.65.202|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-29:22:41:41|web/content/content/404.php||24.21.159.218|Mozilla/5.0 (Windows NT 5.1; rv:14.0) Gecko/20100101 Firefox/14.0.1
+2012-10-30:03:34:53|web/content/content/404.php||184.5.144.28|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-30:03:34:53|web/content/content/404.php||184.5.144.28|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-30:06:02:51|web/content/content/404.php|https://www.yogalivelink.com/office/|174.25.96.43|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0
+2012-10-30:06:02:52|web/content/content/404.php|https://www.yogalivelink.com/office/|174.25.96.43|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0
+2012-10-30:06:16:08|web/content/content/404.php||174.25.96.43|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0
+2012-10-30:06:16:08|web/content/content/404.php||174.25.96.43|Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20100101 Firefox/15.0
+2012-10-30:08:05:56|web/content/content/404.php|http://www.yogalivelink.com/article/Yoga_Pose_Glossary/y0mPDP9hvpg0NfQwa4Wfb_VG9nXNcS_8WSegIAnMwzzPR_DdF29bETT51Z83Cpj2wNc~|27.252.180.227|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.52.7 (KHTML, like Gecko) Version/5.1.2 Safari/534.52.7
+2012-10-30:13:04:14|web/content/content/404.php|http://www.yogalivelink.com/|67.5.200.182|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/536.26.14 (KHTML, like Gecko) Version/6.0.1 Safari/536.26.14
+2012-10-30:16:51:01|web/content/content/404.php||62.1.241.41|Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-30:19:55:23|web/content/content/404.php||108.46.31.72|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-30:19:58:31|web/content/content/404.php||108.46.31.72|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.90 Safari/537.1
+2012-10-30:23:53:33|web/content/content/404.php||59.182.254.206|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:02:48:19|web/content/content/404.php||71.222.62.11|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-31:02:50:24|web/content/content/404.php||71.222.62.11|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-31:02:50:32|web/content/content/404.php||71.222.62.11|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-31:02:50:35|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|71.222.62.11|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-31:02:50:36|web/content/content/404.php||71.222.62.11|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-31:02:50:54|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=instructor;customer=on|71.222.62.11|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-31:02:50:56|web/content/content/404.php||71.222.62.11|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-31:02:51:23|web/content/content/404.php||71.222.62.11|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+2012-10-31:18:04:40|web/content/content/404.php|http://www.yogalivelink.com/signup|24.20.223.27|Mozilla/5.0 (Linux; U; Android 2.3.6; en-us; M886 Build/HuaweiM886) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+2012-10-31:18:08:18|web/content/content/404.php|http://yogalivelink.com/|24.20.223.27|Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.0.22.79_10013310) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true
+2012-10-31:18:14:38|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:18:14:59|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:18:15:03|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:18:15:05|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:18:15:07|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:18:15:11|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:18:15:14|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:18:15:18|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:19:04:57|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:19:05:03|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:19:05:08|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:19:06:11|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:19:06:21|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:19:06:25|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:19:08:40|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:19:08:48|web/content/content/404.php|https://www.yogalivelink.com/office/website/sessions_schedule;type=date;customer=on|23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:19:08:50|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:19:08:53|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:19:08:55|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:19:08:59|web/content/content/404.php||23.24.243.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:19:19:01|web/content/content/404.php||98.246.153.71|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:19:19:16|web/content/content/404.php||98.246.153.71|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+2012-10-31:19:35:09|web/content/content/404.php||173.240.241.189|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+2012-10-31:19:35:09|web/content/content/404.php||173.240.241.189|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0

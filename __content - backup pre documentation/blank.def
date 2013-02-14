@@ -1,0 +1,9 @@
+<name>Blank</name>
+<summary>Blank page for @@COMPANYNAME@@</summary>
+<title>@@COMPANYNAME@@ - Blank</title>
+<description>@@COMPANYNAME@@ - Blank</description>
+<keywords></keywords>
+<style></style>
+<script></script>
+<scriptinclude></scriptinclude>
+<template>template_inner.html</template>

@@ -1,0 +1,885 @@
+html {
+  /* force scrollbars */
+  height : 100%;
+  margin-bottom : 1px;
+}
+
+body.admin {
+  margin : 0px;
+  background-color : #CCC3B2;
+  font-family : Arial,Helvetica,Geneva,Sans-serif;
+}
+
+#errormsg {
+  border : 1px solid #f00;
+  background-color : #f66;
+  text-align : center;
+}
+
+/* ========= MAIN LAYOUT ============ */
+
+#pagewrapper {
+  border : 5px solid #eef;
+}
+
+/* ========= HEADING ============ */
+#mainheader {
+  background-color : #CCC3B2;
+  padding : 2px 5px;
+}
+
+div.admintitle {
+  color : #333;
+  font-size : 1em;
+  font-weight : bold;
+  display : inline;
+}
+
+#sitename {
+  color : #fff;
+  font-weight : bold;
+  color : #fff;
+  padding : 1px 5px;
+  text-align : center;
+}
+
+.header {
+  background-color : #F93;
+  text-align : center;
+}
+
+.header2 {
+  background-color : #ccc;
+}
+
+a.headfilename {
+  color : #000;
+  text-align : center;
+  text-decoration : none;
+  background-color : #eee;
+  color : #000;
+  display : inline;
+  padding : 1px 0.4em;
+  border : 1px solid #fff;
+  border-color : #ddd #666 #555 #ccc;
+}
+
+a.headfilename:hover {
+  background-color : #66c;
+  color : #fff;
+}
+
+/* ========= PREVIEW ============ */
+
+#previewtitle {
+  text-align : center;
+  color : #fff;
+  font-size : 1.25em;
+  font-weight : normal;
+}
+
+#PREVIEW {
+  margin : 10px auto;
+  border : 2px solid #000;
+  padding : 0px;
+}
+
+#PREVIEW iframe {
+  border : 0px;
+}
+
+/* ========= Editing ============ */
+.previewfolder {
+  border : 1px solid #888;
+}
+
+.titleedit {
+  background-color : #eff;
+  text-align : center;
+  border : 1px solid #888;
+}
+
+.contenttab {
+  background-color : #ccc;
+  text-align : center;
+  border : 1px solid #888;
+}
+
+.contentedit {
+}
+
+span.revnotice {
+  font-weight : bold;
+  color : #f00;
+  padding : 0px 1em;
+}
+
+#TTEXT {
+  height : 400px;
+  width : 99%;
+  margin : 3px auto;
+}
+
+#CTEXT {
+  background-color : white;
+  width : 99%;
+  margin : 3px auto;
+}
+
+table.editing {
+  width : 100%;
+}
+
+span.subheader {
+  font-size : 14pt;
+  color : #000;
+}
+
+div.search {
+  background-color : white;
+  margin : 10px auto;
+  border : 2px solid #000;
+  font-size : 1.2em;
+}
+
+div.search a {
+  text-decoration : none;
+  color : #036;
+}
+
+div.search a:hover {
+  background-color : #f93;
+}
+
+#topmenu {
+}
+
+#editmenu {
+  background-color : #ccc;
+  padding : 0.25em;
+}
+
+/* ========= BUTTONS ============ */
+a.mainbutton, a.titlebutton, a.contentbutton {
+  font-family : Arial,Helvetica,sans-serif;
+  font-size : 0.76em;
+  text-align : center;
+  text-decoration : none;
+  color : #fff;
+  padding : 0.25em 0.4em;
+  border : 1px solid;
+  border-color : #ddd #666 #555 #ccc;
+  white-space : nowrap;
+}
+
+a.editbutton {
+  font-family : Arial,sans-serif;
+  font-size : 0.76em;
+  text-align : center;
+  text-decoration : none;
+  color : #000;
+  padding : 0.25em 0.4em;
+  border : 1px solid;
+  border-color : #ddd #666 #555 #ccc;
+  background-color : #ccc;
+  white-space : nowrap;
+}
+
+a.editbutton:hover {
+  color : #f00;
+  background-color : #eee;
+}
+
+a.mainbutton {
+  margin : 0.25em auto;
+  background-color : #66c;
+}
+
+a.mainbutton:hover, a.mainbutton:active {
+  background-color : #99c;
+  color : #fff;
+}
+
+a.titlebutton:active, a.contentbutton:active,a.mainbutton:active {
+  border-color : #555 #ccc #ddd #666;
+}
+
+a.titlebutton, a.contentbutton {
+  margin : 1px;
+  background-color : #036;
+}
+
+a.titlebutton:hover, a.titlebutton:active {
+  background-color : #66C;
+}
+
+a.contentbutton:hover, a.contentbutton:active  {
+  background-color : #66C;
+}
+
+input.titlesubmit, input.contentsubmit {
+  font-family : Arial,Helvetica,sans-serif;
+  font-size : 0.76em;
+  padding : 0.25em 0.4em;
+  color : #FFF;
+  border : 1px solid #fff;
+  cursor : pointer;
+}
+
+input.titlesubmit {
+  background-color : #036;
+}
+
+input.contentsubmit  {
+  background-color : #036;
+}
+
+input.titlesubmit:hover, input.contentsubmit:hover {
+  background-color : #66c;
+}
+
+.dropdown {
+}
+
+option.filedropdown {
+  background-color : #eef;
+  color : #000;
+}
+
+option.special {
+  background-color : #036;
+  color : #fff;
+}
+
+option.commonfile {
+  background-color : #070;
+  color : #fff;
+}
+
+option.cssfile {
+  background-color : #7f7;
+  color : #000;
+}
+
+option.templatefile {
+  background-color : #070;
+  color : #fff;
+}
+
+option.jsfile {
+  background-color : #66a;
+  color : #fff;
+}
+
+option.controllerfile {
+  background-color : #700;
+  color : #fff;
+}
+
+option.helperfile {
+  background-color : #ff7;
+  color : #000;
+}
+
+option.listfile {
+  background-color : #fdf;
+  color : #000;
+}
+
+option.configfile {
+  background-color : #707;
+  color : #fff;
+}
+
+option.special2 {
+  color : red;
+}
+
+span.draft {
+  background-color : #060;
+  color : #fff;
+}
+
+select.box {
+  color : black;
+  font-size : 1em;
+  padding : 0px 3px;
+}
+
+select.box2 {
+  color : black;
+  font-size : 0.8em;
+}
+
+td.page {
+  background-color : #fff;
+}
+
+/* ========= FILE MANAGER ============ */
+
+#filemanager {
+  background-color : #888;
+  margin-top : 2em;
+}
+
+#filemanager tr {
+  background-color : #fff;
+  border : 1px solid #000;
+}
+
+#filemanager span.updated {
+  font-size : 0.6em;
+}
+
+.titleheader {
+  font-size : 1.5em;
+  color : white;
+}
+
+.fileheader {
+  font-weight : bold;
+  font-size : 1.5em;
+  color : blue;
+}
+
+#filemanager a.fileheader:hover {
+  background-color : #888;
+}
+
+/* ------ Horizontal Menu with Drop-Down Submenus ------- */
+ul.mainmenu, ul, mainmenu ul, ul.menu, ul.menu ul {
+  text-align : center;
+  font-family : arial, helvetica, sans-serif;
+  font-size : 9pt;
+  padding-left : 0px;
+  cursor : default;
+  margin : 0px;
+}
+
+ul.mainmenu li, ul.menu li {
+  float : left;
+  border : 1px solid #888;
+  padding : 2px 6px;
+  list-style-type : none;
+  margin : 0px;
+  position : relative;
+}
+
+ul.mainmenu li {
+  width : 5em;
+}
+
+ul.mainmenu li > ul, ul.menu li > ul {
+  border-bottom : 1px solid #888;
+  display : none;
+  position : absolute;
+  top : 1.5em;
+  left : 0px;
+}
+
+ul.mainmenu li > ul {
+  z-index : 200;
+}
+
+ul.menu li > ul {
+  z-index : 100;
+}
+
+ul.mainmenu li > ul li, ul.menu li > ul li {
+  border-bottom-width : 0px;
+  float : none;
+  z-index : 10;
+}
+
+ul.mainmenu li > ul li {
+  text-align : left;
+  width : 10em;
+}
+
+ul.menu li > ul li {
+  text-align : left;
+  width : 8em;
+}
+
+ul.mainmenu li:hover, ul.mainmenu li.CSStoHighlight,
+ul.menu li:hover, ul.menu li.CSStoHighlight {
+}
+
+ul.mainmenu ul.CSStoShow, ul.menu ul.CSStoShow {
+  display : block;
+}
+
+ul.mainmenu li:hover > ul, ul.menu li:hover > ul {
+  display : block;
+}
+
+ul.mainmenu li a, ul.menu li a {
+  text-decoration : none;
+  display : block;
+}
+
+li.arrow {
+  background : url(/images/tri-blue.gif);
+  background-repeat : no-repeat;
+  background-position : right;
+}
+
+/* -- menu border color -- */
+ul.mainmenu, ul.mainmenu ul, ul.mainmenu li {
+  border-color : #888;
+}
+
+ul.menu, ul.menu ul, ul.menu li {
+  border-color : #888;
+}
+
+/* -- menu text color -- */
+ul.mainmenu li a {
+  color : #000
+}
+
+ul.menu li a {
+  color : #000;
+}
+
+/* -- menu background color -- */
+ul.mainmenu li, ul.mainmenu ul, ul.mainmenu li {
+  background-color : #eef;
+}
+
+ul.menu, ul.menu ul, ul.menu li  {
+  background-color : #eee;
+}
+
+/* -- menu text hover color -- */
+ul.mainmenu li a:hover, ul.mainmenu li a.CSStoHighLink, ul.mainmenu li:hover > a {
+  color : #fff
+}
+
+ul.menu li a:hover, ul.menu li a.CSStoHighLink, ul.menu li:hover > a  {
+  color : #fff;
+}
+
+/* -- menu background hover color -- */
+ul.mainmenu li:hover, ul.mainmenu li.CSStoHighlight, ul.mainmenu li:hover > a  {
+  background-color : #66c;
+}
+
+ul.menu li:hover, ul.menu li.CSStoHighlight, ul.menu li:hover > a  {
+  background-color : #888;
+}
+
+/* -- find and replace -- */
+#FandR {
+  width : 15em;
+  position : absolute;
+  top : 0px;
+  left : 0px;
+  z-index : 100;
+  background-color : #eee;
+  border : 1px solid #888;
+}
+
+#FandR p {
+  padding : 0px 0.5em;
+}
+
+#LINKS_PAGES, #LINKS_IMAGES {
+  position : absolute;
+  top : 0px;
+  left : 0px;
+  z-index : 105;
+  background-color : #eee;
+  border : 1px solid #888;
+}
+
+#LINKS_PAGES td,  #LINKS_IMAGES td {
+  white-space : nowrap;
+}
+
+/* ------------ Title/Content Modified flags -------------- */
+span.modified {
+  color : #f00;
+  font-weight : bold;
+}
+
+/* =========================TABS================================ */
+
+#tabdiv {
+  margin-left : 10px;
+}
+
+a.tablink,a.tabselect {
+  border-left : 1px solid #888;
+  border-right : 1px solid #888;
+  border-top : 1px solid #888;
+  color : #000;
+  height : 1.2em;
+  float : left;
+  padding : 2px 1em;
+  text-decoration : none;
+  font-size : 1em;
+  margin : 0px;
+}
+
+a.tabselect:hover, a.tablink:hover {
+  background-color : #888;
+  color : #fff;
+  border-bottom : 1px solid #888;
+}
+
+div.tabspacer {
+  background-color : #CCC3B2;
+  padding : 2px 1em;
+  text-decoration : none;
+  font-size : 1em;
+  height : 1.2em;
+  margin : 0px;
+  border-top : 1px solid #CCC3B2;
+  border-bottom : 1px solid #888;
+}
+
+a.tabselect {
+  border-bottom : 1px solid #eef;
+  background-color : #eef;
+}
+
+a.tablink {
+  background-color : #ccc;
+  border-bottom : 1px solid #888;
+}
+
+/* ========= LOGIN ============ */
+
+#login {
+  margin : 2em auto;
+  padding : 1em;
+  background-color : #eee;
+  border : 2px solid #888;
+  border-color : #ddd #666 #333 #ccc;
+  width : 30em;
+  text-align : center;
+}
+
+#loginheading {
+  color : #036;
+  font-weight : bold;
+  font-size : 1.5em;
+}
+
+#login table {
+}
+
+#login th {
+  text-align : right;
+  font-size : 1em;
+}
+
+#login input {
+  font-size : 1.4em;
+  margin : 2px;
+}
+
+/* =================FORM ELEMENTS================= */
+.formitem {
+  background-color : #fff;
+  border : 1px solid #000;
+}
+
+.formitemerror {
+  background-color : #ff7;
+  border : 1px solid #000;
+}
+
+span.formrequired {
+  color : #f00;
+  font-weight : bold;
+  padding-right : 2px;
+}
+
+.formtitlebreak{
+  line-height:1px;
+  clear : both;
+}
+
+div.formtitle {
+  float : left;
+  text-align : right;
+  font-weight : bold;
+  width : 200px;
+  padding : 5px 0px;
+  font-size : 0.8em;
+}
+
+br.formbreak {
+  clear : both;
+  line-height : 1px;
+}
+
+div.forminfo {
+  margin-left : 214px;
+  padding : 5px 0px;
+}
+
+input.formsubmit {
+  color : #000;
+  cursor : pointer;
+  font-size : 1em;
+}
+
+div.error {
+  margin : 10px auto;
+  border : 2px solid #f00;
+  background-color : #f88;
+  padding : 0.5em;
+  width : 300px;
+  text-align : center;
+}
+
+#configform, #infobox {
+  background-color : #eef;
+  width : 50em;
+  margin : 2em auto;
+  padding : 1em 2em;
+  border : 1px solid #888;
+}
+
+#configform h1, #infobox h1 {
+  color : #036;
+}
+
+#configform h3, #infobox h3 {
+  color : #f00;
+}
+
+#infobox {
+  margin : 2em 10%;
+  width : 80%;
+  position : absolute;
+  top : 30px;
+}
+
+fieldset {
+  background-color : #eee;
+  margin-bottom : 20px;
+}
+
+legend {
+  font-weight : bold;
+  color : #f00;
+}
+
+/* ================= VIEW LOG ================= */
+#viewlogdiv {
+  background-color : #fff;
+  border : 1px solid #888;
+  padding : 1em;
+}
+
+/* ================= VIEW ALL IMAGES ================= */
+#viewallimages {
+  background-color : #000;
+}
+
+#viewallimages span.version {
+  font-size : 0.6em;
+}
+
+#viewallimages div.buttons {
+  font-size : 0.6em;
+  margin : 10px;
+}
+
+#viewallimages td {
+  background-color : #fff;
+}
+
+#rename_image {
+  color : #fff;
+  font-size : 1.2em;
+}
+
+p.duplicatefile {
+  text-align : center;
+  color : white;
+}
+
+.viewpicture {
+  position : absolute;
+  margin-left : -2px;
+  border : 2px solid #000;
+}
+
+/* =================IMAGES================= */
+img.left {
+  float : left;
+  margin-right : 1em;
+  vertical-align : text-top;
+}
+
+img.right {
+  float : right;
+  margin-left : 1em;
+  vertical-align :
+  text-top;
+}
+
+a.imagelink {
+  padding : 0px;
+  display : block;
+  border : 2px solid #000;
+  background-color : #fff;
+}
+
+a.imagelink:hover {
+  color : #f00;
+  border-color : #f00;
+}
+
+/* =================FLASH MESSAGES================= */
+#flash {
+  position : absolute;
+  top : 100px;
+  left : 50%;
+  margin-left : -210px;
+  width : 400px;
+  border : 2px solid;
+  border-color : #ccc #666 #555 #bbb;
+  background-color : #000;
+  color : #fff;
+  padding : 10px;
+  text-align : center;
+  z-index : 10000;
+}
+
+table.upload {
+  margin-top : 2em;
+  border : 1px solid #888;
+  background-color : #aaa;
+  text-align : center;
+  font-weight : bold;
+  color : white;
+}
+
+table.upload td {
+  padding : 1em 2em;
+}
+
+#archive {
+  margin:1em; 
+  background-color:#fff; 
+  padding:2em; 
+  text-align:left;
+}
+
+#archive  h3 { 
+  padding : 3px; 
+  background-color:#eee; 
+  border-bottom:1px solid #888;
+}
+
+/* ---------- SEARCH ---------- */
+#seach_helptext {
+  margin-left:110px;
+  background-color:#FFFF7F;
+  border:1px dashed #888; 
+  padding:0px 1em;
+}
+
+#seach_header {
+  background-color : #eee;
+  border : 1px solid #888;
+  margin : 1em auto;
+  padding : 1em;
+  width : 700px;
+}
+
+#seach_header div.formtitle {
+  clear : both;
+  font-size : 1em;
+  float : left;
+  text-align : right;
+  font-weight : bold;
+  width : 150px;
+  padding : 5px 0px;
+}
+
+#seach_header div.formitem {
+  background-color : #eee;
+  border : 1px solid #000;
+  font-size : 1em;
+}
+
+
+
+#seach_header div.forminfo {
+  margin-left : 160px;
+  padding : 5px 0px;
+  font-size : 0.9em;
+}
+
+#seach_header.formitem2 {
+  background-color : #eee;
+  border : 1px solid #000;
+}
+
+#seach_header div.formtitle2 {
+  margin-left : 50px;
+  clear : both;
+  float : left;
+  text-align : right;
+  font-weight : bold;
+  font-size : 0.9em;
+  width : 250px;
+  padding : 5px 0px;
+}
+
+#seach_header div.forminfo2 {
+  margin-left : 310px;
+  padding : 5px 0px;
+}
+
+.search_num {
+  float: left;
+  color: gray;
+  text-align: right;
+  margin-right: 6pt;
+  padding-right: 6pt;
+  border-right: 1px solid gray;
+}
+.search_filecontent {
+  white-space:nowrap;
+}
+
+.fileview{
+  background-color:#eee; 
+  border:1px solid #888; 
+  padding:0.5em;
+}
+
+.fileview pre, .php {
+  background-color:#fff; 
+  padding:0.25em;
+}
+
+span.found {
+    background-color:#f00;
+    color:#fff;
+}
+
+#time_table {
+  background-color : #333;
+  margin-top : 5px;
+  margin-bottom : 5px;
+  font-size : 0.9em;
+}
+#time_table td {
+  background-color : #fff;
+  padding : 1px 4px;
+}
+
+#time_table th {
+  background-color : #555;
+  color : #fff;
+  padding : 0px 3px;
+}

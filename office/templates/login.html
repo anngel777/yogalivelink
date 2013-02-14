@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- ================Template :: login================ -->   
+    <title>Yoga Live Link - Login</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    
+    <style type="text/css">
+        *{margin:0;padding:0;}
+        body {
+            border-top: 30px solid #000;
+            font:11px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+            background-color:#C5CF88;
+        }
+        form {
+            margin-left:8px;
+            padding:16px 16px 40px 16px;
+            font-weight:normal;
+            -moz-border-radius:11px;
+            -khtml-border-radius:11px;
+            -webkit-border-radius:11px;
+            border-radius:5px;
+            background:#fff;
+            border:1px solid #e5e5e5;
+            -moz-box-shadow:rgba(200,200,200,1) 0 4px 18px;
+            -webkit-box-shadow:rgba(200,200,200,1) 0 4px 18px;
+            -khtml-box-shadow:rgba(200,200,200,1) 0 4px 18px;
+            box-shadow:rgba(200,200,200,1) 0 4px 18px;
+        }
+        
+        .button-primary{font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;padding:3px 10px;border:none;font-size:12px;border-width:1px;border-style:solid;-moz-border-radius:11px;-khtml-border-radius:11px;-webkit-border-radius:11px;border-radius:11px;cursor:pointer;text-decoration:none;margin-top:-3px;}
+        #login form p{margin-bottom:0;}
+        label{color:#D04945;font-size:13px;float:left;}
+        
+        
+        
+        #logo a{background:url(../images/logo-login.gif) no-repeat top center;width:326px;height:67px;text-indent:-9999px;overflow:hidden;padding-bottom:15px;display:block;}
+        #nav{text-shadow:rgba(255,255,255,1) 0 1px 0;}
+        #backlink {position:absolute; top:0px; left:0px; padding: 7px 10px 0px 10px;}
+        #backlink a{position:relative; text-decoration:none; color:#fff;}
+        
+        #existing_users_header {
+            border-bottom:1px solid #AA1149;
+            color:#AA1149;
+            font-weight:bold;
+            font-size:16px;
+        }
+        
+        #homelinks {
+            border-top:1px solid #AA1149;
+            padding-top:10px;
+        }
+        #homelinks a{text-decoration:none; color:#AA1149;}
+        #homelinks a:hover{text-decoration:none; color:#AA1149; background-color:#eee;}
+        
+        #login {
+            width:550px;
+            margin:2em auto;
+        }
+        
+        #error {
+            margin:0 0 16px 8px;
+            padding:12px;
+            -moz-border-radius:3px;
+            -khtml-border-radius:3px;
+            -webkit-border-radius:3px;
+            border-radius:3px;
+            border : 2px solid #990000;
+        }
+        #message {
+            margin:0 0 16px 8px;
+            padding:12px;
+            -moz-border-radius:3px;
+            -khtml-border-radius:3px;
+            -webkit-border-radius:3px;
+            border-radius:3px;
+            border : 2px solid #000;
+        }
+        
+        
+        #nav{margin:0 0 0 8px;padding:16px;}
+        #PASS,#user_login,#user_email {
+            font-size:24px;
+            width:97%;
+            padding:3px;
+            margin-top:2px;
+            margin-right:6px;
+            margin-bottom:2px;
+            border:1px solid #e5e5e5;
+            background:#fbfbfb;
+        }
+        input{color:#555;}
+        .clear{clear:both;}
+        
+        
+        #signup_button {
+            border:3px solid #ccc;
+            background-color: #9D9C40;
+            padding:15px;
+            width:100px;
+            height:200px;
+            text-align:center;
+            color:#fff;
+            font-size: 18px;
+        }
+        #signup_button:hover{
+            border:3px solid #ccc;
+            background-color: #D1554D;
+            padding:15px;
+            width:100px;
+            height:200px;
+            text-align:center;
+            color:#000;
+            font-size: 18px;
+        }
+    </style>
+    
+    <script type="text/javascript">
+/* <![CDATA[ */
+        var url = document.URL;
+        var dialogPos = url.indexOf('DIALOGID=');
+        if (dialogPos > 0) {
+            var dialogNumber = url.substring(dialogPos+9, url.length);
+            var dialogId = 'appform' + dialogNumber;
+            var iframeId = 'appformIframe' + dialogNumber;
+            var dialog = parent.document.getElementById(dialogId);
+            var iframe = parent.document.getElementById(iframeId);
+
+            dialog.style.height = 368 + 'px';
+            dialog.style.width = 545 + 'px';
+
+            iframe.style.height = 345 + 'px';
+            iframe.style.width  = 545 + 'px';
+        }
+
+        function getId(id) { return document.getElementById(id); }
+        function showId(id) { if (getId(id)) { getId(id).style.display =''; } }
+        function hideId(id) { if (getId(id)) { getId(id).style.display ='none'; } }
+
+        var MyPassword = '<input type="@@TYPE@@" id="PASS" name="PASS" size="15" value="@@VALUE@@" />';
+        function changePassText() {
+            myElem  = getId('span_password');
+            myValue = getId('PASS').value;
+            myCheck = getId('pvcheck');
+            if (myCheck.checked == true) {
+              var myInput = MyPassword.replace('@@TYPE@@','text');
+            } else {
+              var myInput = MyPassword.replace('@@TYPE@@','password');
+            }
+            myElem.innerHTML = myInput.replace('@@VALUE@@',myValue);
+        }
+
+        function logInSelect(login)
+        {
+            switch(login) {
+            case 0:
+                showId('login_table');
+                hideId('logout');
+            break;
+            case 1:
+                hideId('login_table');
+                showId('logout');
+                
+                window.location = "http://www.yogalivelink.com";
+                
+            break;
+            case 2:
+                forgotPassword();
+            break;
+            default:
+                showId('login_table');
+                hideId('logout');
+            }
+        }
+
+
+        function forgotPassword()
+        {
+            showId('login_table');
+            hideId('logout');
+            hideId('password_row');
+            hideId('submit_login');
+            showId('reset_password');
+        }
+
+        function setLogin() {
+            showId('password_row');
+            showId('submit_login');
+            hideId('reset_password');
+        }
+        
+        function goSignup() {
+            //window.location = "/signup";
+            top.parent.location = "/signup";
+        }
+        
+/* ]]> */
+    </script>
+</head>
+<body class="login admin" onload="logInSelect(@@LOGIN@@);">
+
+<div id="backlink">
+<div><a href="#">Yoga Live Link Login</a></div>
+</div>
+
+
+
+
+
+<div id="login">
+<div><img src="http://www.yogalivelink.com/office/images/yogalivelinks_header.png" alt=""/></div><br />
+
+
+    @@ERROR@@
+    @@MESSAGE@@
+    
+    <div id="logo"></div>
+    
+    <br />
+
+    <form method="post" action="/office/">
+
+        
+
+    
+    
+    <!-- ============================ LOG IN ============================= -->
+    <div name="loginform" id="login_table" style="display:none;">
+    
+<table cellspacing="5">
+<tr>
+<td>
+    
+    <div id="signup_button" onclick="goSignup();">
+        SIGN-UP FOR AN ACCOUNT
+    </div>
+
+</td>
+<td>
+&nbsp;&nbsp;&nbsp;
+</td>
+<td>
+                <br />
+                <div id="existing_users_header">EXISTING USERS:</div>
+                <br /><br />
+                
+                <label>Username</label><br />
+                <input name="USER" id="user_login" class="input" value="@@USER@@" size="20" tabindex="10" type="text">
+                <br /><br />
+                
+                <div id="password_row">
+                    <label>Password</label><br />
+                    <span id="span_password">
+                    <input name="PASS" id="PASS" class="input" value="@@PASS@@" size="15" tabindex="10" type="password">
+                    </span>
+                    <div style="float:left;">
+                    <input id="pvcheck" type="checkbox" onclick="changePassText();"/>&nbsp;<span style="color:#000; font-size:0.7em;">Show&nbsp;Password</span>
+                    </div>
+                </div>
+                
+                <div id="submit" align="center">
+                    <br /><br />
+                    <div id="submit_login">
+                    <input type="submit" name="LOGIN" value="Log In" class="button-primary" tabindex="100"/>
+                
+                    <br /><br />
+                    <a href="#" onclick="forgotPassword(); return false;">Forgot your Password?</a>
+                    </div>
+                    
+                    <div style="display:none;" id="reset_password" >
+                        <input type="submit" name="RESET_PASSWORD" value="Reset Password" class="button-primary" tabindex="100"/>
+                        <br /><br />
+                        <p>This action will reset your password.<br />A new password will then be emailed to you.</p>
+                        <p><a href="#" onclick="setLogin(); return false;">Login</a></p>
+                    </div>
+                </div>
+</td>
+</tr>
+</table>
+
+                
+    </div>
+    <!-- =================================================================== -->
+    
+    
+    
+    <!-- ============================ LOG OUT ============================= -->
+    <div id="logout" style="display:none;">
+        <h2>You Are Now Logged Out</h2>
+        <br />
+        <input type="button" value="Log In" class="button-primary" onclick="logInSelect(0);"/>        
+    </div>
+    <!-- =================================================================== -->
+    
+    
+    <!-- ============================ BOTTOM HOME LINKS ============================= -->
+    <br />
+    <div id="homelinks">
+        <a href="/index;bypass">[GO HOME]</a>
+    </div>
+    
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,196 @@
+body {
+  /*background-color : #fff;*/
+  /*background-image : url(/images/bg_body_w.gif);*/
+  background-repeat : repeat-x;
+  padding-top : 0px;
+  height:100%;
+}
+
+/* ==================== MENU_ICONS ==================== */
+#menu_icons {
+  position : absolute;
+  left : 300px;
+  margin:5px;
+}
+
+a.menu_icon_bar {
+  margin-left : 0px;
+}
+.menu_group {
+  margin-left : 0px;
+}
+
+
+#dialog_body {
+  padding : 0px;
+}
+
+#principal_notice {
+  float : right;
+  background-color : #ff7;
+  color : #000;
+  padding : 2px 5px;
+  margin-right : 10px;
+  cursor : pointer;
+}
+
+#DB_QUERY_BUTTON {
+   display : block;
+   float : right;
+   margin-right : 10px;
+   background-color : #444;
+   padding : 1px 3px;
+   text-decoration : none;
+   color : #fff;
+  -moz-border-radius : 5px;
+  -webkit-border-radius: 5px;
+}
+
+#CLASS_BUTTON {
+   display : block;
+   float : right;
+   margin-right : 10px;
+   background-color : #444;
+   padding : 1px 3px;
+   text-decoration : none;
+   color : #fff;
+  -moz-border-radius : 5px;
+  -webkit-border-radius: 5px;
+}
+
+#apps {
+  margin-top : -15px;
+}
+
+#appform_taskbar {
+  background-color : #222;
+  border-top:1px solid #F29A26;
+}
+
+#appform_taskbar span {
+  background-color : #222;
+}
+
+.appform_titlebar {
+  background-color : #222;
+  color : #fff;
+}
+
+.appform_controls a {
+  border-left : 1px solid #222;
+  background-color : #444;
+}
+
+#homepict {
+  /*background-image : url(/images/SiFore_Logo.png);*/
+  height : 234px;
+  width : 500px;
+  position : absolute;
+  right : 0px;
+  bottom : 20px;
+}
+
+#sitetitle{
+    color : #222;
+}
+
+fieldset {
+  margin-bottom : 20px;
+  background-color : #eef;
+}
+
+fieldset legend {
+  font-weight : bold;
+  font-size : 1.1em;
+  color : #800;
+}
+
+
+.TABLE_DISPLAY a.row_add {
+  background-image : url(/wo/images/b_edit.gif);
+  background-repeat : no-repeat;
+  display : block;
+  width : 17px;
+  height : 15px;
+  background-image : url(/wo/images/b_add.gif);
+  background-position : 1px 1px;
+}
+
+.formtitlebreak{
+  display : none;
+}
+
+/* ==================== MISC ==================== */
+.formitem_loading {
+  background : url(/wo/images/indicator.gif) left center no-repeat #eee;
+}
+
+/* ==================== Opportunity Lines Table ==================== */
+
+
+.powerpoint_link{
+    display : block;
+    background : url(/images/ppt.gif) no-repeat;
+    width : 16px;
+    height : 16px;
+}
+.powerpoint_link:hover{
+  background-position: 0px -16px;
+}
+
+#ppt_export_button {
+    display : block;
+    height : 16px;
+    background : url(/images/ppt.gif) no-repeat;
+    font-size : 0.8em;
+    background-color : #888;
+    color : #fff;
+    padding-left : 20px;
+    width : 10em;
+    text-decoration : none;
+    float : right;
+    margin-top: 3px;
+}
+#ppt_export_button:hover {
+    background-color : #036;
+}
+
+/* ==================== Opportunity Lines Table ==================== */
+
+
+
+.word_export {
+  display : block;
+  text-decoration : none;
+  color : #333;
+  background: url(/wo/images/menu_icons/ms_word.png) no-repeat #eee;
+  font-size : 14px;
+  padding : 25px 10px 25px 70px;
+  border : 1px solid #ccc;
+  vertical-align : middle;
+  padding-left : 70px;
+  width : 11em;
+}
+
+.word_export:hover {
+  background-color : #efe;
+}
+
+/* =================FORM ELEMENTS================= */
+fieldset {
+  border : 1px solid #888
+}
+
+.date_entry {
+  background: url(/wo/images/calendar.gif) right no-repeat;
+  width : 6.5em;
+}
+
+.forminfo {white-space:nowrap}
+
+
+
+/* =================Custom Page Head================= */
+.pagehead {
+  font-weight: bold;
+}

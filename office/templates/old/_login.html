@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>@@TITLE@@</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <link rel="stylesheet" type="text/css" href="/wo/wo_style.css" />
+    <script type="text/javascript">
+/* <![CDATA[ */
+        var url = document.URL;
+        var dialogPos = url.indexOf('DIALOGID=');
+        if (dialogPos > 0) {
+            var dialogNumber = url.substring(dialogPos+9, url.length);
+            var dialogId = 'appform' + dialogNumber;
+            var iframeId = 'appformIframe' + dialogNumber;
+            var dialog = parent.document.getElementById(dialogId);
+            var iframe = parent.document.getElementById(iframeId);
+
+            dialog.style.height = 298 + 'px';
+            dialog.style.width = 545 + 'px';
+
+            iframe.style.height = 275 + 'px';
+            iframe.style.width  = 545 + 'px';
+        }
+
+        function getId(id) { return document.getElementById(id); }
+        function showId(id) { if (getId(id)) { getId(id).style.display =''; } }
+        function hideId(id) { if (getId(id)) { getId(id).style.display ='none'; } }
+
+        var MyPassword = '<input type="@@TYPE@@" id="PASS" name="PASS" size="15" value="@@VALUE@@" />';
+        function changePassText() {
+            myElem  = getId('span_password');
+            myValue = getId('PASS').value;
+            myCheck = getId('pvcheck');
+            if (myCheck.checked == true) {
+              var myInput = MyPassword.replace('@@TYPE@@','text');
+            } else {
+              var myInput = MyPassword.replace('@@TYPE@@','password');
+            }
+            myElem.innerHTML = myInput.replace('@@VALUE@@',myValue);
+        }
+
+        function logInSelect(login)
+        {
+            switch(login) {
+            case 0:
+                showId('login_table');
+                hideId('logout');
+            break;
+            case 1:
+                hideId('login_table');
+                showId('logout');
+            break;
+            case 2:
+                forgotPassword();
+            break;
+            default:
+                showId('login_table');
+                hideId('logout');
+            }
+        }
+
+
+        function forgotPassword()
+        {
+            showId('login_table');
+            hideId('logout');
+            hideId('password_row');
+            hideId('submit_login');
+            showId('reset_password');
+        }
+
+        function setLogin() {
+            showId('password_row');
+            showId('submit_login');
+            hideId('reset_password');
+        }
+
+/* ]]> */
+    </script>
+</head>
+<body class="admin" style="text-align:center;" onload="logInSelect(@@LOGIN@@);">
+<form method="post" action="@@PAGELINKQUERY@@">
+<div id="login">
+@@ERROR@@@@MESSAGE@@
+    <p id="loginheading">@@TITLE@@</p>
+<!-- ============================ LOG IN ============================= -->
+    <table align="center" id="login_table" style="display:none;">
+        <tr>
+            <th>
+                User Name:
+            </th>
+            <td style="text-align:left;">
+                <input type="text" name="USER" value="@@USER@@" size="30" />
+            </td>
+        </tr>
+        <tr id="password_row">
+            <th>Password:</th>
+            <td style="text-align:left;">
+                <span id="span_password"><input name="PASS" id="PASS" size="15" value="@@PASS@@" type="password" /></span>
+                <input id="pvcheck" type="checkbox" onclick="changePassText();"/>&nbsp;<span style="color:#000; font-size:0.7em;">Show&nbsp;Password</span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" id="submit" align="center">
+                <div id="submit_login">
+                <input type="submit" name="LOGIN" value="Log In" />
+                <p><a href="#" onclick="forgotPassword(); return false;">Forgot your Password?</a></p>
+                </div>
+                <div style="display:none;" id="reset_password" >
+                    <input type="submit" name="RESET_PASSWORD" value="Reset Password" />
+                    <p>This action will reset your password.<br />A new password will then be emailed to you.</p>
+                    <p><a href="#" onclick="setLogin(); return false;">Login</a></p>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+<!-- ============================ LOG OUT ============================= -->
+    <div id="logout" style="display:none;">
+        <h1>Good Bye!</h1>
+        <p><input type="button" value="Log In" onclick="logInSelect(0);" /></p>
+    </div>
+<!-- =================================================================== -->
+
+</div>
+</form>
+</body>
+</html>

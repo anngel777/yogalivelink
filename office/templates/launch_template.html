@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- ================Template :: launch_template================ -->   
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>@@TITLE@@</title>
+
+<style type="text/css" media="screen">
+  @import url(/wo/wo_style.css);
+  @import url(/css/site.css);
+  @import url(/office/css/site_class_styles.css);
+  @import url(/GROUP/jslib/themes/base/ui.core.css;jslib/themes/base/ui.theme.css;jslib/themes/base/ui.datepicker.css);
+</style>
+
+<!-- @@STYLE@@ -->
+<script type="text/javascript" src="/GROUP/jslib/jquery-1.4.2.min.js;jslib/ui/ui.core.js;jslib/ui/ui.draggable.js;jslib/ui/ui.datepicker.js;jslib/jquery.autocomplete.js;jslib/jquery.ajaxQueue.js;jslib/countdown/jquery.countdown.pack.js"></script>
+<script type="text/javascript" src="/wo/wo_all.js??20100924-4"></script>
+<script type="text/javascript" src="/wo/wo_custom.js"></script>
+<script type="text/javascript" src="/office/js/site.js"></script>
+<script type="text/javascript" src="/jslib/jquery.tools.min.js"></script>
+
+
+<!-- @@SCRIPTINCLUDE@@ -->
+<script type="text/javascript">
+   var dialogNumber = '@@DIALOGNUMBER@@';
+   var isFolder = '@@IS_FOLDER@@';
+</script>
+<!-- @@SCRIPT@@ -->
+
+</head>
+<body id="dialog_body" title="@@BODY@@" style="background-color:#F6F0E1;">
+<center>
+
+<div id="apps"></div>
+
+<div id="dialogco__ntainer"  style="border:0px;">
+@@PHPERROR@@
+@@ERROR@@
+@@MESSAGE@@
+@@FLASH@@
+<!-- ================================ CONTENT ===================================== -->
+
+<div id="d___ialogcontent" style="background-color:#F5F1E2;">
+    <div style="padding-top:5px; w___idth:@@DIALOG_CONTENT_WIDTH@@; ">
+        
+        <div>
+            <div style="float:left;"><img src="/office/images/yogalivelinks_header.jpg" height="50" width="200" alt=""/></div>
+            <div style="float:right; padding-right:10px;">@@CONTENT_TOP@@</div>
+            <div class="clear"></div>
+        </div>
+        
+        <br />
+        <div id="c____ustomer_content" style="text-align:left; ">@@CONTENT@@</div>
+        <div class="clear"></div>
+    </div>
+</div>
+<!-- ================================ END CONTENT ===================================== -->
+@@DBMESSAGES@@
+</div>
+
+
+</center>
+</body>
+</html>
