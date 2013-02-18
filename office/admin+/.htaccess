@@ -1,0 +1,9 @@
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+Options +FollowSymlinks
+RewriteEngine on
+RewriteBase /admin+
+RewriteRule ^(.*)\.* site_admin.php?$1
+IndexIgnore *
