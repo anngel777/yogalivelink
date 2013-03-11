@@ -791,6 +791,7 @@ class Sessions_Signup extends BaseClass
         $passed = ($this->TESTING && $this->TESTING_Force_Fail_Credit_Use) ? false : $passed;
         
         
+        
         # START TRANSACTION
         # ============================================================
         if ($show_msg) $output .= "<div class='success_message'>PROCESSING TRANSACTION...</div>";
@@ -2074,6 +2075,19 @@ SCRIPT;
             }
         }
         
+    }
+    
+    public function checkIntakeForm(){
+        $record = $this->SQL->GetRecord(array(
+            'table' => 'intake_form_standard',
+            'keys'  => '*',
+            'where' => "`wh_id`='{$this->WH_ID}'",
+        ));
+        
+        if(!$record){
+            return false;
+        }
+        return true;
     }
 
 }  // -------------- END CLASS --------------

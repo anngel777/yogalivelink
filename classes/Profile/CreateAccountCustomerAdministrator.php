@@ -194,18 +194,18 @@ class Profile_CreateAccountCustomerAdministrator extends BaseClass
                     
                     'code|<br />',
                     
-                    'text|Address 1|address_1|N|60|100',
-                    'text|Address 2|address_2|N|60|100',
+                    //'text|Address 1|address_1|N|60|100',
+                    //'text|Address 2|address_2|N|60|100',
                     //'text|Address 3|address_3|N|60|100',
-                    'text|City|city|N|60|100',
-                    'text|State|state|N|60|100',
-                    'text|Postal Code|postal_code|N|50|50',
-                    "select|Country|country_code|Y||$country_types",
-                    'phone|Phone Number|phone_home|Y|',
+                    //'text|City|city|N|60|100',
+                    //'text|State|state|N|60|100',
+                    //'text|Postal Code|postal_code|N|50|50',
+                    //"select|Country|country_code|Y||$country_types",
+                    //'phone|Phone Number|phone_home|Y|',
                     
                     "code|<br />",
                     
-                    "select|Time Zone|time_zones_id|Y||$timezone_types",
+                    //"select|Time Zone|time_zones_id|Y||$timezone_types",
                     
                     "code|<br />",
                     
