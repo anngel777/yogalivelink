@@ -313,7 +313,7 @@ class Website_Instructors extends BaseClass
                 ChangeInstructorsByYogaType();
             });";
             
-            if($_GET['style'] == "therapy"){
+            if(isset($_GET['style']) && $_GET['style'] == "therapy"){
                 $script .= "
                 $('#FORM_yoga_types').val('Yoga Therapy');
                 ChangeInstructorsByYogaType();
