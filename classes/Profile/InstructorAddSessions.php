@@ -1,7 +1,10 @@
 <?php
 class Profile_InstructorAddSessions extends BaseClass
 {
-    public $num_sessions                    = 2;    // Number of sessions to add
+    public $Enabled							= false;	// (false) TRUE = allow this class to run - DEV class so leave disabled
+	
+	
+	public $num_sessions                    = 2;    // Number of sessions to add
     public $num_booked_sessions             = 2;    // Number of sessions to mark as booked
     public $num_free_credits                = 5;    // Number of fake credits
     
@@ -15,10 +18,14 @@ class Profile_InstructorAddSessions extends BaseClass
         $this->ClassInfo = array(
             'Created By'  => 'Richard Witherspoon',
             'Created'     => '2011-01-01',
-            'Updated By'  => '',
-            'Created'     => '',
-            'Version'     => '1.0',
+            'Updated By'  => 'Richard Witherspoon',
+            'Created'     => '2013-03-13',
+            'Version'     => '1.1',
             'Description' => 'Add fake sessions for all instructors',
+			'Update Log'	=> array(
+				'2011-01-01_1.0' => "Class created",
+				'2013-03-13_1.1' => "Added variable to disable this class",
+			),
         );
         
         $this->SetSQL();
@@ -34,7 +41,12 @@ class Profile_InstructorAddSessions extends BaseClass
     
     public function Execute()
     {
-        $num_months         = 2;    // How far in future to create events
+        if (!$this->Enabled) {
+			echo "<h1>ERROR :: Profile_InstructorAddSessions :: Execute() :: Funtionality disabled - please contact a system administrator.</h1>";
+			exit();
+		}
+		
+		$num_months         = 2;    // How far in future to create events
         $num_days           = 15;   // How many days out of each month to create events for
         $num_sessions_day   = 2;    // How many sessions during any given day should it create
         
