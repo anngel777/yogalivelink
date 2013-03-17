@@ -221,7 +221,13 @@ class Sessions_Signup extends BaseClass
         if (!isset($_SESSION['USER_LOGIN']['LOGIN_RECORD']['wh_id']) && $step != 'signup_summary') {
             $link = $this->MakeStepLink('signup_summary');
             header("Location: {$link}");
-            #exit();
+            #exit();        
+        } 
+        
+        # CHECK FOR INTAKE FORM 
+        if(isset($_SESSION['USER_LOGIN']['LOGIN_RECORD']['wh_id']) && !$this->checkIntakeForm() && $step !='intakeform_needed'){ 
+              $link = $this->MakeStepLink('intakeform_needed');
+              header("Location: {$link}");
         }
         
         
@@ -416,6 +422,20 @@ class Sessions_Signup extends BaseClass
                 $output .= MakeButton('positive', 'CONTINUE', '/office/index');
                 //$output .= MakeButton('negative', 'GO BACK TO SEARCH', '', '', '', "parent.CloseOverlay();");
                 $output .= MakeButton('positive', 'GO BACK TO SEARCH', '', '', '', "top.window.location.reload();");
+                $step_output = $this->OBJ_STEP->GetSteps($this->Step_Array, 1, $output, 700);
+            break;
+            
+            case 'intakeform_needed':
+            $o = "<div style=\"width:600px\">
+                    <h3>You must fill out fitness form before you can schedule a session</h3>";
+                    $q = EncryptQuery("class=Profile_FormStandardIntake;v1=;v2=$this->WH_ID");
+            $o .=  "<br>
+                    <a href='/office/class_execute?eq=$q;template=overlay;DIALOGID=1'>
+                        <span style=\"font-size:16px;\">edit my yoga: fitness form</span>
+                    </a>
+                  </div>";
+
+                $output .= $o;
                 $step_output = $this->OBJ_STEP->GetSteps($this->Step_Array, 1, $output, 700);
             break;
             

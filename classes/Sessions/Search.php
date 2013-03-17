@@ -712,6 +712,12 @@ class Sessions_Search extends BaseClass
                 <div class='red left_content'>Yoga Style: {$this->Searching_Yoga_Style_Display}</div>
             </div>
             
+            <a href="#" style="color:white">
+                <div class="search_zones" style="background:#AA1149; color:white; font-weight:bold; text-align:center; padding:3px 0;">
+                    Don't See A Time You Want?<br>Click Here To Request A Session Time  
+                </div>
+            </a>
+            
             <div>
                 {$this->rowData}
             </div>

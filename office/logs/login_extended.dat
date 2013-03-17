@@ -2977,3 +2977,9 @@ saint||User name not found|204.238.82.23|/office/
 2013-03-12 17:49:27|LOGIN|beeadventuress@gmail.com|N0****0p|Login Successful|127.0.0.1|/office/
 2013-03-12 17:50:12|LOGIN|shawn@audioglobe.com|N0****0p|Login Successful|127.0.0.1|/office/
 2013-03-13 20:48:34|LOGIN|electricBonfire@gmail.com|n0****0p|Login Successful|127.0.0.1|/office/
+2013-03-16 23:19:56|LOGIN|beeadventuress|N0****0p|User Name must be a valid email address|127.0.0.1|/office/
+2013-03-16 23:20:03|LOGIN|beeadventuress@gmail.com|N0****0p|Login Successful|127.0.0.1|/office/
+2013-03-16 23:21:21|LOGIN|beeadventuress|N0****0p|User Name must be a valid email address|127.0.0.1|/office/
+2013-03-16 23:21:30|LOGIN|beeadventuress@gmail.com|N0****0p|Login Successful|127.0.0.1|/office/
+2013-03-17 01:28:48|LOGIN|beeadventuress@gmail.com|N0****0p|Login Successful|127.0.0.1|/office/
+2013-03-17 01:30:13|LOGIN|beeadventuress@gmail.com|N0****0p|Login Successful|127.0.0.1|/office/

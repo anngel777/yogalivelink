@@ -12,20 +12,9 @@ Last Updated By:
 $Obj = new Sessions_Signup();
 $Obj->sessions_id = (Get('sid')) ? Get('sid') : $Obj->sessions_id;
 
-if($Obj->checkIntakeForm()):
-    $step = (Get('step')) ? Get('step') : 'start';
-    echo $Obj->HandleStep($step);
-else : ?>
-    <div style="width:600px">
-        <h3>You must fill out fitness form before you can schedule a session</h3>
-    
-        <?php $q = EncryptQuery("class=Profile_FormStandardIntake;v1=;v2=$Obj->WH_ID"); ?>
-        <br>
-        <a href='/office/class_execute?eq=<?php echo $q?>;template=overlay;DIALOGID=1'>
-            <span style="font-size:16px;">edit my yoga: fitness form</span>
-        </a>
-    </div>
-<?php endif;
+
+$step = (Get('step')) ? Get('step') : 'start';
+echo $Obj->HandleStep($step);
 
 # RESIZE THE CURRENT FRAME TO FIT CONTENTS
 # ================================================

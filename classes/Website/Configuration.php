@@ -180,13 +180,21 @@ class Website_Configuration extends BaseClass
                         $title      = ($parts[0]) ? trim($parts[0]) : '';
                         $link       = ($parts[1]) ? trim($parts[1]) : '';
                         $class      = ($link == $PAGE['pagename']) ? 'active' : 'inactive';
-
-                        if($title == "instructors"){// || $title == "schedule"){
-                            $output .= "<li><a href='$link' class='$class'>$title</a>
-                                            <ul class='dropdown'><li><a href='/instructors'>Yoga</a></li>
-                                            <li><a href='/instructors?style=therapy'>Yoga Therapy</a></li></ul>
-                                        </li>";
-                        } else {
+                        
+                        switch($title){
+                            case "instructors":
+                                $output .= "<li><a href='$link' class='$class'>$title</a>
+                                                <ul class='dropdown'><li><a href='$link'>Yoga</a></li>
+                                                <li><a href='$link?style=therapy'>Yoga Therapy</a></li></ul>
+                                            </li>";
+                                break;
+                            case "schedule":
+                                $output .= "<li><a href='$link' class='$class'>$title</a>
+                                                <ul class='dropdown'><li><a href='$link'>Yoga</a></li>
+                                                <li><a href='$link;style=therapy'>Yoga Therapy</a></li></ul>
+                                            </li>";
+                                break;
+                            default:
                             $output    .= "<li><a href='$link' class='$class'>$title</a></li>";
                         }
                     }
