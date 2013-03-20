@@ -229,6 +229,12 @@ class Sessions_Signup extends BaseClass
               $link = $this->MakeStepLink('intakeform_needed');
               header("Location: {$link}");
         }
+        $type = Get('stype') ? Get('stype') : 'standard';
+        # If therapy session check from therapy form
+        if(isset($_SESSION['USER_LOGIN']['LOGIN_RECORD']['wh_id']) && $type == "therapy" && !$this->checkTherapyIntakeForm() && $step != 'therapy_intakeform_needed'){
+            $link = $this->MakeStepLink('therapy_intakeform_needed');
+            header("Location: {$link}");
+        }
         
         
         # PROCESS THE EXPIRATION TIME
@@ -438,6 +444,20 @@ class Sessions_Signup extends BaseClass
                 $output .= $o;
                 $step_output = $this->OBJ_STEP->GetSteps($this->Step_Array, 1, $output, 700);
             break;
+
+            case 'therapy_intakeform_needed':
+                $o = "<div style=\"width:600px\">
+                    <h3>You must fill out a therapy form before you can schedule a session</h3>";
+                $q = EncryptQuery("class=Profile_FormTherapyIntake;v1=;v2=$this->WH_ID");
+                $o .=  "<br>
+                    <a href='/office/class_execute?eq=$q;template=overlay;DIALOGID=1'>
+                        <span style=\"font-size:16px;\">edit my yoga therapy: health form</span>
+                    </a>
+                  </div>";
+
+                $output .= $o;
+                $step_output = $this->OBJ_STEP->GetSteps($this->Step_Array, 1, $output, 700);
+                break;
             
             case 'payment':
                 $this->current_step = 2;
@@ -2104,6 +2124,19 @@ SCRIPT;
             'where' => "`wh_id`='{$this->WH_ID}'",
         ));
         
+        if(!$record){
+            return false;
+        }
+        return true;
+    }
+
+    public function checkTherapyIntakeForm(){
+        $record = $this->SQL->GetRecord(array(
+            'table' => 'intake_form_therapy',
+            'keys'  => '*',
+            'where' => "`wh_id`='{$this->WH_ID}'",
+        ));
+
         if(!$record){
             return false;
         }

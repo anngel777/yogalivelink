@@ -1472,8 +1472,12 @@ SCRIPT;
             $('#FORM_yoga_types').val('All');
             $('#FORM_yoga_types_by_date').val('All');
             $('#FORM_search_timezone').val('{$this->Existing_Records_Timezone}');
-            
-            
+            ";
+        if(isset($_GET['style']) && $_GET['style'] == "therapy"){
+            $script .= "$('#FORM_yoga_types_by_date').val('Yoga Therapy');";
+        }
+        $script .= "
+            GetReservationsAjax();
             ChangeInstructorsByYogaType();
             
             InitializeOnReady_Sessions_Search();
