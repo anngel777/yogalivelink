@@ -1,9 +1,0 @@
-<name>Links</name>
-<summary>Links page for @@COMPANYNAME@@</summary>
-<title>@@COMPANYNAME@@ - Links</title>
-<description>@@COMPANYNAME@@ - Links</description>
-<keywords></keywords>
-<style></style>
-<script></script>
-<scriptinclude></scriptinclude>
-<template>template_inner.html</template>

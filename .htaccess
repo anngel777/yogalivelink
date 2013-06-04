@@ -38,5 +38,6 @@ RewriteCond %{REQUEST_FILENAME} !^/index(.*)$
 RewriteCond %{REQUEST_FILENAME} !^(.+)\.ico$
 RewriteCond %{REQUEST_FILENAME} !^(.+)/robots\.txt$
 RewriteCond %{REQUEST_FILENAME} !^(.+)/page\.php$
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)\.* page.php?$1
 IndexIgnore *

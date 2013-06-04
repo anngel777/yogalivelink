@@ -95,7 +95,7 @@ class Website_SignupCustomer extends BaseClass
                     <br /><br />
                     <div>
                         <div style='border-top:1px solid #9E9D41; padding-bottom:10px;'></div>
-                        <div class='col' style='float:left;'>$btn_cancel</div>
+                    <!--<div class='col' style='float:left;'>$btn_cancel</div>-->
                         <div class='col' style='float:right;'>$btn_next</div>
                         <div class='clear'></div>
                     </div>

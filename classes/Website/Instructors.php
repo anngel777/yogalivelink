@@ -346,7 +346,7 @@ class Website_Instructors extends BaseClass
                 if (tClass == 'All' || tClass == 'START_SELECT_VALUE') {
                     var tString = '';
                 } else {
-                    var tString = '<h1>{$this->Text_SearchingBy} '+tClass+'</h1>';
+                    var tString = '<h1>'+tClass+' Instructors:</h1>';
                 }
                 $('#search_current_instructor_list_notice').html(tString);
                 

@@ -1,9 +1,0 @@
-<name>Instructors</name>
-<summary>Instructors page for @@COMPANYNAME@@</summary>
-<title>@@COMPANYNAME@@ - Instructors</title>
-<description>@@COMPANYNAME@@ - Instructors</description>
-<keywords></keywords>
-<style></style>
-<script></script>
-<scriptinclude></scriptinclude>
-<template>template_inner.html</template>

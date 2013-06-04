@@ -12,8 +12,9 @@ class Sessions_Signup extends BaseClass
     private $Simple_Signup_Credit_Product_Id            = 0;
     private $Simple_Signup_Credit_Product_Price         = 0;
     private $Simple_Signup_OBJ_STORE                    = null;
-    
-    
+    private $AvailableGotoMeetingIds                    = array('Meeting_License_1@yogalivelink.com', 'Meeting_License_2@yogalivelink.com', 'Meeting_License_3@yogalivelink.com', 'Meeting_License_4@yogalivelink.com', 'Meeting_License_5@yogalivelink.com');
+
+
     // ---------- TESTING VARIABLES ----------
     public $TESTING                                     = true;     // TRUE = turns on testing variables
     public $TESTING_Add_Standard_Credits_To_Customer    = 0;        // fake pool of credits in user account;
@@ -266,6 +267,8 @@ class Sessions_Signup extends BaseClass
         # CREATE THE CONTENT
         # ===================================================
         $output = '';
+
+        //$step = "testing";
         switch ($step) {
             case 'offline':
                 $output .= '<h2><div style="color:#990000;">The booking system is currently OFFLINE. Please check back later or contact support@YogaLiveLink.com.</div></h2>';
@@ -418,7 +421,11 @@ class Sessions_Signup extends BaseClass
 # ============================================================================================================================================
 # ============================================================================================================================================
 # ============================================================================================================================================
-            
+            case 'testing':
+
+            $step_output = $this->OBJ_STEP->GetSteps($this->Step_Array, 3, $output, 700);
+
+                break;
             case 'signup_summary':
                 $output .= '<h4>In order to book this session you must first Log-In or create an account. Click the continue button below to continue. Once you have completed the Log-In or Sign-Up process you will be returned to book this session. However, you only have a limited time before this session will be released and another user may book it.</h4>';
                 
@@ -433,7 +440,7 @@ class Sessions_Signup extends BaseClass
             
             case 'intakeform_needed':
             $o = "<div style=\"width:600px\">
-                    <h3>You must fill out fitness form before you can schedule a session</h3>";
+                    <h3>Please update your Fitness Form to book your yoga session.</h3>";
                     $q = EncryptQuery("class=Profile_FormStandardIntake;v1=;v2=$this->WH_ID");
             $o .=  "<br>
                     <a href='/office/class_execute?eq=$q;template=overlay;DIALOGID=1'>
@@ -447,7 +454,7 @@ class Sessions_Signup extends BaseClass
 
             case 'therapy_intakeform_needed':
                 $o = "<div style=\"width:600px\">
-                    <h3>You must fill out a therapy form before you can schedule a session</h3>";
+                    <h3>Please update your Health Form to book your yoga therapy session.</h3>";
                 $q = EncryptQuery("class=Profile_FormTherapyIntake;v1=;v2=$this->WH_ID");
                 $o .=  "<br>
                     <a href='/office/class_execute?eq=$q;template=overlay;DIALOGID=1'>
@@ -972,9 +979,7 @@ class Sessions_Signup extends BaseClass
                 $this->SQL->Rollback();
             }
         }
-        
-        
-        
+
         # SEND VARIOUS EMAILS
         # ============================================================
         if ($passed) {
@@ -1004,8 +1009,55 @@ class Sessions_Signup extends BaseClass
                 $this->SQL->Rollback();
             }
         }
-        
-        
+
+        # CHECK SESSIONS TO FIND AVAILABLE GOTO MEETING ID
+        # =================================================
+        if ($passed){
+            $q = 'select * from '. $GLOBALS['TABLE_sessions'] . ' where sessions_id = '. $this->sessions_id;
+            $record = $this->SQL->QueryToArray($q);
+
+            $time = $record[0]['utc_start_datetime'];
+            $endtime = $record[0]['utc_end_datetime'];
+
+            $meetingids = array();
+            $myId = false;
+
+            $q = 'select * from '. $GLOBALS['TABLE_sessions'] . ' where utc_start_datetime=\''.$time.'\'';
+            $records = $this->SQL->QueryToArray($q);
+
+            foreach($records as $record){
+                if($record['goto_meeting_account'] != "")
+                    $meetingids[] = $record['goto_meeting_account'];
+            }
+            foreach($this->AvailableGotoMeetingIds as $id){
+                if(!in_array($id,$meetingids)){
+                    $myId = $id;
+                    break;
+                }
+            }
+            $key_values = $this->FormatDataForUpdate(array(
+                'goto_meeting_account'        => $myId,
+            ));
+
+            if($myId){
+                $result = $this->SQL->UpdateRecord(array(
+                    'table'         => $GLOBALS['TABLE_sessions'],
+                    'key_values'    => $key_values,
+                    'where'         => "`sessions_id`={$this->sessions_id}",
+                ));
+
+                $goto = new Sessions_Goto($this->sessions_id, $time, $endtime, $myId);
+                $goto->create();
+
+            } else {
+                $passed = false;
+            }
+
+            if (!$passed) {
+                if ($show_msg) $output .= "<div class='error_message'>ROLLING BACK TRANSACTION</div>";
+                $this->SQL->Rollback();
+            }
+        }
         
         # COMMIT CHANGES
         # ============================================================
@@ -1598,7 +1650,7 @@ class Sessions_Signup extends BaseClass
             
         } else {
             // user needs to buy a credit - show payment form
-            
+
             $this->GetProductCredits();
             
             $product_id     = $this->Simple_Signup_Credit_Product_Id;

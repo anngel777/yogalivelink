@@ -205,7 +205,7 @@ class Profile_CreateAccountCustomerAdministrator extends BaseClass
                     
                     "code|<br />",
                     
-                    //"select|Time Zone|time_zones_id|Y||$timezone_types",
+                    "select|Time Zone|time_zones_id|Y||$timezone_types",
                     
                     "code|<br />",
                     

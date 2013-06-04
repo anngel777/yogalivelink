@@ -16,10 +16,6 @@ $article        = $OBJ->HandleArticle(Get('article_id'), Get('eq'));
 
 $article_menu .= '
 <br /><br />
-<a href="/test_computer">
-<img src="/images/test_equipment.jpg">
-</a>
-<br /><br />
 ';
 
 // ---------- GET CONTENT FROM DATABASE AND SWAP INTO PAGE ----------

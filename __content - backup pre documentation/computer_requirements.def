@@ -1,9 +1,0 @@
-<name>Computer Requirements</name>
-<summary>Computer Requirements page for @@COMPANYNAME@@</summary>
-<title>@@COMPANYNAME@@ - Computer Requirements</title>
-<description>@@COMPANYNAME@@ - Computer Requirements</description>
-<keywords></keywords>
-<style></style>
-<script></script>
-<scriptinclude></scriptinclude>
-<template>template_inner.html</template>

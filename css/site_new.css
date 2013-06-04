@@ -1094,34 +1094,3 @@ button.regular, .buttons a.regular{
 
 /* =========================== BUTTONS :: End =========================== */
 
-ul.dropdown {
-    display: none;
-    background:none repeat scroll 0 0 rgba(126, 193, 79, 0.66);
-    margin:0;
-    padding:10px 0;    
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-}
-
-
-ul.dropdown li{
-    float:none;
-    height:auto;
-}
-
-ul.dropdown li:hover{
-  background: #BBD7A7;
-}
-
-ul.dropdown li a, ul.dropdown li a:link, ul.dropdown li a:visited{
-    padding:10px;
-    border-right:0;
-    margin-top:0;
-    font-size: 16px;
-    color: #333;
-}
-
-li:hover ul.dropdown {
-    display: block;
-    position: absolute;
-}

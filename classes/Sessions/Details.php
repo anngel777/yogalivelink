@@ -78,7 +78,7 @@ class Sessions_Details extends BaseClass
         $customer   = $this->ShowCustomerInformation();
         $status     = $this->ShowSessionStatusInformation();
         $actions    = $this->ShowActionInformation();
-        
+
         # CREATE THE FINAL OUTPUT
         $output = "
         <div style='width:700px;'>
@@ -378,7 +378,6 @@ class Sessions_Details extends BaseClass
         $OBJ_SESS->Is_Instructor = true;
         $OBJ_SESS->show_session_details = false;
         $content    = $OBJ_SESS->CalculateActions($this->session_record);
-        
         $edit_link      = '';
         $output         = AddBox('SESSION ACTIONS', $content, $edit_link) . '<br /><br />';
         

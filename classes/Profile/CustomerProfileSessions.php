@@ -711,7 +711,6 @@ class Profile_CustomerProfileSessions extends BaseClass
             $test_sessions_id           = time() . '-T';
             $eq_TestSession             = EncryptQuery("class=Sessions_Launch;v1={$test_sessions_id};v2={$record['instructor_id']};v3=;v4=testing");
         }
-        
         $eq_CancelSession               = EncryptQuery("class=Sessions_CancelSignup;v1={$record['sessions_id']};v3={$user_type}");
         $eq_RateSessionCustomer         = EncryptQuery("class=Sessions_RatingsUser;v1={$record['sessions_id']};v2={$record['customer_wh_id']};v3={$record['instructor_id']}");
         $eq_RateSessionInstructor       = EncryptQuery("class=Sessions_RatingsInstructor;v1={$record['sessions_id']};v2={$record['customer_wh_id']};v3={$record['instructor_id']}");
@@ -751,8 +750,7 @@ class Profile_CustomerProfileSessions extends BaseClass
         
         // Cancel session
         $actions .= (($cancellable) && $this->show_user_cancel_session)                                                 ? "<div><a href='#' class='link_arrow' onclick=\"top.parent.appformCreateOverlay('Cancel Session', getClassExecuteLinkNoAjax('{$eq_CancelSession}'), 'apps'); return false;\">CANCEL SESSION</a></div>" : '';
-        
-        
+
         // Upload Video - INSTRUCTOR
         if ($this->Is_Instructor) {
             $instructor_video_uploaded = $record['instructor_video_uploaded'];

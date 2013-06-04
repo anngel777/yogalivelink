@@ -1,8 +1,10 @@
 .menu ul.dropdown {
-    background: none repeat scroll 0 0 rgba(198, 207, 136, 0.59);
+    background: none repeat scroll 0 0 #C6CF88;
+    border:1px solid #666;
     border-radius: 10px 10px 10px 10px;
     display: none;
     margin: 0;
+    margin-top:5px;
     padding: 10px 0;
 }
 .menu ul.dropdown li {
@@ -14,12 +16,16 @@
 }
 .menu ul.dropdown li a, ul.dropdown li a:link, ul.dropdown li a:visited {
     border-right: 0 none;
-    color: #333333;
+    color: #AA1546;
     font-size: 16px;
     margin-top: 0;
-    padding: 10px;
+    padding: 6px;
 }
 .menu li:hover ul.dropdown {
     display: block;
     position: absolute;
+}
+
+#ui-datepicker-div{
+  display:none;
 }

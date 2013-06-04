@@ -712,12 +712,6 @@ class Sessions_Search extends BaseClass
                 <div class='red left_content'>Yoga Style: {$this->Searching_Yoga_Style_Display}</div>
             </div>
             
-            <a href="#" style="color:white">
-                <div class="search_zones" style="background:#AA1149; color:white; font-weight:bold; text-align:center; padding:3px 0;">
-                    Don't See A Time You Want?<br>Click Here To Request A Session Time  
-                </div>
-            </a>
-            
             <div>
                 {$this->rowData}
             </div>
@@ -1369,6 +1363,12 @@ SCRIPT;
         $output = "
             <div style='text-align:center;'>
             <center>
+                <br />
+                    <div style=\"font-size:14px; color:black; font-weight:bold; text-align:center; padding:3px 0; overflow:hidden\">
+                        Don't see the session time you want? 
+                        <a href=\"mailto:writer@yogalivelink.com\" style=\"color:#AA1149\">Let us know!</a> You can request a specific session time and we'll do our best to make that session time available to you. We'll let you know either way. <br>
+                    </div>
+                
                 <br /><br />
                 <div class='orange left_header lowercase'>{$this->SearchByDateLeftText}</div>
                 
@@ -1558,7 +1558,7 @@ function ChangeInstructorsByYogaType() {
     if (tClass == 'All' || tClass == 'START_SELECT_VALUE') {
         var tString = '';
     } else {
-        var tString = '<h1>Searching Instructors By Yoga Type: '+tClass+'</h1>';
+        var tString = '<h1>'+tClass+' Instructors:</h1>';
     }
     $('#search_current_instructor_list_notice').html(tString);
     

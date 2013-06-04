@@ -158,6 +158,9 @@ class Profile_CustomerProfileFreeCredits extends BaseClass
         unset($FormArray['qty']);
         unset($FormArray['email_send']);
         unset($FormArray['email_contents']);
+
+        $FormArray['type_standard'] = 1;
+        $FormArray['type_therapy'] = 1;
         
         
         # ADD ALL THE RECORDS

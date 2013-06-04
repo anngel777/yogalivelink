@@ -446,9 +446,52 @@ class Store_YogaStoreCreditOrder extends Store_YogaStoreOrder
         $RESULT .= OutputForm($this->Billing_Form_Data, Post('ORDER'));
         */
         
-        $payment = OutputForm($this->Billing_Form_Data, Post('ORDER'));
-        
-        
+        //$payment = OutputForm($this->Billing_Form_Data, Post('ORDER'));
+        $payment =
+'<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+<script type="text/javascript">
+  Stripe.setPublishableKey(\'pk_test_iHnpXHnMQ1PVciT4XNFmCHH6\');
+  jQuery(function($) {
+  $(\'#payment-form\').submit(function(event) {
+    var $form = $(this);
+    $form.find(\'button\').prop(\'disabled\', true);
+    Stripe.createToken($form, stripeResponseHandler);
+    return false;
+  });
+});
+</script>
+
+<form action="/submit" method="POST" id="payment-form">
+  <span class="payment-errors"></span>
+
+  <div class="form-row">
+    <label>
+      <span>Card Number</span>
+      <input type="text" size="20" data-stripe="number"/>
+    </label>
+  </div>
+
+  <div class="form-row">
+    <label>
+      <span>CVC</span>
+      <input type="text" size="4" data-stripe="cvc"/>
+    </label>
+  </div>
+
+  <div class="form-row">
+    <label>
+      <span>Expiration (MM/YYYY)</span>
+      <input type="text" size="2" data-stripe="exp-month"/>
+    </label>
+    <span> / </span>
+    <input type="text" size="4" data-stripe="exp-year"/>
+  </div>
+
+  <button type="submit">Submit Payment</button>
+</form>
+';
+
+
         #$btn_continue       = MakeButton('positive', 'CONTINUE', "{$this->script_location};step=payment;sid={$this->sessions_id};time_release={$this->heq_time_release_user}");
         
         $buyer_info         = AddBox_Type1('BUYER INFO', $_SESSION['STORE_ORDER']['BUYER_INFO_TABLE']);

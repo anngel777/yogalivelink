@@ -1,9 +1,0 @@
-<name>About Us</name>
-<summary>About Us page for @@COMPANYNAME@@</summary>
-<title>@@COMPANYNAME@@ - About Us</title>
-<description>@@COMPANYNAME@@ - About Us</description>
-<keywords></keywords>
-<style></style>
-<script></script>
-<scriptinclude></scriptinclude>
-<template>template_inner.html</template>
