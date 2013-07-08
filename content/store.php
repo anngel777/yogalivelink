@@ -261,9 +261,6 @@ Use connector cables to connect your gear to your computer
 </div>
 
 <br />
-<a href="/test_computer">
-<img src="/images/test_equipment.jpg">
-</a>
 
 
 </div>

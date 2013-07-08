@@ -1,0 +1,42 @@
+php_value memory_limit 64M
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+DirectoryIndex index
+Options +FollowSymlinks
+RewriteEngine on
+RewriteBase /
+
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+ErrorDocument 404 /web/content/content/404.php
+
+#RewriteCond %{REQUEST_FILENAME} !^/error(.*)$
+#RewriteRule ^(.+).php$ http://google.com/ [R=404,NC]
+
+RewriteCond %{REQUEST_FILENAME} !^(.*)/audio_recording/(.*)$
+RewriteCond %{REQUEST_FILENAME} !^(.*)/bwcheck/(.*)$
+RewriteCond %{REQUEST_FILENAME} !^(.*)/common/(.*)$
+RewriteCond %{REQUEST_FILENAME} !^(.*)/cron/(.*)$
+RewriteCond %{REQUEST_FILENAME} !^(.*)/css/(.*)$
+RewriteCond %{REQUEST_FILENAME} !^(.*)/docs/(.*)$
+RewriteCond %{REQUEST_FILENAME} !^(.*)/download/(.*)$
+RewriteCond %{REQUEST_FILENAME} !^(.*)/faces/(.*)$
+RewriteCond %{REQUEST_FILENAME} !^(.*)/images/(.*)$
+RewriteCond %{REQUEST_FILENAME} !^(.*)/js/(.*)$
+RewriteCond %{REQUEST_FILENAME} !^(.*)/jslib/(.*)$
+RewriteCond %{REQUEST_FILENAME} !^(.*)/lib/(.*)$
+RewriteCond %{REQUEST_FILENAME} !^(.*)/office/(.*)$
+RewriteCond %{REQUEST_FILENAME} !^(.*)/templates/(.*)$
+RewriteCond %{REQUEST_FILENAME} !^(.*)/wo/(.*)$
+RewriteCond %{REQUEST_FILENAME} !^(.*)/admin\+/(.*)$
+RewriteCond %{REQUEST_FILENAME} !^/index(.*)$
+RewriteCond %{REQUEST_FILENAME} !^(.+)\.ico$
+RewriteCond %{REQUEST_FILENAME} !^(.+)/robots\.txt$
+RewriteCond %{REQUEST_FILENAME} !^(.+)/page\.php$
+RewriteRule ^(.*)\.* page.php?$1
+IndexIgnore *

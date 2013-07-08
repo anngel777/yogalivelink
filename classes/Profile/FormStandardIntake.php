@@ -78,7 +78,7 @@ class Profile_FormStandardIntake extends BaseClass
         if ($this->Show_Query) echo "<br />Last Query ==> " . $this->SQL->Db_Last_Query;
         
         if ($record) {
-            if($this->Is_Instructor) {
+            if($this->Is_Instructor && $this->Is_Instructor != "false") {
                 $this->Default_View_Table_Options = 'cellspacing="0" cellpadding="0" class="VIEW_INTAKE_FORM_TABLE"';
                 AddStyle("                
                 .VIEW_INTAKE_FORM_TABLE {

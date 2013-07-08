@@ -708,6 +708,8 @@ class Store_StoreOrder
         if (!$RESULT) {
             AddError($this->Text['ERROR_EMAIL_TO_CUSTOMER_FAILED']);
         }
+        echo $content;
+        die;
         return $RESULT;
     }
 

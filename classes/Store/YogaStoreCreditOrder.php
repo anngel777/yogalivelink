@@ -110,6 +110,16 @@ class Store_YogaStoreCreditOrder extends Store_YogaStoreOrder
 
         $this->SetBillingForm();
 
+        if(Post('StripeORDER')){
+            $result = $this->FinalOrderProcess();
+            if($result){
+                $this->Status = 'OK';
+                $RESULT .= "$this->Final_Order_Text</form>\n";
+               return $RESULT;
+            }
+        }
+
+        //OLD ORDERING SYSTEM
         if (Post('ORDER')) {
             // ----- get the billing information ----
             if (Post('ORDER')) {
@@ -175,11 +185,13 @@ class Store_YogaStoreCreditOrder extends Store_YogaStoreOrder
         // process credit card
         //
         if ($this->ProcessCreditCard()) {
-            
+
             // if OK, email result
             $this->GetFinalTable();
 
             $this->SendEmailsRAW();
+
+
             /*
             if ($this->Send_Emails) {
                 $this->SendEmails();
@@ -307,7 +319,7 @@ class Store_YogaStoreCreditOrder extends Store_YogaStoreOrder
 
     public function SendEmailsRAW()
     {
-        
+
 
         #$this->SendEmailBuyer();
         #$this->SendEmailSeller();
@@ -445,49 +457,83 @@ class Store_YogaStoreCreditOrder extends Store_YogaStoreOrder
         $RESULT .= "\n</fieldset>\n";
         $RESULT .= OutputForm($this->Billing_Form_Data, Post('ORDER'));
         */
-        
+
         //$payment = OutputForm($this->Billing_Form_Data, Post('ORDER'));
+
+        $buyer              = $_SESSION['STORE_ORDER']['BUYER_INFO'];
+        $this->Buyer_Name   = trim($buyer['first_name'] . ' ' . $buyer['last_name']);
+
         $payment =
-'<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+'</form>
+<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 <script type="text/javascript">
-  Stripe.setPublishableKey(\'pk_test_iHnpXHnMQ1PVciT4XNFmCHH6\');
+  Stripe.setPublishableKey(\'pk_live_jv9a5i9gIHNTF5LH3upH76Hy\');
   jQuery(function($) {
   $(\'#payment-form\').submit(function(event) {
     var $form = $(this);
-    $form.find(\'button\').prop(\'disabled\', true);
+    $form.find(\'button\').attr(\'disabled\', \'disabled\').html(\'Processing...\');
     Stripe.createToken($form, stripeResponseHandler);
     return false;
   });
 });
+var stripeResponseHandler = function(status, response) {
+  var $form = $(\'#payment-form\');
+
+  if (response.error) {
+      // Show the errors on the form
+      $form.find(\'.payment-errors\').text(response.error.message).css(\'display\',\'block\');
+      $form.find(\'button\').removeAttr(\'disabled\').html(\'Make Payment\');
+  } else {
+      // token contains id, last4, and card type
+      var token = response.id;
+      // Insert the token into the form so it gets submitted to the server
+      $form.append($(\'<input type="hidden" name="stripeToken" />\').val(token));
+      // and submit
+      $form.get(0).submit();
+  }
+};
 </script>
 
-<form action="/submit" method="POST" id="payment-form">
-  <span class="payment-errors"></span>
+<form action="" method="POST" id="payment-form">
+<input type="hidden" name="StripeORDER" value="true">
+  <span class="payment-errors" style="display:none; padding:8px; background:#ff0000; float:left; color:#ffffff"></span>
+      <br class="formbreak" style="clear:both">
+      <div class="formtitle">
+        <span class="formrequired">*</span> Name On Credit Card
+      </div>
+      <div class="forminfo"><input type="text" data-stripe="name" value="';
+        $payment .= $this->Buyer_Name;
+        $payment .='"/>
+      </div>
+      <br class="formbreak">
+      <div class="formtitle">
+        <span class="formrequired">•</span>
+        Card Number
+      </div>
+      <div class="forminfo"><input type="text" size="20" data-stripe="number"/></div>
+      <br class="formtitlebreak">
 
-  <div class="form-row">
-    <label>
-      <span>Card Number</span>
-      <input type="text" size="20" data-stripe="number"/>
-    </label>
-  </div>
+      <div class="formtitle">
+        <span class="formrequired">•</span>
+        Expiration (MM/YYYY)
+      </div>
+      <div class="forminfo">
+          <input type="text" size="2" data-stripe="exp-month"/>
+          <span> / </span>
+          <input type="text" size="4" data-stripe="exp-year"/>
+      </div>
+       <br class="formtitlebreak">
 
-  <div class="form-row">
-    <label>
-      <span>CVC</span>
-      <input type="text" size="4" data-stripe="cvc"/>
-    </label>
-  </div>
+     <div class="formtitle">
+        <span class="formrequired">•</span>
+        Card Security Code
+     </div>
+     <div class="forminfo"><input type="text" size="4" data-stripe="cvc"/></div>
 
-  <div class="form-row">
-    <label>
-      <span>Expiration (MM/YYYY)</span>
-      <input type="text" size="2" data-stripe="exp-month"/>
-    </label>
-    <span> / </span>
-    <input type="text" size="4" data-stripe="exp-year"/>
-  </div>
 
-  <button type="submit">Submit Payment</button>
+      <br class="formtitlebreak">
+    <div class="formtitle"></div>
+    <div class="forminfo"><button type="submit" class="positive">Make Payment</button></div>
 </form>
 ';
 
@@ -530,8 +576,32 @@ class Store_YogaStoreCreditOrder extends Store_YogaStoreOrder
 
     public function ProcessCreditCard() // <------- EXTENDED
     {
+        $buyer              = $_SESSION['STORE_ORDER']['BUYER_INFO'];
+        $this->Buyer_Email  = $buyer['email_address'];
+
+        $STORE_ORDER = Session('STORE_ORDER');
+        $total = $STORE_ORDER['BILL_TOTAL'];
+        $total *= 100;
+
         //return true;
-        return parent::ProcessCreditCard();
+        require_once __DIR__ . '/../../stripe/lib/Stripe.php';
+        Stripe::setApiKey("sk_live_qYuBmZf98HN4YoWDxYlppOwZ");
+        $token = $_POST['stripeToken'];
+
+        try {
+            $charge = Stripe_Charge::create(array(
+                    "amount" => $total, // amount in cents, again
+                    "currency" => "usd",
+                    "card" => $token,
+                    "description" => $this->Buyer_Email)
+            );
+            return true;
+        } catch(Stripe_CardError $e) {
+            return false;
+        }
+
+        //OLD PAYMENT SYSTEM
+        //return parent::ProcessCreditCard();
         
         
         //need to extend this function

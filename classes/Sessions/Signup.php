@@ -269,6 +269,7 @@ class Sessions_Signup extends BaseClass
         $output = '';
 
         //$step = "testing";
+
         switch ($step) {
             case 'offline':
                 $output .= '<h2><div style="color:#990000;">The booking system is currently OFFLINE. Please check back later or contact support@YogaLiveLink.com.</div></h2>';
@@ -390,6 +391,7 @@ class Sessions_Signup extends BaseClass
                     # OUTPUT CONTENT
                     # ============================================================
                     //$output .= "<br /><h1>SIMPLE SIGNUP MODE</h1><br />";
+
                     $output .= $this->ShowSessionInformation();         // session information
                     $output .= $this->SimpleSignupPaymentDisplay();     // payment options
                     $output .= $this->ShowSimpleSignupFooter();         // footer - time left and misc buttons
@@ -632,11 +634,11 @@ class Sessions_Signup extends BaseClass
                 switch ($this->Sessions_Type) {
                     default:
                     case 'standard':
-                        $eq_IntakeForm      = EncryptQuery("class=Profile_FormStandardIntake;v1={$this->sessions_id};v2={$this->WH_ID};v3=true");
+                        $eq_IntakeForm      = EncryptQuery("class=Profile_FormStandardIntake;v1={$this->sessions_id};v2={$this->WH_ID};v3=false");
                         $link_intake_form   = getClassExecuteLinkNoAjax("{$eq_IntakeForm}") . ';template=overlay';
                     break;
                     case 'therapy':
-                        $eq_IntakeForm      = EncryptQuery("class=Profile_FormTherapyIntake;v1={$this->sessions_id};v2={$this->WH_ID};v3=true");
+                        $eq_IntakeForm      = EncryptQuery("class=Profile_FormTherapyIntake;v1={$this->sessions_id};v2={$this->WH_ID};v3=false");
                         $link_intake_form   = getClassExecuteLinkNoAjax("{$eq_IntakeForm}") . ';template=overlay';
                     break;
                 }
@@ -970,10 +972,59 @@ class Sessions_Signup extends BaseClass
                 'where'         => "`sessions_id`=$this->sessions_id", // AND `active`=1
             ));
             if ($this->Show_Query) echo "<br />LAST QUERY = " . $this->SQL->Db_Last_Query;
-            
+
             $passed = (!$result) ? false : $passed;
             $output .= ($passed) ? "<div class='success_message'>Session marked as booked PASSED</div>" : "<div class='error_message'>Session marked as booked FAILED</div>";
             
+            if (!$passed) {
+                if ($show_msg) $output .= "<div class='error_message'>ROLLING BACK TRANSACTION</div>";
+                $this->SQL->Rollback();
+            }
+        }
+
+        # CHECK SESSIONS TO FIND AVAILABLE GOTO MEETING ID
+        # =================================================
+        if ($passed){
+            $q = 'select * from '. $GLOBALS['TABLE_sessions'] . ' where sessions_id = '. $this->sessions_id;
+            $record = $this->SQL->QueryToArray($q);
+
+            $time = $record[0]['utc_start_datetime'];
+            $endtime = $record[0]['utc_end_datetime'];
+
+            $meetingids = array();
+            $myId = false;
+
+            $q = 'select * from '. $GLOBALS['TABLE_sessions'] . ' where utc_start_datetime=\''.$time.'\'';
+            $records = $this->SQL->QueryToArray($q);
+
+            foreach($records as $record){
+                if($record['goto_meeting_account'] != "")
+                    $meetingids[] = $record['goto_meeting_account'];
+            }
+            foreach($this->AvailableGotoMeetingIds as $id){
+                if(!in_array($id,$meetingids)){
+                    $myId = $id;
+                    break;
+                }
+            }
+            $key_values = $this->FormatDataForUpdate(array(
+                    'goto_meeting_account'        => $myId,
+                ));
+
+            if($myId){
+                $result = $this->SQL->UpdateRecord(array(
+                        'table'         => $GLOBALS['TABLE_sessions'],
+                        'key_values'    => $key_values,
+                        'where'         => "`sessions_id`={$this->sessions_id}",
+                    ));
+
+                $goto = new Sessions_Goto($this->sessions_id, $time, $endtime, $myId);
+                $goto->create();
+
+            } else {
+                $passed = false;
+            }
+
             if (!$passed) {
                 if ($show_msg) $output .= "<div class='error_message'>ROLLING BACK TRANSACTION</div>";
                 $this->SQL->Rollback();
@@ -1010,55 +1061,6 @@ class Sessions_Signup extends BaseClass
             }
         }
 
-        # CHECK SESSIONS TO FIND AVAILABLE GOTO MEETING ID
-        # =================================================
-        if ($passed){
-            $q = 'select * from '. $GLOBALS['TABLE_sessions'] . ' where sessions_id = '. $this->sessions_id;
-            $record = $this->SQL->QueryToArray($q);
-
-            $time = $record[0]['utc_start_datetime'];
-            $endtime = $record[0]['utc_end_datetime'];
-
-            $meetingids = array();
-            $myId = false;
-
-            $q = 'select * from '. $GLOBALS['TABLE_sessions'] . ' where utc_start_datetime=\''.$time.'\'';
-            $records = $this->SQL->QueryToArray($q);
-
-            foreach($records as $record){
-                if($record['goto_meeting_account'] != "")
-                    $meetingids[] = $record['goto_meeting_account'];
-            }
-            foreach($this->AvailableGotoMeetingIds as $id){
-                if(!in_array($id,$meetingids)){
-                    $myId = $id;
-                    break;
-                }
-            }
-            $key_values = $this->FormatDataForUpdate(array(
-                'goto_meeting_account'        => $myId,
-            ));
-
-            if($myId){
-                $result = $this->SQL->UpdateRecord(array(
-                    'table'         => $GLOBALS['TABLE_sessions'],
-                    'key_values'    => $key_values,
-                    'where'         => "`sessions_id`={$this->sessions_id}",
-                ));
-
-                $goto = new Sessions_Goto($this->sessions_id, $time, $endtime, $myId);
-                $goto->create();
-
-            } else {
-                $passed = false;
-            }
-
-            if (!$passed) {
-                if ($show_msg) $output .= "<div class='error_message'>ROLLING BACK TRANSACTION</div>";
-                $this->SQL->Rollback();
-            }
-        }
-        
         # COMMIT CHANGES
         # ============================================================
         if ($passed) {
@@ -1120,13 +1122,14 @@ class Sessions_Signup extends BaseClass
         # GET USER DISCOUNTS
         # =============================
         if (!$this->Bypass_Customer_Discount) {
-        
+
             $record = $this->SQL->GetRecord(array(
                 'table' => $this->Table_Contacts,
                 'keys'  => "`{$this->Table_Contacts}`.contact_discounts_id, `{$this->Table_Contacts}`.created AS USER_CREATED, {$GLOBALS['TABLE_contact_discounts']}.*",
                 'where' => "`{$this->Table_Contacts}`.`wh_id`='{$this->WH_ID}' AND `{$this->Table_Contacts}`.active=1",
                 'joins' => "LEFT JOIN `{$GLOBALS['TABLE_contact_discounts']}` ON `{$GLOBALS['TABLE_contact_discounts']}`.`contact_discounts_id` = `{$this->Table_Contacts}`.`contact_discounts_id`",
             ));
+
             if ($this->Show_Query) echo "<br />LAST QUERY = " . $this->SQL->Db_Last_Query;
             if ($this->FORCE_TEST_ON) echo "<br />LAST QUERY = " . $this->SQL->Db_Last_Query;
             
@@ -1209,7 +1212,7 @@ class Sessions_Signup extends BaseClass
         # GET USER DISCOUNTS
         # =============================
         $this->GetUserCreditDiscount();
-        
+
         
         # GET THE PRODUCT INFORMATION
         # =============================
@@ -2053,7 +2056,7 @@ SCRIPT;
         # MAKE SESSION CONTENT
         # =====================================================
         $this->ShowSessionInformation();
-        
+
         # MAKE SESSION INFORMATION FOR EMAIL
         $Email_Content_Session_Box       = $this->Email_Content_Session_Box;
         
@@ -2072,20 +2075,85 @@ SCRIPT;
         $customer_email = $record['email_address'];
         
         $Email_Content_Customer_Box    = "customer info goes here<br /><b>customer_name</b>: $customer_name<br /><br /><b>customer_email</b>: $customer_email";
-        
-        
-        
-        
+
+        $record2 = $this->SQL->GetRecord(array(
+            'table' => 'sessions',
+            'keys'  => '*',
+            'where' => "`sessions_id`=$this->sessions_id"
+        ));
+
+        $record3 = $this->SQL->GetRecord(array(
+            'table' => 'contacts',
+            'keys'  => '*',
+            'where' => "wh_id=$record2[instructor_id]"
+        ));
+        $record4 = $this->SQL->GetRecord(array(
+            'table' => 'gotomeeting',
+            'keys'  => '*',
+            'where' => "email='$record2[goto_meeting_account]'"
+        ));
+        $record5 = $this->SQL->GetRecord(array(
+            'table' => 'time_zones',
+            'keys'  => '*',
+            'where' => "time_zones_id=$record3[time_zones_id]"
+        ));
+
+
+        global $USER_LOCAL_TIMEZONE, $USER_LOCAL_TIMEZONE_DISPLAY, $USER_DISPLAY_DATE, $USER_DISPLAY_TIME;
+        $input_date_time        = $record2['utc_start_datetime'];
+        $input_timezone         = 'UTC';
+        $output_timezone        = $USER_LOCAL_TIMEZONE;
+        $output_format          = "$USER_DISPLAY_DATE|$USER_DISPLAY_TIME";
+        $user_start_datetime    = $this->OBJ_TIMEZONE->ConvertDateTimeBetweenTimezones($input_date_time, $input_timezone, $output_timezone, $output_format);
+        $parts                  = explode('|', $user_start_datetime);
+        $user_start_date        = $parts[0];
+        $user_start_time        = $parts[1];
+
+        $output_timezone2 = $record5['tz_name'];
+        $instructor_start_datetime    = $this->OBJ_TIMEZONE->ConvertDateTimeBetweenTimezones($input_date_time, $input_timezone, $output_timezone2, $output_format);
+        $parts = explode('|', $instructor_start_datetime);
+        $instructor_start_date        = $parts[0];
+        $instructor_start_time        = $parts[1];
+
+
+
+        $firstname = $record['first_name'];
+        $lastname = $record['last_name'];
+        $yogatype = ($this->Sessions_Type == "standard")? "Yoga" : "Yoga Therapy";
+        $instructorName = $record3['first_name'] . " " . $record3['last_name'];
+        $sessionDate = $user_start_date;
+        $sessionTime = $user_start_time;
+        $timezone = $USER_LOCAL_TIMEZONE_DISPLAY;
+        $gotoMeetingJoinUrl = $record2['goto_meeting_join_url'];
+        $gotoId = $record2['goto_meeting_account'];
+        $gotoMeetingPassword = $record4['password'];
+
+
         global $URL_SITE_LOGIN;
         
-        $swap_array              = array (
+        /*$swap_array              = array (
             '@@login_url@@'         => $URL_SITE_LOGIN,
             '@@session_info@@'      => $Email_Content_Session_Box,
             '@@instructor_info@@'   => $Email_Content_Instructor_Box,
             '@@customer_info@@'     => $Email_Content_Customer_Box,
+        );*/
+
+        $swap_array                 = array(
+            '@@first_name@@'        => $firstname,
+            '@@last_name@@'         => $lastname,
+            '@@client_name@@'       => $firstname . " " . $lastname,
+            '@@yoga_type@@'         => $yogatype,
+            '@@instructor_name@@'   => $instructorName,
+            '@@session_date@@'      => $sessionDate,
+            '@@session_time@@'      => $sessionTime,
+            '@@session_timezone@@'  => $timezone,
+            '@@goto_meeting_join_url@@' => $gotoMeetingJoinUrl,
+            '@@goto_id@@'             => $gotoId,
+            '@@goto_password@@'     => $gotoMeetingPassword,
+            '@@instructor_date@@'   => $instructor_start_date,
+            '@@instructor_time@@'   => $instructor_start_time,
+            '@@instructor_timezone@@' => $record5['tz_display']
         );
-        
-        
         
         # SEND MESSAGE TO USER
         # =============================================================
@@ -2108,7 +2176,7 @@ SCRIPT;
                 'bcc'                   => $bcc,
                 'wh_id'                 => $this->WH_ID,
             );
-            
+
             $MAIL->PrepareMailToSend($msg_array);
             
             
@@ -2121,16 +2189,8 @@ SCRIPT;
                 echo "<h1>Unable to send message to CUSTOMER.</h1>";
                 $this->Result_Email_Customer_Sent = false;
             }
-            
-            
-
-            
-            
         }
-        
-        
-        
-        
+
         # SEND MESSAGE TO INSTRUCTOR
         # =============================================================
         if ($this->email_send_to_instructor) {

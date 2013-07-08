@@ -103,7 +103,7 @@ $content_bio_1 = <<<content_bio_1
     <div class="lower_content">
         <div>
             <br />
-            <div style="float:left; width:{$instructor_div_width}px;"><img src="http://www.yogalivelink.com/office/images/instructors/thumbnail_1305523918.jpg" width="{$instructor_img_width}" alt="Zamanta" border="0" /></div>
+            <div style="float:left; width:{$instructor_div_width}px;"><img src="/office/images/instructors/thumbnail_1305523918.jpg" width="{$instructor_img_width}" alt="Zamanta" border="0" /></div>
             <div style="float:left; width:75%; font-size:{$instructor_font_size}px;">
             
                 <b style="font-size:20px;">Zamanta Archibold</b>
@@ -136,7 +136,7 @@ $content_bio_2 = <<<content_bio_2
     <div class="lower_content">
         <div>
             <br />
-            <div style="float:left; width:{$instructor_div_width}px;"><img src="http://www.yogalivelink.com/office/images/instructors/thumbnail_1305143953.jpg" width="{$instructor_img_width}" alt="Zamanta" border="0" /></div>
+            <div style="float:left; width:{$instructor_div_width}px;"><img src="/office/images/instructors/thumbnail_1305143953.jpg" width="{$instructor_img_width}" alt="Zamanta" border="0" /></div>
             <div style="float:left; width:75%; font-size:{$instructor_font_size}px;">
             
                 <b style="font-size:20px;">EB Ferdig</b>

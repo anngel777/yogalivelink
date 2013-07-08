@@ -18,10 +18,6 @@ $content_left = $OBJ->ColumnLeft();
 
 $content_left .= '
 <br /><br />
-<a href="/test_computer">
-<img src="/images/test_equipment.jpg">
-</a>
-<br /><br />
 ';
 
 
