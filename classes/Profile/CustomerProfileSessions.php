@@ -1039,7 +1039,6 @@ class Profile_CustomerProfileSessions extends BaseClass
                 <br /><br /><br />
                 <div style='float:left; text-align:left;'>
                 <div class='left_content'>{$link}</div>
-                <div class='left_content'><a href='#' class='link_arrow' onclick=\"LaunchSessionNewWindow('{$eq_TestSession}');\">TEST YOUR COMPUTER SYSTEM</a></div>
                 ";
         $output .= (!$this->Is_Instructor) ? " <div class='left_content'><a href='#' class='link_arrow' onclick=\"top.parent.appformCreateOverlay('YOGA: FITNESS FORM', getClassExecuteLinkNoAjax('{$eq_IntakeStandardForm}'), 'apps'); return false;\">YOGA: FITNESS FORM</a></div>" : '';
         $output .= (!$this->Is_Instructor) ? "<div class='left_content'><a href='#' class='link_arrow' onclick=\"top.parent.appformCreateOverlay('YOGA THERAPY: HEALTH FORM', getClassExecuteLinkNoAjax('{$eq_IntakeTherapyForm}'), 'apps'); return false;\">YOGA THERAPY: HEALTH FORM</a></div>" : '';

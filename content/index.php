@@ -97,7 +97,42 @@ $instructor_div_width   = $instructor_img_width + 20;
 $yoga_img_width         = 50; //290
 $instructor_font_size   = 11;
 
-$content_bio_1 = <<<content_bio_1
+$new_content = <<<new_content
+
+<div class="lower_content">
+    <span style="color:#AA1546; font-size:20px">YogaLiveLink.com</span> is a unique yoga service that connects you <b>live, online</b> with our yoga therapists and yoga instructors for rejuvenating <b>one on one customized yoga sessions</b>.
+<br><br>
+We make it easy for you- all you need is a webcam and Internet connection to embark on your personalized healing journey wherever you are, at the time that works best for you.
+<br><br>
+<b>We provide a bridge from the stress and strain of life’s challenges back to a place of grounding, balance, and strength.</b> A YogaLiveLink session is a soft landing place – a place to find your center, to reconnect with your body, mind and spirit with the warm guidance of a personal yoga therapist every step of the way.
+
+<br><br>
+
+<span class="lower_header" style="font-size:20px">The Power of a Personally Crafted Yoga Therapy Session ~</span><br><br>
+
+Yoga therapy addresses specific health problems or conditions with a focus on developing strength and healing from a whole-person perspective – physical, mental, emotional and spiritual. Each session is designed to support you right where you are now -- whether you’re recovering from cancer, looking to create balance in a hectic work world, or improve your physical fitness.
+<br><br>
+<span class="lower_header" style="font-size:20px">Some Specific Benefits of Online Yoga Therapy Sessions~</span><br>
+<br>
+<b>Cancer Survivors & People with Serious Health Issues ~</b>
+<ul style="padding-left:5px;">
+<li>Improve your sleep</li>
+<li>Increase your vital healing energy</li>
+<li>Reduce your stress and anxiety</li>
+</ul>
+<br>
+<b>Athletes & People with High-Stress Careers ~</b>
+
+<ul style="padding-left:5px;">
+<li>Learn relaxation & breathing</li>
+<li>Establish a healthy sleep-wake rhythm</li>
+<li>Create balance with life & work</li>
+</ul>
+</div>
+new_content;
+
+
+$content_bio_2 = <<<content_bio_1
 
     <div class="lower_header">Featured Yoga Instructor</div>
     <div class="lower_content">
@@ -130,7 +165,7 @@ $content_bio_1 = <<<content_bio_1
 content_bio_1;
 
 
-$content_bio_2 = <<<content_bio_2
+$content_bio_1 = <<<content_bio_2
 
     <div class="lower_header">Featured Yoga Therapy Instructor</div>
     <div class="lower_content">
@@ -235,15 +270,46 @@ $radio_interview = <<<radio_interview
     </center>
 radio_interview;
 
-
 $INDEX_LOWER_CONTENT = <<<INDEX_LOWER_CONTENT
+    <table style="color:#585858">
+    <tr>
+        <td valign="top">
+            <div style="width: 600px; font-size:16px">
+                {$new_content}
+            </div>
+        </td>
+
+        <td>
+            <div style="width:50px;">&nbsp;</div>
+        </td>
+
+        <td valign="top">
+            <div style="width: 300px; background-color:#efefef; padding:10px;">
+                {$content_bio_1}
+                <br /><br />
+                <br /><br />
+                {$content_bio_2}
+                <br /><br />
+                <br /><br />
+            </div>
+            <br /><br />
+            <br /><br />
+            <div style="background-color:#efefef; padding:10px;">
+                {$radio_interview}
+            </div>
+        </td>
+    </tr>
+    </table>
+
+INDEX_LOWER_CONTENT;
+
+$INDEX_LOWER_CONTENT_OLD = <<<INDEX_LOWER_CONTENT_OLD
 
 
     <table>
     <tr>
         <td valign="top">
             <div style="width: 600px;">
-                
                 {$yoga_for_you}
                 <br /><br />
                 <br /><br />
@@ -283,7 +349,7 @@ $INDEX_LOWER_CONTENT = <<<INDEX_LOWER_CONTENT
     </tr>
     </table>
     
-INDEX_LOWER_CONTENT;
+INDEX_LOWER_CONTENT_OLD;
 
 
 

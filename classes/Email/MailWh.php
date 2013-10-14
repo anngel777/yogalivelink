@@ -233,7 +233,7 @@ class Email_MailWh extends Email_MailSwift
         # GET THE DESIGN FROM THE DATABASE
         # ===========================================================
         $design_id = null;
-        $design_id = $template_email_design_id; // get the default stored design
+        $design_id = (isset($template_email_design_id)) ? $template_email_design_id : ''; // get the default stored design
         $design_id = (isset($msg_array['email_design_id'])) ? $msg_array['email_design_id'] : $design_id; // override the default if a new design has been passed in
         
         if ($design_id) {
@@ -328,8 +328,9 @@ class Email_MailWh extends Email_MailSwift
         
         # ADDITIONAL EMAIL SENDING INFO NEEDED
         # ===========================================================
-        $this->prepared_message_from_name       = $template_from_name;
-        $this->prepared_message_from_email      = $template_from_email;
+        $template_subject = (isset($template_subject))? $template_subject : '';
+        $this->prepared_message_from_name       = (isset($template_from_name))? $template_from_name : '';
+        $this->prepared_message_from_email      = (isset($template_from_email))? $template_from_email : '';
         $this->prepared_message_subject         = (isset($msg_array['subject']))? $msg_array['subject'] : $template_subject;
         $this->prepared_message_to_name         = (isset($msg_array['to_name']))? $msg_array['to_name'] : '';
         $this->prepared_message_to_email        = (isset($msg_array['to_email']))? $msg_array['to_email'] : '';

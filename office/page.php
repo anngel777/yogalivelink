@@ -306,9 +306,9 @@ if (Get('instructor') == 'off') unset($_SESSION['instructor']);
 
 
 if ($PAGE['pagename']!='index' && $PAGE['pagename']!='index2') {
-    
 
-    
+
+
     $PAGE['template']   = 'dialog_template.html';
     
     $PAGE['template']   = (Session('customer'))                     ? 'customer_template.html' : $PAGE['template'];

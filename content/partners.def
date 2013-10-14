@@ -1,0 +1,9 @@
+<name>Partners</name>
+<summary>Partners page for @@COMPANYNAME@@</summary>
+<title>@@COMPANYNAME@@ - Partners</title>
+<description>@@COMPANYNAME@@ - Partners</description>
+<keywords></keywords>
+<style></style>
+<script></script>
+<scriptinclude></scriptinclude>
+<template>template_inner.html</template>

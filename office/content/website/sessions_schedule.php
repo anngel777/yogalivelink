@@ -14,7 +14,6 @@ $Obj->AddScript();
 $Obj->script_location   = "/office/AJAX/website/sessions_schedule";
 $Obj->Return_Page       = (Get('retpage')) ? "http://www.yogalivelink.com/" . Get('retpage') : '';
 
-
 if ($AJAX) {
     $Obj->AjaxHandle();
 } else {
@@ -33,7 +32,7 @@ if ($AJAX) {
     }
 }
 
-
 AddSwap('@@CONTENT_LEFT@@',$content_left);
 AddSwap('@@CONTENT_RIGHT@@',$content_right);
 AddSwap('@@PAGE_HEADER_TITLE@@','search for a session');
+

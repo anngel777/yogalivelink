@@ -16,12 +16,12 @@ class Sessions_Signup extends BaseClass
 
 
     // ---------- TESTING VARIABLES ----------
-    public $TESTING                                     = true;     // TRUE = turns on testing variables
+    public $TESTING                                     = false;     // TRUE = turns on testing variables
     public $TESTING_Add_Standard_Credits_To_Customer    = 0;        // fake pool of credits in user account;
     public $TESTING_Add_Therapy_Credits_To_Customer     = 0;        // fake pool of credits in user account;
     public $TESTING_Show_Credit_Breakdown               = false;    // TRUE = show how many credits are real and fake
     public $TESTING_Show_Time_Expire_Button             = false;    // TRUE = show button allowing user to 'force' the time countdown to 0 seconds
-    public $TESTING_Show_Unlock_Button                  = true;     // TRUE = show button to unlock locked sessions during booking
+    public $TESTING_Show_Unlock_Button                  = false;     // TRUE = show button to unlock locked sessions during booking
     public $TESTING_Show_Times                          = false;
     public $TESTING_Bypass_Time_Check                   = false;    // TRUE = Won't check to see if time has expired
     public $TESTING_Show_Processing_Book_Session        = false;    // TRUE = show all database messages while booking the session
@@ -222,7 +222,7 @@ class Sessions_Signup extends BaseClass
         if (!isset($_SESSION['USER_LOGIN']['LOGIN_RECORD']['wh_id']) && $step != 'signup_summary') {
             $link = $this->MakeStepLink('signup_summary');
             header("Location: {$link}");
-            #exit();        
+            exit();
         } 
         
         # CHECK FOR INTAKE FORM 
@@ -256,8 +256,7 @@ class Sessions_Signup extends BaseClass
         # GET THE SESSION TYPE
         # ===================================================
         $this->Sessions_Type = (Get('stype')) ? Get('stype') : 'standard';
-        
-        
+
         # MODIFY THE SENT IN STEP - IF NEEDED
         # ===================================================
         $step = ($this->Simple_Signup && $step=='start') ? 'start_simple_signup' : $step;
@@ -269,7 +268,6 @@ class Sessions_Signup extends BaseClass
         $output = '';
 
         //$step = "testing";
-
         switch ($step) {
             case 'offline':
                 $output .= '<h2><div style="color:#990000;">The booking system is currently OFFLINE. Please check back later or contact support@YogaLiveLink.com.</div></h2>';
@@ -279,7 +277,7 @@ class Sessions_Signup extends BaseClass
             case 'start':
                 $this->current_step = 1;
                 $this->GetSessionRecord();
-                
+
                 if ($this->session_record['booked']) {
                     $link = $this->MakeStepLink('booked');
                     header("Location: {$link}");
@@ -437,6 +435,7 @@ class Sessions_Signup extends BaseClass
                 $output .= MakeButton('positive', 'CONTINUE', '/office/index');
                 //$output .= MakeButton('negative', 'GO BACK TO SEARCH', '', '', '', "parent.CloseOverlay();");
                 $output .= MakeButton('positive', 'GO BACK TO SEARCH', '', '', '', "top.window.location.reload();");
+
                 $step_output = $this->OBJ_STEP->GetSteps($this->Step_Array, 1, $output, 700);
             break;
             
@@ -1237,8 +1236,8 @@ class Sessions_Signup extends BaseClass
                 </tr>
         ";
         
-        foreach ($products as $product) {
-            
+        foreach ($products as &$product) {
+
             # FORMAT VARIOUS ITEMS
             # =============================
             $product_id         = $product['store_products_id'];
@@ -1289,7 +1288,7 @@ class Sessions_Signup extends BaseClass
             ";
         }
         $table .= '</table>';
-        
+
         return $table;
     }
     
@@ -1351,7 +1350,16 @@ class Sessions_Signup extends BaseClass
         $locked         = $this->session_record['locked'];
         $locked_wh_id   = $this->session_record['locked_wh_id'];
         $user_wh_id     = $this->WH_ID;
-        
+
+        $lockedTime = new DateTime($this->session_record['locked_start_datetime']);
+        $lockedExpiration = date_sub(new DateTime(), new DateInterval('PT1M'));
+
+//        echo $lockedTime->format('Y-m-d H:i:s'). "<br>";
+//        echo $lockedExpiration->format('Y-m-d H:i:s');
+        if($lockedTime < $lockedExpiration){
+            $locked = false;
+        }
+
         #echo "<br />locked_wh_id ===> ".$locked_wh_id;
         #echo "<br />user_wh_id ===> ".$user_wh_id;
         
@@ -1423,7 +1431,6 @@ class Sessions_Signup extends BaseClass
         $current_server_time        = date('Y-m-d H:i:s');
         $this->Session_Expired      = ($current_server_time > $time_release_server) ? true : false;
         
-        #echo "AAAAAAAAA";
         #exit();
         
         if ($this->TESTING && $this->TESTING_Show_Times) {
@@ -1601,27 +1608,29 @@ class Sessions_Signup extends BaseClass
         $credits_user_therapy       = $this->user_record['credits_purchased_therapy'];
         
         $credits_course_cost        = $this->session_record['credits_cost'];
-        $credits_course_cost_title  = ($credits_course_cost == 1) ? 'session' : 'sessions';
+        $credits_course_cost_title  = ($credits_course_cost == 1) ? 'yoga session' : 'yoga sessions';
         
         switch($this->Sessions_Type) {
             default:
             case 'standard':
                 $credits_remaining_standard         = ($credits_user_standard - $credits_course_cost);
-                $credits_remaining_title_standard   = ($credits_remaining_standard == 1) ? 'session' : 'sessions';
+                $credits_remaining_title_standard   = ($credits_remaining_standard == 1) ? 'yoga session' : 'yoga sessions';
                 
                 $credits_remaining_therapy          = ($credits_user_therapy);
-                $credits_remaining_title_therapy    = ($credits_remaining_therapy == 1) ? 'session' : 'sessions';
-                
+                $credits_remaining_title_therapy    = ($credits_remaining_therapy == 1) ? 'yoga therapy session' : 'yoga therapy sessions';
+                $credits_course_cost_title  = ($credits_course_cost == 1) ? 'yoga session' : 'yoga sessions';
+
                 $session_type                       = 'yoga';
                 $have_credits_of_session_type       = ($credits_user_standard > 0) ? true : false;
             break;
             case 'therapy':
                 $credits_remaining_standard         = ($credits_user_standard);
-                $credits_remaining_title_standard   = ($credits_remaining_standard == 1) ? 'session' : 'sessions';
+                $credits_remaining_title_standard   = ($credits_remaining_standard == 1) ? 'yoga session' : 'yoga sessions';
                 
                 $credits_remaining_therapy          = ($credits_user_therapy - $credits_course_cost);
-                $credits_remaining_title_therapy    = ($credits_remaining_therapy == 1) ? 'session' : 'sessions';
-                
+                $credits_remaining_title_therapy    = ($credits_remaining_therapy == 1) ? 'yoga therapy session' : 'yoga therapy sessions';
+                $credits_course_cost_title  = ($credits_course_cost == 1) ? 'yoga therapy session' : 'yoga therapy sessions';
+
                 $session_type                       = 'yoga therapy';
                 $have_credits_of_session_type       = ($credits_user_therapy > 0) ? true : false;
             break;
@@ -1653,7 +1662,6 @@ class Sessions_Signup extends BaseClass
             
         } else {
             // user needs to buy a credit - show payment form
-
             $this->GetProductCredits();
             
             $product_id     = $this->Simple_Signup_Credit_Product_Id;
@@ -1668,7 +1676,7 @@ class Sessions_Signup extends BaseClass
                 $this->Simple_Signup_OBJ_STORE = new Store_YogaStoreCreditOrder();
                 $this->Simple_Signup_OBJ_STORE->SetDiscountPriceOnProduct($product_id, $price);
                 $this->Simple_Signup_OBJ_STORE->SetCart($product_id);
-                $output .= $this->Simple_Signup_OBJ_STORE->ProcessOrderPage();
+                $output .=  $this->Simple_Signup_OBJ_STORE->ProcessOrderPage();
             #}
         }
         return $output;
@@ -1708,6 +1716,8 @@ class Sessions_Signup extends BaseClass
                 
                 $credits_remaining_therapy          = ($credits_user_therapy);
                 $credits_remaining_title_therapy    = ($credits_remaining_therapy == 1) ? 'session' : 'sessions';
+                $credits_course_cost_title  = ($credits_course_cost == 1) ? 'yoga session' : 'yoga sessions';
+
             break;
             case 'therapy':
                 $credits_remaining_standard         = ($credits_user_standard);
@@ -1715,7 +1725,8 @@ class Sessions_Signup extends BaseClass
                 
                 $credits_remaining_therapy          = ($credits_user_therapy - $credits_course_cost);
                 $credits_remaining_title_therapy    = ($credits_remaining_therapy == 1) ? 'session' : 'sessions';
-            break;
+                $credits_course_cost_title  = ($credits_course_cost == 1) ? 'yoga therapy session' : 'yoga therapy sessions';
+                break;
         }
         
         
@@ -2115,8 +2126,6 @@ SCRIPT;
         $instructor_start_date        = $parts[0];
         $instructor_start_time        = $parts[1];
 
-
-
         $firstname = $record['first_name'];
         $lastname = $record['last_name'];
         $yogatype = ($this->Sessions_Type == "standard")? "Yoga" : "Yoga Therapy";
@@ -2128,6 +2137,8 @@ SCRIPT;
         $gotoId = $record2['goto_meeting_account'];
         $gotoMeetingPassword = $record4['password'];
 
+        $this->TEMP_INSTRUCTOR_NAME = $instructorName;
+        $this->TEMP_INSTRUCTOR_EMAIL = $record3['email_address'];
 
         global $URL_SITE_LOGIN;
         
@@ -2152,7 +2163,8 @@ SCRIPT;
             '@@goto_password@@'     => $gotoMeetingPassword,
             '@@instructor_date@@'   => $instructor_start_date,
             '@@instructor_time@@'   => $instructor_start_time,
-            '@@instructor_timezone@@' => $record5['tz_display']
+            '@@instructor_timezone@@' => $record5['tz_display'],
+            '@@date@@'              => date("M jS, Y"),
         );
         
         # SEND MESSAGE TO USER

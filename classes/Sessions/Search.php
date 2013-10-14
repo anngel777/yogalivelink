@@ -713,9 +713,11 @@ class Sessions_Search extends BaseClass
             </div>
             
             <div>
+
                 {$this->rowData}
             </div>
             <div id="course_details_all" style="display:none;">
+
                 {$this->courseDetailsData}
             </div>
 OUTPUT;
@@ -1051,7 +1053,7 @@ SCRIPT;
             'order' => "sort_order ASC",
         ));
         if ($this->Show_Query) echo "<br />LAST QUERY = " . $this->SQL->Db_Last_Query;
-        
+
         $output = "
             <div class='black left_content' id='search_current_instructor_calendar'></div>
             <div id='search_current_instructor_list'>
@@ -1158,15 +1160,20 @@ SCRIPT;
             "@select||search_timezone_by_instructor|N||$timezone_types",
             'endform',
         ));
-        
-        
-        
+
+
+        $eq_RequestForm   = EncryptQuery("class=Sessions_Request;v1={$WH_ID};");
+
         $output = "
             <h1>CLICK ON TIME TO BOOK SESSION<br />
             <table><tr><td><div class='red'>Current Timezone: </div></td><td>{$options_timezone}</td></tr></table></h1>
             
             <h1><a href='{$href}' class='link_arrow' onclick=\"{$onclick}\">Go Back to View all Instructors</a></h1>
-            <br />
+
+            <div style=\"background:#F9F9F9; color:#000; padding:14px 10px; font-size:16px; text-align:center\">
+                <span style=\"color:#AA1149\">**</span> No time match? Request a special session time <span style=\"color:#AA1149\"><a id=\"request\" href='#' onclick=\"top.parent.appformCreateOverlay('Request A Session Time', getClassExecuteLinkNoAjax('{$eq_RequestForm}'), 'apps'); return false;\">here</span></a>.</div>
+
+            <br /><br />
             <div id='calendar'></div>
             ";
         
@@ -1310,14 +1317,17 @@ SCRIPT;
         
         
         $div_gap = "<div style='width:10px; height:10px;'>&nbsp;</div>";
-        
-        $output = "
+        $eq_RequestFormNoInstructor   = EncryptQuery("class=Sessions_Request;v1=0;");
+
+        $output = <<<EOF
+            <style>a#request:hover div { background: #AAA; !important; }</style>
             <div class='col' style='width:300px; z-index:100;'>{$area_sessions}</div>
             <div class='col'>{$div_gap}</div>
-            <div class='col' style='width:250px;'>{$area_instructors}</div>
+            <div class='col' style='width:250px;'>
+                {$area_instructors}
+            </div>
             <div style='clear:both;'></div>
-        
-        ";
+EOF;
         
         return $output;
     }
@@ -1363,15 +1373,9 @@ SCRIPT;
         $output = "
             <div style='text-align:center;'>
             <center>
-                <br />
-                    <div style=\"font-size:14px; color:black; font-weight:bold; text-align:center; padding:3px 0; overflow:hidden\">
-                        Don't see the session time you want? 
-                        <a href=\"mailto:writer@yogalivelink.com\" style=\"color:#AA1149\">Let us know!</a> You can request a specific session time and we'll do our best to make that session time available to you. We'll let you know either way. <br>
-                    </div>
-                
-                <br /><br />
+                <style>div.ui-datepicker{ font-size:14px !important; }</style>
                 <div class='orange left_header lowercase'>{$this->SearchByDateLeftText}</div>
-                
+                <br>
                 <div id='cal_date_search'></div>
                 <br /><br />
                 <div class='left_content'>
@@ -1454,6 +1458,8 @@ SCRIPT;
 
     public function AddScript()
     {
+        $eq_RequestFormNoInstructor   = EncryptQuery("class=Sessions_Request;v1=0;");
+
         $script_location = $this->script_location;
         
         $script = "
@@ -1600,6 +1606,7 @@ function ClearSelectedInstructor() {
         
         
             function GetReservationsAjax() {
+
             //alert('GetReservationsAjax');
                 // ==============================================================================
                 // FUNCTION :: Called to get all sessions offered on a particular day
@@ -1621,7 +1628,8 @@ function ClearSelectedInstructor() {
                 var ajax_load           = '<img src="/office/images/upload.gif" alt="loading..." \/>';
                 
                 $("#search_schedule_holder").html(ajax_load).load(loadUrl);
-                $("#search_instructors_holder").html('');
+                $("#search_instructors_holder").html("<a id=\"request\" href='#' onclick=\"top.parent.appformCreateOverlay('Request A Session Time', getClassExecuteLinkNoAjax('{$eq_RequestFormNoInstructor}'), 'apps'); return false;\"><div style=\"background:#F9F9F9; color:#000; padding:14px 10px; font-size:16px; text-align:center\"><span style=\"color:#AA1149\">**</span> No time match? Request a special session time <span style=\"color:#AA1149\">here</span>.</div></a>");
+
                 $("#class_info").empty();
                 
                 //$('#instructors_active_selected_holder').css({width: '50px'});
@@ -1755,7 +1763,7 @@ function SetInstructorSessionsFromCalendarTime(instructors_list, divID) {
     var loadUrl         = "{$script_location}.php?action=LoadInstructors&whid_sessions=" + instructors_list + "&retpage={$this->Return_Page}";
     var ajax_load       = '<img src="/office/images/upload.gif" alt="loading..." \/>';
     $("#search_instructors_holder").html(ajax_load).load(loadUrl, function() {
-        
+        $(this).prepend("<a id=\"request\" href='#' onclick=\"top.parent.appformCreateOverlay('Request A Session Time', getClassExecuteLinkNoAjax('{$eq_RequestFormNoInstructor}'), 'apps'); return false;\"><div style=\"background:#F9F9F9; color:#000; padding:14px 10px; font-size:16px; text-align:center\"><span style=\"color:#AA1149\">**</span> No time match? Request a special session time <span style=\"color:#AA1149\">here</span>.</div></a>");
     });
 }
 

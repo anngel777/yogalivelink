@@ -1048,6 +1048,9 @@ function ProcessForm($formdata,&$table, $tableoptions, $thoptions, $tdoptions,&$
             $RESULT[$field2] = $value;
             break;
 
+        case 'datetime2':
+            break;
+
         case 'datetime':
             //"datetime|title|varname|required|startyear|NOW"
 
@@ -2005,7 +2008,7 @@ function formatRealObj(obj) {
             $minutevar = "{$field2}_MINUTE";
 
             $value = GetPostItem($field2);
-
+            
             if ($value) {
                 $time_pieces  = explode(':', $value);
                 $hourvalue    = trim($time_pieces[0]);

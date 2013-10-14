@@ -34,7 +34,7 @@ $webcam_eyeball = MakeProductTable(array(
         'image_width'   => $cell_width,
         'cell_width'    => $cell_width,
     ));
-    
+
 $webcam_ICECAM2 = MakeProductTable(array(
         'picture'       => '/images/store/webcam_ICECAM2.jpg',
         'title'         => 'Macally ICECAM2 USB 2.0',
@@ -43,7 +43,7 @@ $webcam_ICECAM2 = MakeProductTable(array(
         'link'          => 'http://www.amazon.com/Macally-ICECAM2-Camera-Built-Microphone/dp/B001AD0QPA',
         'image_width'   => $cell_width,
         'cell_width'    => $cell_width,
-    ));   
+    ));
 
 $headset    = MakeProductTable(array(
         'picture'       => '/images/store/headset.jpg',
@@ -54,7 +54,7 @@ $headset    = MakeProductTable(array(
         'image_width'   => $cell_width,
         'cell_width'    => $cell_width,
     ));
-    
+
 $dvi        = MakeProductTable(array(
         'picture'       => '/images/store/dvi_cable.jpg',
         'title'         => '6ft HDMI to DVI-D Cable',
@@ -64,7 +64,7 @@ $dvi        = MakeProductTable(array(
         'image_width'   => $cell_width,
         'cell_width'    => $cell_width,
     ));
-    
+
 $ethernet   = MakeProductTable(array(
         'picture'       => '/images/store/ethernet_cable.jpg',
         'title'         => '50ft Ethernet Cable',
@@ -74,7 +74,7 @@ $ethernet   = MakeProductTable(array(
         'image_width'   => $cell_width,
         'cell_width'    => $cell_width,
     ));
-    
+
 $usb        = MakeProductTable(array(
         'picture'       => '/images/store/usb_cable.jpg',
         'title'         => '12ft USB 2.0 Extension Cable',
@@ -94,7 +94,7 @@ $headset_2  = MakeProductTable(array(
         'image_width'   => $cell_width,
         'cell_width'    => $cell_width,
     ));
-    
+
 $headset_3  = MakeProductTable(array(
         'picture'       => '/images/store/headset_jabra_stone.jpg',
         'title'         => 'Jabra STONE2 (Bluetooth Headset)',
@@ -104,13 +104,13 @@ $headset_3  = MakeProductTable(array(
         'image_width'   => $cell_width,
         'cell_width'    => $cell_width,
     ));
-    
-    
-    $title_style = 'style="font-size:16px; padding:5px; font-weight:bold; color:#fff;" bgcolor="#9B9A41"';
-    
 
-    
-    
+
+$title_style = 'style="font-size:16px; padding:5px; font-weight:bold; color:#fff;" bgcolor="#9B9A41"';
+
+
+
+
 $banner_1  = MakeProductTable(array(
         'picture'       => '/images/store/banner_vert_yogabody.jpg',
         'title'         => 'all-natural yoga practice aids',
@@ -149,12 +149,12 @@ $banner_4  = MakeProductTable(array(
         'link'          => 'http://www.asanagreen.com/?agp=65',
         'image_width'   => $cell_width-20,
         'cell_width'    => $cell_width-20,
-    ));    
-    
+    ));
+
 $banners = <<<BANNERS
     <table width="100%" align="center" cellspacing="10">
     <tr>
-        <td align="left" valign="top" colspan="4" $title_style>PRODUCTS OFFERED BY OUR PARTNERS</td>
+        <td align="left" valign="top" colspan="4" $title_style>OUR PARTNERS</td>
     </tr>
     <tr>
         <td align="center" valign="top">$banner_1</td>
@@ -167,7 +167,7 @@ BANNERS;
 
 $banners = (Get('banners')) ? $banners : '';
 
-    
+
 $TABLE = <<<TABLE
     <div style="width:100%;">
 
@@ -269,8 +269,8 @@ CONTENT;
 
 
 // ---------- FINALIZE CONTENT ----------
-$content_left   = "{$content}";
-$content_right  = " {$banners} {$TABLE}";
+$content_left   = "";//"{$content}";
+$content_right  = "{$banners}";//" {$banners} {$TABLE}";
 
 
 // ---------- SWAP CONTENT INTO PAGE ----------
@@ -280,7 +280,7 @@ AddSwap('@@PAGE_HEADER_TITLE@@','store: items to improve your yoga experience');
 
 
 // ---------- FUNCTION TO CREATE THE LOOK OF A STORE ITEM ----------
-function MakeProductTable($item_array) 
+function MakeProductTable($item_array)
 {
     $output = <<<ITEM
     <!-- =============== STORE ITEM =============== -->
